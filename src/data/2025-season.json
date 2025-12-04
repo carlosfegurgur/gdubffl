@@ -1,0 +1,90 @@
+{
+    "season": 2025,
+    "weeks": [
+      {
+        "week": 1,
+        "matchups": [
+          {
+            "id": "m2025-w1-1",
+            "homeOwnerId": "owner1",
+            "awayOwnerId": "owner2",
+            "homeScore": 120.5,
+            "awayScore": 98.3,
+            "isPlayoff": false,
+            "date": "2025-09-10"
+          },
+          {
+            "id": "m2025-w1-2",
+            "homeOwnerId": "owner3",
+            "awayOwnerId": "owner4",
+            "homeScore": 120.5,
+            "awayScore": 98.3,
+            "isPlayoff": false,
+            "date": "2025-09-10"
+          },
+          {
+            "id": "m2025-w1-3",
+            "homeOwnerId": "owner5",
+            "awayOwnerId": "owner6",
+            "homeScore": 120.5,
+            "awayScore": 98.3,
+            "isPlayoff": false,
+            "date": "2025-09-10"
+          },
+          {
+            "id": "m2025-w1-4",
+            "homeOwnerId": "owner7",
+            "awayOwnerId": "owner8",
+            "homeScore": 120.5,
+            "awayScore": 98.3,
+            "isPlayoff": false,
+            "date": "2025-09-10"
+          },
+          {
+            "id": "m2025-w1-5",
+            "homeOwnerId": "owner9",
+            "awayOwnerId": "owner10",
+            "homeScore": 120.5,
+            "awayScore": 98.3,
+            "isPlayoff": false,
+            "date": "2025-09-10"
+          },
+          {
+            "id": "m2025-w1-6",
+            "homeOwnerId": "owner11",
+            "awayOwnerId": "owner12",
+            "homeScore": 120.5,
+            "awayScore": 98.3,
+            "isPlayoff": false,
+            "date": "2025-09-10"
+          },
+          {
+            "id": "m2025-w1-7",
+            "homeOwnerId": "owner13",
+            "awayOwnerId": "owner14",
+            "homeScore": 120.5,
+            "awayScore": 98.3,
+            "isPlayoff": false,
+            "date": "2025-09-10"
+          }
+        ],
+        "teamStats": {
+          "owner1": { "pointsFor": 120.5, "pointsAgainst": 98.3, "benchPoints": 12.1 },
+          "owner2": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner3": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner4": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner5": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner6": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner7": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner8": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner9": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner10": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner11": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner12": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner13": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 },
+          "owner14": { "pointsFor": 98.3, "pointsAgainst": 120.5, "benchPoints": 10.0 }
+        }
+      }
+    ]
+  }
+  

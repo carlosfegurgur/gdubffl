@@ -1,0 +1,17 @@
+[
+    { "id": "owner1", "name": "Jared", "teamName": "Love is an open Dortch", "logoUrl": "/logos/carlos.png" },
+    { "id": "owner2", "name": "Drake", "teamName": "Skid Marks of Buddha", "logoUrl": "/logos/ava.png" },
+    { "id": "owner3", "name": "Frankie", "teamName": "The Godwin of Fire", "logoUrl": "/logos/carlos.png" },
+    { "id": "owner4", "name": "Sean", "teamName": "Don't Draft on Vacation", "logoUrl": "/logos/ava.png" },
+    { "id": "owner5", "name": "Justin", "teamName": "Oron D Luffy", "logoUrl": "/logos/carlos.png" },
+    { "id": "owner6", "name": "James", "teamName": "Hevi Burden", "logoUrl": "/logos/ava.png" },
+    { "id": "owner7", "name": "Daniel", "teamName": "Gundam Vidal", "logoUrl": "/logos/carlos.png" },
+    { "id": "owner8", "name": "Julius", "teamName": "O BIJAN Kenobi", "logoUrl": "/logos/ava.png" },
+    { "id": "owner9", "name": "Taylor", "teamName": "I Wont Say Im In Love", "logoUrl": "/logos/carlos.png" },
+    { "id": "owner10", "name": "Carlos", "teamName": "Pickens kAllenguen", "logoUrl": "/logos/ava.png" },
+    { "id": "owner11", "name": "Derek", "teamName": "Kraft McConkey n cheese", "logoUrl": "/logos/carlos.png" },
+    { "id": "owner12", "name": "Jesse", "teamName": "Jerking Goff", "logoUrl": "/logos/ava.png" },
+    { "id": "owner13", "name": "Ronnie", "teamName": "Emeka man out of you", "logoUrl": "/logos/carlos.png" },
+    { "id": "owner14", "name": "JR", "teamName": "JR Untalan", "logoUrl": "/logos/ava.png" }
+  ]
+  
