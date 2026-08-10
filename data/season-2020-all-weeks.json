@@ -1,0 +1,664 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "You Wanna Russell My Dwelley",
+      "awayTeam": "Head of the Table",
+      "homeScore": 140.48,
+      "awayScore": 103.7
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Murray in the Grave - Drake",
+      "homeScore": 127.64,
+      "awayScore": 142.8
+    },
+    {
+      "homeTeam": "Edwards Scissor Hands",
+      "awayTeam": "DaejahBenavente",
+      "homeScore": 130.84,
+      "awayScore": 129.5
+    },
+    {
+      "homeTeam": "full Mooney tonite",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 155.26,
+      "awayScore": 113.51
+    },
+    {
+      "homeTeam": "Kittle Giants",
+      "awayTeam": "Budda Kupp",
+      "homeScore": 84.9,
+      "awayScore": 153.68
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Los",
+      "homeScore": 155.72,
+      "awayScore": 149.5
+    },
+    {
+      "homeTeam": "Murray Christmas",
+      "awayTeam": "Kenny Golladay Omega",
+      "homeScore": 132.7,
+      "awayScore": 154.58
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "You Wanna Russell My Dwelley",
+      "homeScore": 145.9,
+      "awayScore": 144.82
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Edwards Scissor Hands",
+      "homeScore": 116.9,
+      "awayScore": 191.18
+    },
+    {
+      "homeTeam": "Murray in the Grave - Drake",
+      "awayTeam": "full Mooney tonite",
+      "homeScore": 151.46,
+      "awayScore": 134.53
+    },
+    {
+      "homeTeam": "DaejahBenavente",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 173.81,
+      "awayScore": 128.44
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Jesse",
+      "homeScore": 171.04,
+      "awayScore": 145.1
+    },
+    {
+      "homeTeam": "Budda Kupp",
+      "awayTeam": "Murray Christmas",
+      "homeScore": 121.3,
+      "awayScore": 142.14
+    },
+    {
+      "homeTeam": "Los",
+      "awayTeam": "Kenny Golladay Omega",
+      "homeScore": 186.47,
+      "awayScore": 143.46
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "You Wanna Russell My Dwelley",
+      "awayTeam": "Edwards Scissor Hands",
+      "homeScore": 134.4,
+      "awayScore": 148.7
+    },
+    {
+      "homeTeam": "full Mooney tonite",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 100.33,
+      "awayScore": 107.78
+    },
+    {
+      "homeTeam": "Kittle Giants",
+      "awayTeam": "Head of the Table",
+      "homeScore": 143.92,
+      "awayScore": 124.2
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Murray in the Grave - Drake",
+      "homeScore": 137.36,
+      "awayScore": 124.78
+    },
+    {
+      "homeTeam": "Murray Christmas",
+      "awayTeam": "DaejahBenavente",
+      "homeScore": 112.9,
+      "awayScore": 120.08
+    },
+    {
+      "homeTeam": "Kenny Golladay Omega",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 173.1,
+      "awayScore": 144.08
+    },
+    {
+      "homeTeam": "Los",
+      "awayTeam": "Budda Kupp",
+      "homeScore": 159.32,
+      "awayScore": 156.54
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "full Mooney tonite",
+      "awayTeam": "You Wanna Russell My Dwelley",
+      "homeScore": 146.36,
+      "awayScore": 176.4
+    },
+    {
+      "homeTeam": "Edwards Scissor Hands",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 96.14,
+      "awayScore": 139.84
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Jesse",
+      "homeScore": 155.58,
+      "awayScore": 137.1
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Murray Christmas",
+      "homeScore": 144.48,
+      "awayScore": 91.42
+    },
+    {
+      "homeTeam": "Murray in the Grave - Drake",
+      "awayTeam": "Kenny Golladay Omega",
+      "homeScore": 128.15,
+      "awayScore": 159.9
+    },
+    {
+      "homeTeam": "DaejahBenavente",
+      "awayTeam": "Los",
+      "homeScore": 141.72,
+      "awayScore": 141.8
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Budda Kupp",
+      "homeScore": 125.6,
+      "awayScore": 124.62
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "You Wanna Russell My Dwelley",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 121.13,
+      "awayScore": 158.21
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "full Mooney tonite",
+      "homeScore": 127.56,
+      "awayScore": 132.52
+    },
+    {
+      "homeTeam": "Murray Christmas",
+      "awayTeam": "Edwards Scissor Hands",
+      "homeScore": 134.3,
+      "awayScore": 113.8
+    },
+    {
+      "homeTeam": "Kenny Golladay Omega",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 155.3,
+      "awayScore": 133.56
+    },
+    {
+      "homeTeam": "Los",
+      "awayTeam": "Head of the Table",
+      "homeScore": 140.34,
+      "awayScore": 140.72
+    },
+    {
+      "homeTeam": "Budda Kupp",
+      "awayTeam": "Murray in the Grave - Drake",
+      "homeScore": 106.82,
+      "awayScore": 137.06
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "DaejahBenavente",
+      "homeScore": 142.46,
+      "awayScore": 185.2
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "You Wanna Russell My Dwelley",
+      "homeScore": 181.5,
+      "awayScore": 77.52
+    },
+    {
+      "homeTeam": "Kittle Giants",
+      "awayTeam": "Murray Christmas",
+      "homeScore": 166.23,
+      "awayScore": 134.02
+    },
+    {
+      "homeTeam": "full Mooney tonite",
+      "awayTeam": "Kenny Golladay Omega",
+      "homeScore": 86.26,
+      "awayScore": 108.34
+    },
+    {
+      "homeTeam": "Edwards Scissor Hands",
+      "awayTeam": "Los",
+      "homeScore": 119.45,
+      "awayScore": 157.12
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Budda Kupp",
+      "homeScore": 158.32,
+      "awayScore": 111.48
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 122.4,
+      "awayScore": 102.48
+    },
+    {
+      "homeTeam": "Murray in the Grave - Drake",
+      "awayTeam": "DaejahBenavente",
+      "homeScore": 120.43,
+      "awayScore": 129.94
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "You Wanna Russell My Dwelley",
+      "awayTeam": "Murray Christmas",
+      "homeScore": 114.32,
+      "awayScore": 138.8
+    },
+    {
+      "homeTeam": "Kenny Golladay Omega",
+      "awayTeam": "Jesse",
+      "homeScore": 113.2,
+      "awayScore": 164.86
+    },
+    {
+      "homeTeam": "Los",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 152.62,
+      "awayScore": 141.88
+    },
+    {
+      "homeTeam": "Budda Kupp",
+      "awayTeam": "full Mooney tonite",
+      "homeScore": 143.98,
+      "awayScore": 147.56
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Edwards Scissor Hands",
+      "homeScore": 125.57,
+      "awayScore": 111.9
+    },
+    {
+      "homeTeam": "DaejahBenavente",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 140.56,
+      "awayScore": 125.1
+    },
+    {
+      "homeTeam": "Murray in the Grave - Drake",
+      "awayTeam": "Head of the Table",
+      "homeScore": 105.5,
+      "awayScore": 134.92
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Kenny Golladay Omega",
+      "awayTeam": "You Wanna Russell My Dwelley",
+      "homeScore": 90.6,
+      "awayScore": 122.39
+    },
+    {
+      "homeTeam": "Murray Christmas",
+      "awayTeam": "Los",
+      "homeScore": 146.56,
+      "awayScore": 124.24
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Budda Kupp",
+      "homeScore": 123.2,
+      "awayScore": 122.01
+    },
+    {
+      "homeTeam": "Kittle Giants",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 99.92,
+      "awayScore": 147.72
+    },
+    {
+      "homeTeam": "full Mooney tonite",
+      "awayTeam": "DaejahBenavente",
+      "homeScore": 81.26,
+      "awayScore": 112.72
+    },
+    {
+      "homeTeam": "Edwards Scissor Hands",
+      "awayTeam": "Murray in the Grave - Drake",
+      "homeScore": 132.24,
+      "awayScore": 152.32
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Head of the Table",
+      "homeScore": 128.94,
+      "awayScore": 129.19
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "You Wanna Russell My Dwelley",
+      "awayTeam": "Los",
+      "homeScore": 108.4,
+      "awayScore": 140.66
+    },
+    {
+      "homeTeam": "Budda Kupp",
+      "awayTeam": "Kenny Golladay Omega",
+      "homeScore": 130.8,
+      "awayScore": 129.29
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Murray Christmas",
+      "homeScore": 168.59,
+      "awayScore": 144.82
+    },
+    {
+      "homeTeam": "DaejahBenavente",
+      "awayTeam": "Jesse",
+      "homeScore": 138.4,
+      "awayScore": 147.14
+    },
+    {
+      "homeTeam": "Murray in the Grave - Drake",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 123.86,
+      "awayScore": 130.74
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "full Mooney tonite",
+      "homeScore": 153.4,
+      "awayScore": 74.46
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Edwards Scissor Hands",
+      "homeScore": 152.7,
+      "awayScore": 145.48
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Budda Kupp",
+      "awayTeam": "You Wanna Russell My Dwelley",
+      "homeScore": 114.06,
+      "awayScore": 93.22
+    },
+    {
+      "homeTeam": "Los",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 104.02,
+      "awayScore": 155.96
+    },
+    {
+      "homeTeam": "Kenny Golladay Omega",
+      "awayTeam": "DaejahBenavente",
+      "homeScore": 158.03,
+      "awayScore": 128.81
+    },
+    {
+      "homeTeam": "Murray Christmas",
+      "awayTeam": "Murray in the Grave - Drake",
+      "homeScore": 162.6,
+      "awayScore": 99.74
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Head of the Table",
+      "homeScore": 120.62,
+      "awayScore": 110.2
+    },
+    {
+      "homeTeam": "Kittle Giants",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 138.68,
+      "awayScore": 87.66
+    },
+    {
+      "homeTeam": "full Mooney tonite",
+      "awayTeam": "Edwards Scissor Hands",
+      "homeScore": 114.84,
+      "awayScore": 112.84
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "You Wanna Russell My Dwelley",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 108.68,
+      "awayScore": 120.12
+    },
+    {
+      "homeTeam": "DaejahBenavente",
+      "awayTeam": "Budda Kupp",
+      "homeScore": 97.64,
+      "awayScore": 152.5
+    },
+    {
+      "homeTeam": "Murray in the Grave - Drake",
+      "awayTeam": "Los",
+      "homeScore": 103,
+      "awayScore": 126.58
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Kenny Golladay Omega",
+      "homeScore": 126.29,
+      "awayScore": 126.42
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Murray Christmas",
+      "homeScore": 133.24,
+      "awayScore": 131.01
+    },
+    {
+      "homeTeam": "Edwards Scissor Hands",
+      "awayTeam": "Jesse",
+      "homeScore": 90.32,
+      "awayScore": 179.76
+    },
+    {
+      "homeTeam": "full Mooney tonite",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 111.24,
+      "awayScore": 159.34
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "DaejahBenavente",
+      "awayTeam": "You Wanna Russell My Dwelley",
+      "homeScore": 88.78,
+      "awayScore": 106.3
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Murray in the Grave - Drake",
+      "homeScore": 163.84,
+      "awayScore": 143.92
+    },
+    {
+      "homeTeam": "Budda Kupp",
+      "awayTeam": "Head of the Table",
+      "homeScore": 111.08,
+      "awayScore": 187.34
+    },
+    {
+      "homeTeam": "Los",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 124.68,
+      "awayScore": 140.88
+    },
+    {
+      "homeTeam": "Kenny Golladay Omega",
+      "awayTeam": "Edwards Scissor Hands",
+      "homeScore": 88.72,
+      "awayScore": 130.28
+    },
+    {
+      "homeTeam": "Murray Christmas",
+      "awayTeam": "full Mooney tonite",
+      "homeScore": 110.3,
+      "awayScore": 91.6
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 219.37,
+      "awayScore": 233.49
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "You Wanna Russell My Dwelley",
+      "awayTeam": "Murray in the Grave - Drake",
+      "homeScore": 142.22,
+      "awayScore": 94.08
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "DaejahBenavente",
+      "homeScore": 153.5,
+      "awayScore": 177.99
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 178.45,
+      "awayScore": 182.96
+    },
+    {
+      "homeTeam": "Edwards Scissor Hands",
+      "awayTeam": "Budda Kupp",
+      "homeScore": 152.92,
+      "awayScore": 95.9
+    },
+    {
+      "homeTeam": "full Mooney tonite",
+      "awayTeam": "Los",
+      "homeScore": 99.55,
+      "awayScore": 77.78
+    },
+    {
+      "homeTeam": "Kittle Giants",
+      "awayTeam": "Kenny Golladay Omega",
+      "homeScore": 102.46,
+      "awayScore": 132.14
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Murray Christmas",
+      "homeScore": 157.63,
+      "awayScore": 116.37
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "Edwards Scissor Hands",
+      "awayTeam": "You Wanna Russell My Dwelley",
+      "homeScore": 116.37,
+      "awayScore": 81.94
+    },
+    {
+      "homeTeam": "Murray Christmas",
+      "awayTeam": "full Mooney tonite",
+      "homeScore": 108.06,
+      "awayScore": 97.94
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 129.6,
+      "awayScore": 142.92
+    },
+    {
+      "homeTeam": "Kenny Golladay Omega",
+      "awayTeam": "Los",
+      "homeScore": 139.68,
+      "awayScore": 132.38
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "DaejahBenavente",
+      "awayTeam": "Edwards Scissor Hands",
+      "homeScore": 185.22,
+      "awayScore": 144.16
+    },
+    {
+      "homeTeam": "Murray Christmas",
+      "awayTeam": "Head of the Table",
+      "homeScore": 127.24,
+      "awayScore": 154.22
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Kittle Giants",
+      "homeScore": 126.62,
+      "awayScore": 116.46
+    },
+    {
+      "homeTeam": "Kenny Golladay Omega",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 194.22,
+      "awayScore": 222.62
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "DaejahBenavente",
+      "awayTeam": "Head of the Table",
+      "homeScore": 131.07,
+      "awayScore": 129.04
+    },
+    {
+      "homeTeam": "Edwards Scissor Hands",
+      "awayTeam": "Murray Christmas",
+      "homeScore": 135.32,
+      "awayScore": 154.6
+    },
+    {
+      "homeTeam": "You Wanna Russell My Dwelley",
+      "awayTeam": "full Mooney tonite",
+      "homeScore": 83.1,
+      "awayScore": 221.72
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 172.86,
+      "awayScore": 187.64
+    },
+    {
+      "homeTeam": "Kittle Giants",
+      "awayTeam": "Kenny Golladay Omega",
+      "homeScore": 135.02,
+      "awayScore": 244.43
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Los",
+      "homeScore": 123.3,
+      "awayScore": 130.75
+    }
+  ]
+}

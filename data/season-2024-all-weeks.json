@@ -1,0 +1,708 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Honky Tonk McConkey Conk",
+      "awayTeam": "Mooooooooddddyyyy",
+      "homeScore": 118.03,
+      "awayScore": 119.36
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "Smoked Salmon and Nabers",
+      "homeScore": 180.36,
+      "awayScore": 131.41
+    },
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 115.04,
+      "awayScore": 98.82
+    },
+    {
+      "homeTeam": "The Final Boss",
+      "awayTeam": "The Home Deebo",
+      "homeScore": 103.66,
+      "awayScore": 121
+    },
+    {
+      "homeTeam": "The Helaire of Slytherin",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 76.91,
+      "awayScore": 135.77
+    },
+    {
+      "homeTeam": "Green Eggs and Sam",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 135.81,
+      "awayScore": 101.28
+    },
+    {
+      "homeTeam": "DELETED Tay",
+      "awayTeam": "The Final Countdown",
+      "homeScore": 125.28,
+      "awayScore": 148.22
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 191.44,
+      "awayScore": 164.74
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Shakir Like A Saltshakir",
+      "homeScore": 110.88,
+      "awayScore": 129.52
+    },
+    {
+      "homeTeam": "The Final Boss",
+      "awayTeam": "DELETED Tay",
+      "homeScore": 131.6,
+      "awayScore": 70.66
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "Green Eggs and Sam",
+      "homeScore": 150.22,
+      "awayScore": 83.75
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 121.55,
+      "awayScore": 73.54
+    },
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 153.84,
+      "awayScore": 116.01
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 126.42,
+      "awayScore": 127.6
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "DELETED Tay",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 66.8,
+      "awayScore": 121.23
+    },
+    {
+      "homeTeam": "Green Eggs and Sam",
+      "awayTeam": "The Final Countdown",
+      "homeScore": 66.75,
+      "awayScore": 118.28
+    },
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "The Home Deebo",
+      "homeScore": 93.78,
+      "awayScore": 163.62
+    },
+    {
+      "homeTeam": "Chicken k-Allen-guen",
+      "awayTeam": "Mooooooooddddyyyy",
+      "homeScore": 141.87,
+      "awayScore": 139.86
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "The Final Boss",
+      "homeScore": 161.66,
+      "awayScore": 103.16
+    },
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 150.81,
+      "awayScore": 112.9
+    },
+    {
+      "homeTeam": "The Helaire of Slytherin",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 109.46,
+      "awayScore": 94.44
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "The Final Boss",
+      "homeScore": 131.95,
+      "awayScore": 134.27
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 109.84,
+      "awayScore": 101.8
+    },
+    {
+      "homeTeam": "DELETED Tay",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 120.94,
+      "awayScore": 147.95
+    },
+    {
+      "homeTeam": "Chicken k-Allen-guen",
+      "awayTeam": "The Final Countdown",
+      "homeScore": 122.63,
+      "awayScore": 132.18
+    },
+    {
+      "homeTeam": "Green Eggs and Sam",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 104.3,
+      "awayScore": 90.06
+    },
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Mooooooooddddyyyy",
+      "homeScore": 126.62,
+      "awayScore": 158.88
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 117.38,
+      "awayScore": 119.62
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "The Helaire of Slytherin",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 103.86,
+      "awayScore": 116.49
+    },
+    {
+      "homeTeam": "Honky Tonk McConkey Conk",
+      "awayTeam": "Green Eggs and Sam",
+      "homeScore": 134.96,
+      "awayScore": 108.54
+    },
+    {
+      "homeTeam": "Im a Boliever",
+      "awayTeam": "Kimani Kardashin",
+      "homeScore": 133.05,
+      "awayScore": 151.24
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "Shakir Like A Saltshakir",
+      "homeScore": 208.98,
+      "awayScore": 117.88
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "DELETED Tay",
+      "homeScore": 94.21,
+      "awayScore": 120.16
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Smoked Salmon and Nabers",
+      "homeScore": 168.17,
+      "awayScore": 138.02
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "The Final Boss",
+      "homeScore": 131.59,
+      "awayScore": 137.96
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "Smoked Salmon and Nabers",
+      "homeScore": 190.1,
+      "awayScore": 109.26
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Mooooooooddddyyyy",
+      "homeScore": 109.92,
+      "awayScore": 115.07
+    },
+    {
+      "homeTeam": "DELETED Tay",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 133.6,
+      "awayScore": 83.36
+    },
+    {
+      "homeTeam": "Honky Tonk McConkey Conk",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 104,
+      "awayScore": 95.3
+    },
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 172.09,
+      "awayScore": 80.38
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "Green Eggs and Sam",
+      "homeScore": 151.12,
+      "awayScore": 115.43
+    },
+    {
+      "homeTeam": "Im a Boliever",
+      "awayTeam": "The Final Boss",
+      "homeScore": 101.97,
+      "awayScore": 191.5
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Mooooooooddddyyyy",
+      "homeScore": 114.96,
+      "awayScore": 104.84
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 131.89,
+      "awayScore": 114.33
+    },
+    {
+      "homeTeam": "The Helaire of Slytherin",
+      "awayTeam": "The Final Boss",
+      "homeScore": 96.63,
+      "awayScore": 131.1
+    },
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Green Eggs and Sam",
+      "homeScore": 115.14,
+      "awayScore": 113.14
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 128,
+      "awayScore": 126.41
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 158.06,
+      "awayScore": 124.12
+    },
+    {
+      "homeTeam": "DELETED Tay",
+      "awayTeam": "Kimani Kardashin",
+      "homeScore": 82.51,
+      "awayScore": 123.56
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Honky Tonk McConkey Conk",
+      "awayTeam": "Shakir Like A Saltshakir",
+      "homeScore": 156.59,
+      "awayScore": 142.32
+    },
+    {
+      "homeTeam": "The Helaire of Slytherin",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 128.13,
+      "awayScore": 169.16
+    },
+    {
+      "homeTeam": "Green Eggs and Sam",
+      "awayTeam": "Mooooooooddddyyyy",
+      "homeScore": 120.05,
+      "awayScore": 144.86
+    },
+    {
+      "homeTeam": "Chicken k-Allen-guen",
+      "awayTeam": "Smoked Salmon and Nabers",
+      "homeScore": 109.09,
+      "awayScore": 113.42
+    },
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 138.94,
+      "awayScore": 125.44
+    },
+    {
+      "homeTeam": "DELETED Tay",
+      "awayTeam": "The Home Deebo",
+      "homeScore": 174.2,
+      "awayScore": 96.06
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "The Final Boss",
+      "homeScore": 128.16,
+      "awayScore": 173.5
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Shakir Like A Saltshakir",
+      "homeScore": 84.5,
+      "awayScore": 136.47
+    },
+    {
+      "homeTeam": "Chicken k-Allen-guen",
+      "awayTeam": "Green Eggs and Sam",
+      "homeScore": 133.38,
+      "awayScore": 125.45
+    },
+    {
+      "homeTeam": "DELETED Tay",
+      "awayTeam": "The Final Boss",
+      "homeScore": 104.46,
+      "awayScore": 182.2
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "Smoked Salmon and Nabers",
+      "homeScore": 130.24,
+      "awayScore": 138.44
+    },
+    {
+      "homeTeam": "Im a Boliever",
+      "awayTeam": "Kimani Kardashin",
+      "homeScore": 103.24,
+      "awayScore": 131.14
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 130,
+      "awayScore": 98.02
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 147.9,
+      "awayScore": 133.83
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 114.86,
+      "awayScore": 119.9
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "The Final Boss",
+      "homeScore": 93.64,
+      "awayScore": 81.1
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "DELETED Tay",
+      "homeScore": 128.08,
+      "awayScore": 108.77
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Green Eggs and Sam",
+      "homeScore": 116.8,
+      "awayScore": 90.24
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 120.78,
+      "awayScore": 106.38
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 193.77,
+      "awayScore": 121.5
+    },
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 90.58,
+      "awayScore": 86.04
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 96.24,
+      "awayScore": 101.54
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "Green Eggs and Sam",
+      "homeScore": 132.04,
+      "awayScore": 119.44
+    },
+    {
+      "homeTeam": "Im a Boliever",
+      "awayTeam": "The Final Boss",
+      "homeScore": 137.98,
+      "awayScore": 140.13
+    },
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "DELETED Tay",
+      "homeScore": 116.08,
+      "awayScore": 159.5
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 109.18,
+      "awayScore": 106.18
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 140.44,
+      "awayScore": 140.47
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "Smoked Salmon and Nabers",
+      "homeScore": 119.08,
+      "awayScore": 159.59
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 138.42,
+      "awayScore": 112.36
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Smoked Salmon and Nabers",
+      "homeScore": 139.78,
+      "awayScore": 113.8
+    },
+    {
+      "homeTeam": "Chicken k-Allen-guen",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 99.36,
+      "awayScore": 117.62
+    },
+    {
+      "homeTeam": "The Final Boss",
+      "awayTeam": "Kimani Kardashin",
+      "homeScore": 126.06,
+      "awayScore": 145.72
+    },
+    {
+      "homeTeam": "The Helaire of Slytherin",
+      "awayTeam": "DELETED Tay",
+      "homeScore": 158.26,
+      "awayScore": 103.82
+    },
+    {
+      "homeTeam": "Green Eggs and Sam",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 126.1,
+      "awayScore": 95.08
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "Shakir Like A Saltshakir",
+      "homeScore": 125.81,
+      "awayScore": 121.08
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "The Final Boss",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 102.24,
+      "awayScore": 116.64
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "The Final Countdown",
+      "homeScore": 108,
+      "awayScore": 142.53
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "DELETED Tay",
+      "homeScore": 133.82,
+      "awayScore": 127.12
+    },
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Kimani Kardashin",
+      "homeScore": 159.19,
+      "awayScore": 145.08
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 142.66,
+      "awayScore": 100.66
+    },
+    {
+      "homeTeam": "Honky Tonk McConkey Conk",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 133.4,
+      "awayScore": 106.92
+    },
+    {
+      "homeTeam": "Green Eggs and Sam",
+      "awayTeam": "Shakir Like A Saltshakir",
+      "homeScore": 126.85,
+      "awayScore": 139.23
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "Honky Tonk McConkey Conk",
+      "awayTeam": "The Final Countdown",
+      "homeScore": 86.08,
+      "awayScore": 129.76
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 136.22,
+      "awayScore": 184.18
+    },
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Green Eggs and Sam",
+      "homeScore": 138.37,
+      "awayScore": 138.78
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 174.41,
+      "awayScore": 135.42
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "The Final Boss",
+      "homeScore": 119.02,
+      "awayScore": 176.12
+    },
+    {
+      "homeTeam": "The Home Deebo",
+      "awayTeam": "Kimani Kardashin",
+      "homeScore": 83.94,
+      "awayScore": 142.2
+    },
+    {
+      "homeTeam": "Im a Boliever",
+      "awayTeam": "DELETED Tay",
+      "homeScore": 138.79,
+      "awayScore": 132.1
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Honky Tonk McConkey Conk",
+      "homeScore": 145.8,
+      "awayScore": 121.38
+    },
+    {
+      "homeTeam": "The Helaire of Slytherin",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 75.21,
+      "awayScore": 201.18
+    },
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "Shakir Like A Saltshakir",
+      "homeScore": 142.35,
+      "awayScore": 116.83
+    },
+    {
+      "homeTeam": "Mooooooooddddyyyy",
+      "awayTeam": "The Final Boss",
+      "homeScore": 92.14,
+      "awayScore": 153.36
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 168.82,
+      "awayScore": 117.54
+    },
+    {
+      "homeTeam": "Chicken k-Allen-guen",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 129.76,
+      "awayScore": 109.45
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "Kimani Kardashin",
+      "homeScore": 146.18,
+      "awayScore": 133.74
+    },
+    {
+      "homeTeam": "The Final Boss",
+      "awayTeam": "The Home Deebo",
+      "homeScore": 186.24,
+      "awayScore": 142.98
+    }
+  ],
+  "week-17": [
+    {
+      "homeTeam": "Smoked Salmon and Nabers",
+      "awayTeam": "Chicken k-Allen-guen",
+      "homeScore": 109.63,
+      "awayScore": 152.98
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Im a Boliever",
+      "homeScore": 71,
+      "awayScore": 112.3
+    },
+    {
+      "homeTeam": "Honky Tonk McConkey Conk",
+      "awayTeam": "The Helaire of Slytherin",
+      "homeScore": 157.44,
+      "awayScore": 155.2
+    },
+    {
+      "homeTeam": "The Final Countdown",
+      "awayTeam": "The Final Boss",
+      "homeScore": 156.02,
+      "awayScore": 146.92
+    },
+    {
+      "homeTeam": "Kimani Kardashin",
+      "awayTeam": "The Home Deebo",
+      "homeScore": 58.78,
+      "awayScore": 123.6
+    },
+    {
+      "homeTeam": "Shakir Like A Saltshakir",
+      "awayTeam": "Mooooooooddddyyyy",
+      "homeScore": 118.19,
+      "awayScore": 140.38
+    }
+  ]
+}

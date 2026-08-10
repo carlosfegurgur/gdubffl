@@ -1,0 +1,586 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Wham Bam TD CAM",
+      "homeScore": 130.16,
+      "awayScore": 129.2
+    },
+    {
+      "homeTeam": "Tayler Gang Or Lose",
+      "awayTeam": "Guamfucius",
+      "homeScore": 105.4,
+      "awayScore": 104.24
+    },
+    {
+      "homeTeam": "TomShady",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 114.92,
+      "awayScore": 118.96
+    },
+    {
+      "homeTeam": "Blake the Rawls with Giovani",
+      "awayTeam": "mr rodgers neighbors",
+      "homeScore": 113.54,
+      "awayScore": 125.14
+    },
+    {
+      "homeTeam": "Gecko By God",
+      "awayTeam": "Abdullah Oblongata",
+      "homeScore": 115.12,
+      "awayScore": 92.64
+    },
+    {
+      "homeTeam": "Yo Adrian",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 106.1,
+      "awayScore": 120.84
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Abdullah Oblongata",
+      "homeScore": 93.46,
+      "awayScore": 125.46
+    },
+    {
+      "homeTeam": "mr rodgers neighbors",
+      "awayTeam": "Gecko By God",
+      "homeScore": 122.96,
+      "awayScore": 103.6
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 104.3,
+      "awayScore": 94.24
+    },
+    {
+      "homeTeam": "Martavis The Savior",
+      "awayTeam": "Guamfucius",
+      "homeScore": 108.14,
+      "awayScore": 96.8
+    },
+    {
+      "homeTeam": "Tayler Gang Or Lose",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 140.6,
+      "awayScore": 110.58
+    },
+    {
+      "homeTeam": "Yo Adrian",
+      "awayTeam": "TomShady",
+      "homeScore": 94.7,
+      "awayScore": 95.04
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "mr rodgers neighbors",
+      "awayTeam": "Jump over the Kendall stick",
+      "homeScore": 141.18,
+      "awayScore": 181.12
+    },
+    {
+      "homeTeam": "Golden Blue Brown N Green",
+      "awayTeam": "Yo Adrian",
+      "homeScore": 142.78,
+      "awayScore": 96.36
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Abdullah Oblongata",
+      "homeScore": 122.2,
+      "awayScore": 90.98
+    },
+    {
+      "homeTeam": "Martavis The Savior",
+      "awayTeam": "Tayler Gang Or Lose",
+      "homeScore": 163.92,
+      "awayScore": 111.78
+    },
+    {
+      "homeTeam": "Gecko By God",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 138.6,
+      "awayScore": 103
+    },
+    {
+      "homeTeam": "TomShady",
+      "awayTeam": "Guamfucius",
+      "homeScore": 122.02,
+      "awayScore": 119.56
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "mr rodgers neighbors",
+      "awayTeam": "Wham Bam TD CAM",
+      "homeScore": 92.52,
+      "awayScore": 101.96
+    },
+    {
+      "homeTeam": "Martavis The Savior",
+      "awayTeam": "TomShady",
+      "homeScore": 103.24,
+      "awayScore": 130.54
+    },
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 68.06,
+      "awayScore": 71.28
+    },
+    {
+      "homeTeam": "Yo Adrian",
+      "awayTeam": "Tayler Gang Or Lose",
+      "homeScore": 75.68,
+      "awayScore": 80.44
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 117.88,
+      "awayScore": 134.52
+    },
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Gecko By God",
+      "homeScore": 92.16,
+      "awayScore": 120.54
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "Blake the Rawls with Giovani",
+      "awayTeam": "Jump over the Kendall stick",
+      "homeScore": 134.42,
+      "awayScore": 84.54
+    },
+    {
+      "homeTeam": "Yo Adrian",
+      "awayTeam": "Guamfucius",
+      "homeScore": 102.54,
+      "awayScore": 114.44
+    },
+    {
+      "homeTeam": "mr rodgers neighbors",
+      "awayTeam": "Abdullah Oblongata",
+      "homeScore": 131.58,
+      "awayScore": 95.1
+    },
+    {
+      "homeTeam": "Golden Blue Brown N Green",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 165.3,
+      "awayScore": 118.74
+    },
+    {
+      "homeTeam": "TomShady",
+      "awayTeam": "Tayler Gang Or Lose",
+      "homeScore": 133.7,
+      "awayScore": 114.3
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Gecko By God",
+      "homeScore": 91.72,
+      "awayScore": 169.42
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "Golden Blue Brown N Green",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 97.46,
+      "awayScore": 112.64
+    },
+    {
+      "homeTeam": "Martavis The Savior",
+      "awayTeam": "mr rodgers neighbors",
+      "homeScore": 104.62,
+      "awayScore": 125.32
+    },
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "TomShady",
+      "homeScore": 121.5,
+      "awayScore": 155.28
+    },
+    {
+      "homeTeam": "Yo Adrian",
+      "awayTeam": "Gecko By God",
+      "homeScore": 125.44,
+      "awayScore": 186.58
+    },
+    {
+      "homeTeam": "Tayler Gang Or Lose",
+      "awayTeam": "Wham Bam TD CAM",
+      "homeScore": 95.08,
+      "awayScore": 118.6
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Abdullah Oblongata",
+      "homeScore": 59.16,
+      "awayScore": 144.3
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "TomShady",
+      "awayTeam": "Gecko By God",
+      "homeScore": 151.2,
+      "awayScore": 151.92
+    },
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 71.4,
+      "awayScore": 126.34
+    },
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "Yo Adrian",
+      "homeScore": 168.68,
+      "awayScore": 123.4
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "mr rodgers neighbors",
+      "homeScore": 135.1,
+      "awayScore": 117.78
+    },
+    {
+      "homeTeam": "Tayler Gang Or Lose",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 64.5,
+      "awayScore": 151.3
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 142.08,
+      "awayScore": 117.02
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Blake the Rawls with Giovani",
+      "awayTeam": "Yo Adrian",
+      "homeScore": 114.4,
+      "awayScore": 126.56
+    },
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Tayler Gang Or Lose",
+      "homeScore": 107.68,
+      "awayScore": 179.6
+    },
+    {
+      "homeTeam": "Golden Blue Brown N Green",
+      "awayTeam": "Abdullah Oblongata",
+      "homeScore": 142.04,
+      "awayScore": 88.78
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Guamfucius",
+      "homeScore": 94.52,
+      "awayScore": 135.66
+    },
+    {
+      "homeTeam": "TomShady",
+      "awayTeam": "mr rodgers neighbors",
+      "homeScore": 90.74,
+      "awayScore": 136.18
+    },
+    {
+      "homeTeam": "Gecko By God",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 97.04,
+      "awayScore": 119.74
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 149.26,
+      "awayScore": 110.26
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Jump over the Kendall stick",
+      "homeScore": 127.22,
+      "awayScore": 170.76
+    },
+    {
+      "homeTeam": "Blake the Rawls with Giovani",
+      "awayTeam": "TomShady",
+      "homeScore": 85.2,
+      "awayScore": 114.86
+    },
+    {
+      "homeTeam": "Tayler Gang Or Lose",
+      "awayTeam": "mr rodgers neighbors",
+      "homeScore": 132.98,
+      "awayScore": 119.12
+    },
+    {
+      "homeTeam": "Gecko By God",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 137.84,
+      "awayScore": 105.6
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Yo Adrian",
+      "homeScore": 128.58,
+      "awayScore": 161.74
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Yo Adrian",
+      "awayTeam": "mr rodgers neighbors",
+      "homeScore": 132.68,
+      "awayScore": 85.08
+    },
+    {
+      "homeTeam": "Gecko By God",
+      "awayTeam": "Tayler Gang Or Lose",
+      "homeScore": 77.1,
+      "awayScore": 125.46
+    },
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "TomShady",
+      "homeScore": 117.86,
+      "awayScore": 101.86
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 148.14,
+      "awayScore": 105.62
+    },
+    {
+      "homeTeam": "Golden Blue Brown N Green",
+      "awayTeam": "Wham Bam TD CAM",
+      "homeScore": 63.7,
+      "awayScore": 127.78
+    },
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 144.12,
+      "awayScore": 118.08
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Gecko By God",
+      "homeScore": 88.66,
+      "awayScore": 77.08
+    },
+    {
+      "homeTeam": "Blake the Rawls with Giovani",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 134.78,
+      "awayScore": 111.9
+    },
+    {
+      "homeTeam": "mr rodgers neighbors",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 127,
+      "awayScore": 107.62
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "TomShady",
+      "homeScore": 126.94,
+      "awayScore": 68.98
+    },
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "Tayler Gang Or Lose",
+      "homeScore": 92.28,
+      "awayScore": 59.34
+    },
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Yo Adrian",
+      "homeScore": 117.48,
+      "awayScore": 108.08
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Tayler Gang Or Lose",
+      "homeScore": 110.44,
+      "awayScore": 81.12
+    },
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "Wham Bam TD CAM",
+      "homeScore": 108.04,
+      "awayScore": 100.92
+    },
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Gecko By God",
+      "homeScore": 86.48,
+      "awayScore": 159.58
+    },
+    {
+      "homeTeam": "Martavis The Savior",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 103.42,
+      "awayScore": 110.7
+    },
+    {
+      "homeTeam": "mr rodgers neighbors",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 66,
+      "awayScore": 124.46
+    },
+    {
+      "homeTeam": "TomShady",
+      "awayTeam": "Yo Adrian",
+      "homeScore": 120,
+      "awayScore": 104.54
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "Blake the Rawls with Giovani",
+      "awayTeam": "Jump over the Kendall stick",
+      "homeScore": 103.08,
+      "awayScore": 94.42
+    },
+    {
+      "homeTeam": "Yo Adrian",
+      "awayTeam": "Tayler Gang Or Lose",
+      "homeScore": 130.24,
+      "awayScore": 171.12
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 92.78,
+      "awayScore": 93.98
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Gecko By God",
+      "homeScore": 188.14,
+      "awayScore": 126.26
+    },
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "mr rodgers neighbors",
+      "homeScore": 130.76,
+      "awayScore": 98.08
+    },
+    {
+      "homeTeam": "TomShady",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 117.28,
+      "awayScore": 163.9
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 77.32,
+      "awayScore": 95.36
+    },
+    {
+      "homeTeam": "mr rodgers neighbors",
+      "awayTeam": "Yo Adrian",
+      "homeScore": 92.36,
+      "awayScore": 109.9
+    },
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "TomShady",
+      "homeScore": 89.18,
+      "awayScore": 96.24
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 130.6,
+      "awayScore": 91.4
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "Tayler Gang Or Lose",
+      "awayTeam": "Martavis The Savior",
+      "homeScore": 129.24,
+      "awayScore": 176.14
+    },
+    {
+      "homeTeam": "Yo Adrian",
+      "awayTeam": "Guamfucius",
+      "homeScore": 106.66,
+      "awayScore": 119.3
+    },
+    {
+      "homeTeam": "Gecko By God",
+      "awayTeam": "TomShady",
+      "homeScore": 163.06,
+      "awayScore": 86.28
+    },
+    {
+      "homeTeam": "Wham Bam TD CAM",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 151.5,
+      "awayScore": 125.9
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Martavis The Savior",
+      "awayTeam": "Guamfucius",
+      "homeScore": 115.52,
+      "awayScore": 122.06
+    },
+    {
+      "homeTeam": "Tayler Gang Or Lose",
+      "awayTeam": "Yo Adrian",
+      "homeScore": 98.38,
+      "awayScore": 109.1
+    },
+    {
+      "homeTeam": "Jump over the Kendall stick",
+      "awayTeam": "mr rodgers neighbors",
+      "homeScore": 70.84,
+      "awayScore": 145.64
+    },
+    {
+      "homeTeam": "Gecko By God",
+      "awayTeam": "Wham Bam TD CAM",
+      "homeScore": 148.7,
+      "awayScore": 144.48
+    },
+    {
+      "homeTeam": "TomShady",
+      "awayTeam": "Golden Blue Brown N Green",
+      "homeScore": 59.84,
+      "awayScore": 99.76
+    },
+    {
+      "homeTeam": "Abdullah Oblongata",
+      "awayTeam": "Blake the Rawls with Giovani",
+      "homeScore": 41.3,
+      "awayScore": 123.32
+    }
+  ]
+}

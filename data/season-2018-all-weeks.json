@@ -1,0 +1,694 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Han and Chubbaka",
+      "awayTeam": "9 Game Carlosing streak",
+      "homeScore": 145.76,
+      "awayScore": 145.01
+    },
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 93.78,
+      "awayScore": 113.6
+    },
+    {
+      "homeTeam": "Beam Me Up Scotty",
+      "awayTeam": "Drake gonna sacko my nuts",
+      "homeScore": 112.92,
+      "awayScore": 138.54
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "Saquon Deez Nuts",
+      "homeScore": 218.22,
+      "awayScore": 147.23
+    },
+    {
+      "homeTeam": "Hanging With Hernandez",
+      "awayTeam": "King Of The North",
+      "homeScore": 141.86,
+      "awayScore": 127.94
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 110.69,
+      "awayScore": 179.54
+    },
+    {
+      "homeTeam": "Juju on dat",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 127.16,
+      "awayScore": 112.97
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "Han and Chubbaka",
+      "homeScore": 89.84,
+      "awayScore": 85.22
+    },
+    {
+      "homeTeam": "9 Game Carlosing streak",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 105.11,
+      "awayScore": 148.68
+    },
+    {
+      "homeTeam": "Gurleys Gone Wild",
+      "awayTeam": "WINTTER IS COMING",
+      "homeScore": 166.98,
+      "awayScore": 128.84
+    },
+    {
+      "homeTeam": "Drake gonna sacko my nuts",
+      "awayTeam": "Hanging With Hernandez",
+      "homeScore": 134.2,
+      "awayScore": 105.44
+    },
+    {
+      "homeTeam": "Saquon Deez Nuts",
+      "awayTeam": "Bruce Lee",
+      "homeScore": 113.76,
+      "awayScore": 155.3
+    },
+    {
+      "homeTeam": "King Of The North",
+      "awayTeam": "Juju on dat",
+      "homeScore": 154.18,
+      "awayScore": 128.58
+    },
+    {
+      "homeTeam": "American Dragon Jake Long",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 159.54,
+      "awayScore": 104.86
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "Han and Chubbaka",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 131.34,
+      "awayScore": 83.76
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "Chillin wit Mahomies",
+      "homeScore": 155.58,
+      "awayScore": 91.8
+    },
+    {
+      "homeTeam": "Hanging With Hernandez",
+      "awayTeam": "9 Game Carlosing streak",
+      "homeScore": 119.44,
+      "awayScore": 105.26
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 131.74,
+      "awayScore": 147.72
+    },
+    {
+      "homeTeam": "Juju on dat",
+      "awayTeam": "Drake gonna sacko my nuts",
+      "homeScore": 121.04,
+      "awayScore": 124.1
+    },
+    {
+      "homeTeam": "NoBell Peace Prize",
+      "awayTeam": "Saquon Deez Nuts",
+      "homeScore": 107.9,
+      "awayScore": 106.02
+    },
+    {
+      "homeTeam": "American Dragon Jake Long",
+      "awayTeam": "King Of The North",
+      "homeScore": 169.4,
+      "awayScore": 112.28
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "Han and Chubbaka",
+      "homeScore": 129,
+      "awayScore": 155.98
+    },
+    {
+      "homeTeam": "Beam Me Up Scotty",
+      "awayTeam": "Hanging With Hernandez",
+      "homeScore": 130.52,
+      "awayScore": 135.3
+    },
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "Bruce Lee",
+      "homeScore": 105.46,
+      "awayScore": 138.24
+    },
+    {
+      "homeTeam": "9 Game Carlosing streak",
+      "awayTeam": "Juju on dat",
+      "homeScore": 161.06,
+      "awayScore": 189.78
+    },
+    {
+      "homeTeam": "Gurleys Gone Wild",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 145.96,
+      "awayScore": 154.5
+    },
+    {
+      "homeTeam": "Drake gonna sacko my nuts",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 168.88,
+      "awayScore": 147.97
+    },
+    {
+      "homeTeam": "Saquon Deez Nuts",
+      "awayTeam": "King Of The North",
+      "homeScore": 117.86,
+      "awayScore": 127.66
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "Han and Chubbaka",
+      "awayTeam": "Hanging With Hernandez",
+      "homeScore": 111.02,
+      "awayScore": 153.64
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "WINTTER IS COMING",
+      "homeScore": 118.3,
+      "awayScore": 127.62
+    },
+    {
+      "homeTeam": "Juju on dat",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 114.74,
+      "awayScore": 114.34
+    },
+    {
+      "homeTeam": "NoBell Peace Prize",
+      "awayTeam": "Chillin wit Mahomies",
+      "homeScore": 159.7,
+      "awayScore": 114.52
+    },
+    {
+      "homeTeam": "American Dragon Jake Long",
+      "awayTeam": "9 Game Carlosing streak",
+      "homeScore": 128.98,
+      "awayScore": 114.9
+    },
+    {
+      "homeTeam": "King Of The North",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 147.6,
+      "awayScore": 139.5
+    },
+    {
+      "homeTeam": "Saquon Deez Nuts",
+      "awayTeam": "Drake gonna sacko my nuts",
+      "homeScore": 155.69,
+      "awayScore": 99.03
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "Han and Chubbaka",
+      "homeScore": 124.68,
+      "awayScore": 96.82
+    },
+    {
+      "homeTeam": "Hanging With Hernandez",
+      "awayTeam": "Juju on dat",
+      "homeScore": 111.83,
+      "awayScore": 112.52
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 169.53,
+      "awayScore": 128
+    },
+    {
+      "homeTeam": "Beam Me Up Scotty",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 118.32,
+      "awayScore": 146.3
+    },
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "King Of The North",
+      "homeScore": 148.88,
+      "awayScore": 184
+    },
+    {
+      "homeTeam": "9 Game Carlosing streak",
+      "awayTeam": "Saquon Deez Nuts",
+      "homeScore": 132.74,
+      "awayScore": 173.5
+    },
+    {
+      "homeTeam": "Gurleys Gone Wild",
+      "awayTeam": "Drake gonna sacko my nuts",
+      "homeScore": 140.86,
+      "awayScore": 136.3
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Han and Chubbaka",
+      "awayTeam": "Juju on dat",
+      "homeScore": 142.78,
+      "awayScore": 94.79
+    },
+    {
+      "homeTeam": "NoBell Peace Prize",
+      "awayTeam": "Bruce Lee",
+      "homeScore": 90.35,
+      "awayScore": 98.16
+    },
+    {
+      "homeTeam": "American Dragon Jake Long",
+      "awayTeam": "Hanging With Hernandez",
+      "homeScore": 109.28,
+      "awayScore": 146.54
+    },
+    {
+      "homeTeam": "King Of The North",
+      "awayTeam": "WINTTER IS COMING",
+      "homeScore": 187.13,
+      "awayScore": 149.91
+    },
+    {
+      "homeTeam": "Saquon Deez Nuts",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 126.78,
+      "awayScore": 118.5
+    },
+    {
+      "homeTeam": "Drake gonna sacko my nuts",
+      "awayTeam": "Chillin wit Mahomies",
+      "homeScore": 126.52,
+      "awayScore": 151.62
+    },
+    {
+      "homeTeam": "Gurleys Gone Wild",
+      "awayTeam": "9 Game Carlosing streak",
+      "homeScore": 81.54,
+      "awayScore": 119.79
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "NoBell Peace Prize",
+      "awayTeam": "Han and Chubbaka",
+      "homeScore": 122.84,
+      "awayScore": 107.8
+    },
+    {
+      "homeTeam": "Juju on dat",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 115.01,
+      "awayScore": 152.24
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "King Of The North",
+      "homeScore": 164.71,
+      "awayScore": 145.18
+    },
+    {
+      "homeTeam": "Hanging With Hernandez",
+      "awayTeam": "Saquon Deez Nuts",
+      "homeScore": 131.2,
+      "awayScore": 141.86
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "Drake gonna sacko my nuts",
+      "homeScore": 157.22,
+      "awayScore": 133.4
+    },
+    {
+      "homeTeam": "Beam Me Up Scotty",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 112.29,
+      "awayScore": 161.48
+    },
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "9 Game Carlosing streak",
+      "homeScore": 130.22,
+      "awayScore": 150.36
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Han and Chubbaka",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 142.64,
+      "awayScore": 111.64
+    },
+    {
+      "homeTeam": "King Of The North",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 155.4,
+      "awayScore": 101.7
+    },
+    {
+      "homeTeam": "Saquon Deez Nuts",
+      "awayTeam": "Juju on dat",
+      "homeScore": 101.26,
+      "awayScore": 65.46
+    },
+    {
+      "homeTeam": "Drake gonna sacko my nuts",
+      "awayTeam": "Bruce Lee",
+      "homeScore": 118.38,
+      "awayScore": 130.32
+    },
+    {
+      "homeTeam": "Gurleys Gone Wild",
+      "awayTeam": "Hanging With Hernandez",
+      "homeScore": 106.6,
+      "awayScore": 127.72
+    },
+    {
+      "homeTeam": "9 Game Carlosing streak",
+      "awayTeam": "WINTTER IS COMING",
+      "homeScore": 122.78,
+      "awayScore": 113.8
+    },
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 150.3,
+      "awayScore": 139.04
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "King Of The North",
+      "awayTeam": "Han and Chubbaka",
+      "homeScore": 154.9,
+      "awayScore": 173.8
+    },
+    {
+      "homeTeam": "American Dragon Jake Long",
+      "awayTeam": "Saquon Deez Nuts",
+      "homeScore": 142.21,
+      "awayScore": 102.66
+    },
+    {
+      "homeTeam": "NoBell Peace Prize",
+      "awayTeam": "Drake gonna sacko my nuts",
+      "homeScore": 183.18,
+      "awayScore": 90.12
+    },
+    {
+      "homeTeam": "Juju on dat",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 140.92,
+      "awayScore": 162.02
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "9 Game Carlosing streak",
+      "homeScore": 166.3,
+      "awayScore": 94.5
+    },
+    {
+      "homeTeam": "Hanging With Hernandez",
+      "awayTeam": "Chillin wit Mahomies",
+      "homeScore": 120.72,
+      "awayScore": 116.76
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 146.04,
+      "awayScore": 115.1
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Han and Chubbaka",
+      "awayTeam": "Saquon Deez Nuts",
+      "homeScore": 150.32,
+      "awayScore": 132.86
+    },
+    {
+      "homeTeam": "Drake gonna sacko my nuts",
+      "awayTeam": "King Of The North",
+      "homeScore": 116.88,
+      "awayScore": 120.74
+    },
+    {
+      "homeTeam": "Gurleys Gone Wild",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 148.36,
+      "awayScore": 114.08
+    },
+    {
+      "homeTeam": "9 Game Carlosing streak",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 129.08,
+      "awayScore": 112.88
+    },
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "Juju on dat",
+      "homeScore": 140.42,
+      "awayScore": 152.37
+    },
+    {
+      "homeTeam": "Beam Me Up Scotty",
+      "awayTeam": "Bruce Lee",
+      "homeScore": 89.14,
+      "awayScore": 128.22
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "Hanging With Hernandez",
+      "homeScore": 179.8,
+      "awayScore": 142.64
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "Drake gonna sacko my nuts",
+      "awayTeam": "Han and Chubbaka",
+      "homeScore": 122.04,
+      "awayScore": 128.74
+    },
+    {
+      "homeTeam": "Saquon Deez Nuts",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 175.22,
+      "awayScore": 124.08
+    },
+    {
+      "homeTeam": "King Of The North",
+      "awayTeam": "9 Game Carlosing streak",
+      "homeScore": 152.98,
+      "awayScore": 125.97
+    },
+    {
+      "homeTeam": "American Dragon Jake Long",
+      "awayTeam": "Chillin wit Mahomies",
+      "homeScore": 94.42,
+      "awayScore": 107.6
+    },
+    {
+      "homeTeam": "NoBell Peace Prize",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 119.97,
+      "awayScore": 102.54
+    },
+    {
+      "homeTeam": "Juju on dat",
+      "awayTeam": "WINTTER IS COMING",
+      "homeScore": 157.68,
+      "awayScore": 159.86
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "Hanging With Hernandez",
+      "homeScore": 126.9,
+      "awayScore": 109.56
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "Han and Chubbaka",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 83.68,
+      "awayScore": 122.2
+    },
+    {
+      "homeTeam": "9 Game Carlosing streak",
+      "awayTeam": "Drake gonna sacko my nuts",
+      "homeScore": 103.92,
+      "awayScore": 140.85
+    },
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "Saquon Deez Nuts",
+      "homeScore": 97.4,
+      "awayScore": 167.64
+    },
+    {
+      "homeTeam": "Beam Me Up Scotty",
+      "awayTeam": "King Of The North",
+      "homeScore": 114.04,
+      "awayScore": 147.74
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 128.5,
+      "awayScore": 78.58
+    },
+    {
+      "homeTeam": "Hanging With Hernandez",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 142.82,
+      "awayScore": 112.41
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "Juju on dat",
+      "homeScore": 124.76,
+      "awayScore": 171.9
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "9 Game Carlosing streak",
+      "awayTeam": "Chillin wit Mahomies",
+      "homeScore": 98.26,
+      "awayScore": 134.18
+    },
+    {
+      "homeTeam": "Drake gonna sacko my nuts",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 133,
+      "awayScore": 139.02
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "Saquon Deez Nuts",
+      "homeScore": 111.43,
+      "awayScore": 149.27
+    },
+    {
+      "homeTeam": "Hanging With Hernandez",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 147.8,
+      "awayScore": 117.03
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "Han and Chubbaka",
+      "homeScore": 86.18,
+      "awayScore": 148.54
+    },
+    {
+      "homeTeam": "King Of The North",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 170.08,
+      "awayScore": 93.64
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "Juju on dat",
+      "awayTeam": "Chillin wit Mahomies",
+      "homeScore": 100.14,
+      "awayScore": 93.82
+    },
+    {
+      "homeTeam": "Beam Me Up Scotty",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 104.62,
+      "awayScore": 121.44
+    },
+    {
+      "homeTeam": "Saquon Deez Nuts",
+      "awayTeam": "Hanging With Hernandez",
+      "homeScore": 97.86,
+      "awayScore": 99.02
+    },
+    {
+      "homeTeam": "Han and Chubbaka",
+      "awayTeam": "King Of The North",
+      "homeScore": 96.57,
+      "awayScore": 135.38
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "Gurleys Gone Wild",
+      "homeScore": 138.28,
+      "awayScore": 138.25
+    },
+    {
+      "homeTeam": "Bruce Lee",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 86.36,
+      "awayScore": 93.16
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Juju on dat",
+      "awayTeam": "NoBell Peace Prize",
+      "homeScore": 125.31,
+      "awayScore": 133.76
+    },
+    {
+      "homeTeam": "Chillin wit Mahomies",
+      "awayTeam": "Beam Me Up Scotty",
+      "homeScore": 133.32,
+      "awayScore": 89.48
+    },
+    {
+      "homeTeam": "9 Game Carlosing streak",
+      "awayTeam": "Drake gonna sacko my nuts",
+      "homeScore": 129.68,
+      "awayScore": 138.44
+    },
+    {
+      "homeTeam": "Hanging With Hernandez",
+      "awayTeam": "King Of The North",
+      "homeScore": 76.64,
+      "awayScore": 191.06
+    },
+    {
+      "homeTeam": "Saquon Deez Nuts",
+      "awayTeam": "Han and Chubbaka",
+      "homeScore": 144.49,
+      "awayScore": 143.54
+    },
+    {
+      "homeTeam": "WINTTER IS COMING",
+      "awayTeam": "American Dragon Jake Long",
+      "homeScore": 159.44,
+      "awayScore": 129.38
+    },
+    {
+      "homeTeam": "Gurleys Gone Wild",
+      "awayTeam": "Bruce Lee",
+      "homeScore": 111.3,
+      "awayScore": 118.76
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+- fix prisma database
+- connect frontend to prisma db
+- display matchups retrieved from prisma

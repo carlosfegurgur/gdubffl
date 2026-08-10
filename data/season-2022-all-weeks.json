@@ -1,0 +1,708 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Leche",
+      "awayTeam": "Head of the Table",
+      "homeScore": 72.01,
+      "awayScore": 139.18
+    },
+    {
+      "homeTeam": "Big Diggs Energy",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 145.8,
+      "awayScore": 140.42
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Chappelle's Block Purdy",
+      "homeScore": 145.9,
+      "awayScore": 169.5
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Andre 3000",
+      "homeScore": 109.76,
+      "awayScore": 124.17
+    },
+    {
+      "homeTeam": "GW Fantasy XI Chains of Sacko",
+      "awayTeam": "I Aint Write Back Tho",
+      "homeScore": 145.31,
+      "awayScore": 126.68
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 99.52,
+      "awayScore": 112.9
+    },
+    {
+      "homeTeam": "Narwhal Ballaballs",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 134.34,
+      "awayScore": 130.72
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Leche",
+      "homeScore": 144.7,
+      "awayScore": 63.54
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 181.18,
+      "awayScore": 151.27
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Head of the Table",
+      "homeScore": 78.49,
+      "awayScore": 156.98
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Andre 3000",
+      "homeScore": 104.66,
+      "awayScore": 107.26
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "GW Fantasy XI Chains of Sacko",
+      "homeScore": 124.48,
+      "awayScore": 73.15
+    },
+    {
+      "homeTeam": "Big Diggs Energy",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 149.86,
+      "awayScore": 137.27
+    },
+    {
+      "homeTeam": "Something Something Darkside",
+      "awayTeam": "Narwhal Ballaballs",
+      "homeScore": 81.81,
+      "awayScore": 97.6
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "Leche",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 125.82,
+      "awayScore": 131.17
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 126.25,
+      "awayScore": 76.96
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Andre 3000",
+      "homeScore": 105.43,
+      "awayScore": 119.9
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "Jesse",
+      "homeScore": 123.06,
+      "awayScore": 107.08
+    },
+    {
+      "homeTeam": "GW Fantasy XI Chains of Sacko",
+      "awayTeam": "Narwhal Ballaballs",
+      "homeScore": 137.96,
+      "awayScore": 66.58
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 97.66,
+      "awayScore": 100.4
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 98.3,
+      "awayScore": 116.8
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "GW Fantasy XI Chains of Sacko",
+      "awayTeam": "Leche",
+      "homeScore": 93.26,
+      "awayScore": 129.74
+    },
+    {
+      "homeTeam": "Wheres Old Man Jenkins",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 194.56,
+      "awayScore": 94.68
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "Limu Emu",
+      "homeScore": 116.46,
+      "awayScore": 155.46
+    },
+    {
+      "homeTeam": "Something Something Darkside",
+      "awayTeam": "Jesse",
+      "homeScore": 121.24,
+      "awayScore": 149.3
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Head of the Table",
+      "homeScore": 86.66,
+      "awayScore": 109.62
+    },
+    {
+      "homeTeam": "Andre 3000",
+      "awayTeam": "KUX DELUXE",
+      "homeScore": 121.08,
+      "awayScore": 167.28
+    },
+    {
+      "homeTeam": "Narwhal Ballaballs",
+      "awayTeam": "I Aint Write Back Tho",
+      "homeScore": 108.77,
+      "awayScore": 103.3
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 113.72,
+      "awayScore": 72.96
+    },
+    {
+      "homeTeam": "Wheres Old Man Jenkins",
+      "awayTeam": "Head of the Table",
+      "homeScore": 158.58,
+      "awayScore": 115.66
+    },
+    {
+      "homeTeam": "GW Fantasy XI Chains of Sacko",
+      "awayTeam": "Jesse",
+      "homeScore": 104.1,
+      "awayScore": 116.22
+    },
+    {
+      "homeTeam": "Andre 3000",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 109.08,
+      "awayScore": 114.26
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 143.72,
+      "awayScore": 148.08
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "Limu Emu",
+      "homeScore": 120.85,
+      "awayScore": 139.28
+    },
+    {
+      "homeTeam": "Leche",
+      "awayTeam": "Narwhal Ballaballs",
+      "homeScore": 108.74,
+      "awayScore": 150.26
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "Leche",
+      "homeScore": 124.58,
+      "awayScore": 65.36
+    },
+    {
+      "homeTeam": "Big Diggs Energy",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 118.42,
+      "awayScore": 91.64
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Limu Emu",
+      "homeScore": 82.12,
+      "awayScore": 121.42
+    },
+    {
+      "homeTeam": "GW Fantasy XI Chains of Sacko",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 140.54,
+      "awayScore": 98.1
+    },
+    {
+      "homeTeam": "Narwhal Ballaballs",
+      "awayTeam": "Head of the Table",
+      "homeScore": 151.02,
+      "awayScore": 109.46
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "I Aint Write Back Tho",
+      "homeScore": 102.86,
+      "awayScore": 63.48
+    },
+    {
+      "homeTeam": "Andre 3000",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 154.5,
+      "awayScore": 86
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Leche",
+      "awayTeam": "Andre 3000",
+      "homeScore": 94.68,
+      "awayScore": 130.04
+    },
+    {
+      "homeTeam": "Big Diggs Energy",
+      "awayTeam": "Chappelle's Block Purdy",
+      "homeScore": 140.94,
+      "awayScore": 112.24
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Jesse",
+      "homeScore": 149.6,
+      "awayScore": 110.57
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "KUX DELUXE",
+      "homeScore": 107.5,
+      "awayScore": 79.66
+    },
+    {
+      "homeTeam": "GW Fantasy XI Chains of Sacko",
+      "awayTeam": "Limu Emu",
+      "homeScore": 146.42,
+      "awayScore": 113.32
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 117.76,
+      "awayScore": 111.91
+    },
+    {
+      "homeTeam": "Narwhal Ballaballs",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 78.62,
+      "awayScore": 127
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Wheres Old Man Jenkins",
+      "awayTeam": "Head of the Table",
+      "homeScore": 114.12,
+      "awayScore": 150.66
+    },
+    {
+      "homeTeam": "Leche",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 152.59,
+      "awayScore": 88.74
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Limu Emu",
+      "homeScore": 123.9,
+      "awayScore": 96.22
+    },
+    {
+      "homeTeam": "Andre 3000",
+      "awayTeam": "Chappelle's Block Purdy",
+      "homeScore": 158.13,
+      "awayScore": 113.34
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "GW Fantasy XI Chains of Sacko",
+      "homeScore": 194.65,
+      "awayScore": 121.06
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Narwhal Ballaballs",
+      "homeScore": 103.78,
+      "awayScore": 116.44
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 98.4,
+      "awayScore": 118.72
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Big Diggs Energy",
+      "awayTeam": "GW Fantasy XI Chains of Sacko",
+      "homeScore": 136.16,
+      "awayScore": 127.76
+    },
+    {
+      "homeTeam": "Wheres Old Man Jenkins",
+      "awayTeam": "Limu Emu",
+      "homeScore": 134.02,
+      "awayScore": 162.39
+    },
+    {
+      "homeTeam": "Leche",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 87.3,
+      "awayScore": 83.52
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "KUX DELUXE",
+      "homeScore": 103.1,
+      "awayScore": 112.7
+    },
+    {
+      "homeTeam": "Something Something Darkside",
+      "awayTeam": "Andre 3000",
+      "homeScore": 97.54,
+      "awayScore": 96.94
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Jesse",
+      "homeScore": 89.78,
+      "awayScore": 67.55
+    },
+    {
+      "homeTeam": "Narwhal Ballaballs",
+      "awayTeam": "Chappelle's Block Purdy",
+      "homeScore": 87.58,
+      "awayScore": 109.6
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Something Something Darkside",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 125.06,
+      "awayScore": 176.28
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Leche",
+      "homeScore": 163.8,
+      "awayScore": 79.1
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "Head of the Table",
+      "homeScore": 119.9,
+      "awayScore": 153.05
+    },
+    {
+      "homeTeam": "Narwhal Ballaballs",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 94.94,
+      "awayScore": 123.82
+    },
+    {
+      "homeTeam": "Andre 3000",
+      "awayTeam": "GW Fantasy XI Chains of Sacko",
+      "homeScore": 133.13,
+      "awayScore": 117.84
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "Jesse",
+      "homeScore": 125.46,
+      "awayScore": 87.07
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Limu Emu",
+      "homeScore": 78.5,
+      "awayScore": 108.69
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "GW Fantasy XI Chains of Sacko",
+      "homeScore": 78.5,
+      "awayScore": 173.24
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Leche",
+      "homeScore": 93.78,
+      "awayScore": 115.6
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Narwhal Ballaballs",
+      "homeScore": 96.35,
+      "awayScore": 82.7
+    },
+    {
+      "homeTeam": "Something Something Darkside",
+      "awayTeam": "KUX DELUXE",
+      "homeScore": 196.78,
+      "awayScore": 113.94
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Andre 3000",
+      "homeScore": 141.7,
+      "awayScore": 130.9
+    },
+    {
+      "homeTeam": "Wheres Old Man Jenkins",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 105.82,
+      "awayScore": 86.28
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "Limu Emu",
+      "homeScore": 102.72,
+      "awayScore": 106.86
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "GW Fantasy XI Chains of Sacko",
+      "awayTeam": "Head of the Table",
+      "homeScore": 117.42,
+      "awayScore": 130.12
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 110.24,
+      "awayScore": 112.76
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 108.51,
+      "awayScore": 180.5
+    },
+    {
+      "homeTeam": "Andre 3000",
+      "awayTeam": "Chappelle's Block Purdy",
+      "homeScore": 111.8,
+      "awayScore": 123.13
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Jesse",
+      "homeScore": 119.72,
+      "awayScore": 128.76
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Narwhal Ballaballs",
+      "homeScore": 110.5,
+      "awayScore": 86
+    },
+    {
+      "homeTeam": "Leche",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 90.74,
+      "awayScore": 84.7
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "GW Fantasy XI Chains of Sacko",
+      "homeScore": 129.78,
+      "awayScore": 90.5
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 118.52,
+      "awayScore": 123.7
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Narwhal Ballaballs",
+      "homeScore": 107.9,
+      "awayScore": 95.4
+    },
+    {
+      "homeTeam": "Something Something Darkside",
+      "awayTeam": "KUX DELUXE",
+      "homeScore": 131.38,
+      "awayScore": 188.96
+    },
+    {
+      "homeTeam": "Wheres Old Man Jenkins",
+      "awayTeam": "Leche",
+      "homeScore": 147.41,
+      "awayScore": 148.9
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 111.84,
+      "awayScore": 114.6
+    },
+    {
+      "homeTeam": "Andre 3000",
+      "awayTeam": "Limu Emu",
+      "homeScore": 153.84,
+      "awayScore": 89.17
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "GW Fantasy XI Chains of Sacko",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 93.26,
+      "awayScore": 173.5
+    },
+    {
+      "homeTeam": "Big Diggs Energy",
+      "awayTeam": "Leche",
+      "homeScore": 87.82,
+      "awayScore": 141.06
+    },
+    {
+      "homeTeam": "Something Something Darkside",
+      "awayTeam": "Head of the Table",
+      "homeScore": 101.18,
+      "awayScore": 83.53
+    },
+    {
+      "homeTeam": "Narwhal Ballaballs",
+      "awayTeam": "Andre 3000",
+      "homeScore": 104.4,
+      "awayScore": 102.71
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Limu Emu",
+      "homeScore": 167.16,
+      "awayScore": 118.68
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Chappelle's Block Purdy",
+      "homeScore": 79.78,
+      "awayScore": 92.2
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 144.71,
+      "awayScore": 119.78
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Narwhal Ballaballs",
+      "homeScore": 152.12,
+      "awayScore": 70.38
+    },
+    {
+      "homeTeam": "Leche",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 136.84,
+      "awayScore": 107.84
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 103.82,
+      "awayScore": 127.12
+    },
+    {
+      "homeTeam": "KUX DELUXE",
+      "awayTeam": "Head of the Table",
+      "homeScore": 113.6,
+      "awayScore": 148.96
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "GW Fantasy XI Chains of Sacko",
+      "homeScore": 127.66,
+      "awayScore": 167.46
+    },
+    {
+      "homeTeam": "Narwhal Ballaballs",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 130.65,
+      "awayScore": 116.66
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Head of the Table",
+      "homeScore": 106.36,
+      "awayScore": 80.93
+    },
+    {
+      "homeTeam": "Big Diggs Energy",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 83.06,
+      "awayScore": 99.51
+    }
+  ],
+  "week-17": [
+    {
+      "homeTeam": "Andre 3000",
+      "awayTeam": "Leche",
+      "homeScore": 105.35,
+      "awayScore": 107.68
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 124.48,
+      "awayScore": 59.8
+    },
+    {
+      "homeTeam": "Chappelle's Block Purdy",
+      "awayTeam": "Something Something Darkside",
+      "homeScore": 83.06,
+      "awayScore": 121.5
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Wheres Old Man Jenkins",
+      "homeScore": 135.52,
+      "awayScore": 152.9
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Big Diggs Energy",
+      "homeScore": 95.5,
+      "awayScore": 83.29
+    },
+    {
+      "homeTeam": "I Aint Write Back Tho",
+      "awayTeam": "KUX DELUXE",
+      "homeScore": 124.62,
+      "awayScore": 102.25
+    }
+  ]
+}

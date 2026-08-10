@@ -1,8 +1,42 @@
+/* @import "@radix-ui/colors/black-alpha.css"; */
+@import "@radix-ui/colors/gold.css";
+@import "@radix-ui/colors/purple.css";
+@import "@radix-ui/colors/amber.css";
+@import "@radix-ui/colors/sand.css";
+@import "@radix-ui/colors/mauve.css";
+
+
 :root {
-  --background: #0b0726;
-  --foreground: #f5edeb;
+  --foreground: #0b0726;
+  --background: #f5edeb;
 
   --accent: #d4af37;
+
+  --primary-1: var(--purple-1);
+  --primary-2: var(--purple-2);
+  --primary-3: var(--purple-3);
+  --primary-4: var(--purple-4);
+  --primary-5: var(--purple-5);
+  --primary-6: var(--purple-6);
+  --primary-7: var(--purple-7);
+  --primary-8: var(--purple-8);
+  --primary-9: var(--purple-9);
+  --primary-10: var(--purple-10);
+  --primary-11: var(--purple-11);
+  --primary-12: var(--purple-12);
+
+  --secondary-1: var(--gold-1);
+  --secondary-2: var(--gold-2);
+  --secondary-3: var(--gold-3);
+  --secondary-4: var(--gold-4);
+  --secondary-5: var(--gold-5);
+  --secondary-6: var(--gold-6);
+  --secondary-7: var(--gold-7);
+  --secondary-8: var(--gold-8);
+  --secondary-9: var(--gold-9);
+  --secondary-10: var(--gold-10);
+  --secondary-11: var(--gold-11);
+  --secondary-12: var(--gold-12);
 }
 
 @media (prefers-color-scheme: dark) {

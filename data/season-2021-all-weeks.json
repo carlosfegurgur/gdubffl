@@ -1,0 +1,708 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "He Man Woman Heyward",
+      "awayTeam": "Head of the Table",
+      "homeScore": 133.66,
+      "awayScore": 127.48
+    },
+    {
+      "homeTeam": "The Magik Man",
+      "awayTeam": "Bosa Rhymes",
+      "homeScore": 116.24,
+      "awayScore": 152.2
+    },
+    {
+      "homeTeam": "Chuba Chups",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 130.96,
+      "awayScore": 140.48
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "what are you doing step Burrow",
+      "homeScore": 184.58,
+      "awayScore": 155.84
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "That Guy Pal",
+      "homeScore": 201.64,
+      "awayScore": 179.9
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "Hangman Haywire",
+      "homeScore": 126.16,
+      "awayScore": 126.76
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 132.52,
+      "awayScore": 115.56
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "The Magik Man",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 172.06,
+      "awayScore": 120.4
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 99.06,
+      "awayScore": 205.37
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "Chuba Chups",
+      "homeScore": 136.44,
+      "awayScore": 109.58
+    },
+    {
+      "homeTeam": "The Great Berrios Reef",
+      "awayTeam": "what are you doing step Burrow",
+      "homeScore": 145.78,
+      "awayScore": 120.18
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 136.72,
+      "awayScore": 130.3
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "Bosa Rhymes",
+      "homeScore": 125.72,
+      "awayScore": 119.96
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Hangman Haywire",
+      "homeScore": 104.12,
+      "awayScore": 152.4
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 120.14,
+      "awayScore": 174.82
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "The Magik Man",
+      "homeScore": 96.8,
+      "awayScore": 114.99
+    },
+    {
+      "homeTeam": "Chuba Chups",
+      "awayTeam": "Fantasy Football Team",
+      "homeScore": 108.32,
+      "awayScore": 121.97
+    },
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "Head of the Table",
+      "homeScore": 104.78,
+      "awayScore": 154.84
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "what are you doing step Burrow",
+      "homeScore": 135.02,
+      "awayScore": 130.72
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 130.74,
+      "awayScore": 164.73
+    },
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "CARRY ON MY HEYWARD SON",
+      "homeScore": 147.94,
+      "awayScore": 116.28
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Bosa Rhymes",
+      "homeScore": 109.32,
+      "awayScore": 133.64
+    },
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "The Magik Man",
+      "homeScore": 128.58,
+      "awayScore": 144.11
+    },
+    {
+      "homeTeam": "He Man Woman Heyward",
+      "awayTeam": "Chuba Chups",
+      "homeScore": 158.41,
+      "awayScore": 128.02
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "Jesse",
+      "homeScore": 152.92,
+      "awayScore": 96.62
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 137.76,
+      "awayScore": 129.72
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 116.23,
+      "awayScore": 114.02
+    },
+    {
+      "homeTeam": "what are you doing step Burrow",
+      "awayTeam": "Fantasy Football Team",
+      "homeScore": 178.72,
+      "awayScore": 104
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "The Magik Man",
+      "homeScore": 182.7,
+      "awayScore": 130.92
+    },
+    {
+      "homeTeam": "He Man Woman Heyward",
+      "awayTeam": "Head of the Table",
+      "homeScore": 214.93,
+      "awayScore": 209.57
+    },
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "Jesse",
+      "homeScore": 142.42,
+      "awayScore": 118.73
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 178,
+      "awayScore": 107.33
+    },
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "CARRY ON MY HEYWARD SON",
+      "homeScore": 181.08,
+      "awayScore": 164.44
+    },
+    {
+      "homeTeam": "what are you doing step Burrow",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 125.6,
+      "awayScore": 111.11
+    },
+    {
+      "homeTeam": "Chuba Chups",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 156.43,
+      "awayScore": 121.06
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "The Great Berrios Reef",
+      "awayTeam": "The Magik Man",
+      "homeScore": 162.24,
+      "awayScore": 80.88
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Head of the Table",
+      "homeScore": 196.68,
+      "awayScore": 157.8
+    },
+    {
+      "homeTeam": "what are you doing step Burrow",
+      "awayTeam": "Bosa Rhymes",
+      "homeScore": 76.54,
+      "awayScore": 113.53
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 156.58,
+      "awayScore": 132.64
+    },
+    {
+      "homeTeam": "Chuba Chups",
+      "awayTeam": "Hangman Haywire",
+      "homeScore": 128.1,
+      "awayScore": 132.8
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Fantasy Football Team",
+      "homeScore": 154.56,
+      "awayScore": 131.34
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 135.62,
+      "awayScore": 137.9
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "The Magik Man",
+      "homeScore": 81.18,
+      "awayScore": 102.72
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "Head of the Table",
+      "homeScore": 184.56,
+      "awayScore": 176.5
+    },
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 101.99,
+      "awayScore": 89.62
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 81.04,
+      "awayScore": 176.5
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 143.44,
+      "awayScore": 115.56
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "what are you doing step Burrow",
+      "homeScore": 183.54,
+      "awayScore": 174.14
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "Chuba Chups",
+      "homeScore": 131.34,
+      "awayScore": 81.08
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 121.46,
+      "awayScore": 153
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "The Magik Man",
+      "homeScore": 104.02,
+      "awayScore": 101.88
+    },
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 113.62,
+      "awayScore": 87
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "Jesse",
+      "homeScore": 175.9,
+      "awayScore": 97.5
+    },
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "That Guy Pal",
+      "homeScore": 109.42,
+      "awayScore": 150.36
+    },
+    {
+      "homeTeam": "Chuba Chups",
+      "awayTeam": "what are you doing step Burrow",
+      "homeScore": 112.24,
+      "awayScore": 136.51
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 118.8,
+      "awayScore": 112.82
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "Chuba Chups",
+      "homeScore": 122.44,
+      "awayScore": 126.98
+    },
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 108.88,
+      "awayScore": 144.52
+    },
+    {
+      "homeTeam": "what are you doing step Burrow",
+      "awayTeam": "Jesse",
+      "homeScore": 87.68,
+      "awayScore": 90.14
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 119.6,
+      "awayScore": 107.89
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "Head of the Table",
+      "homeScore": 110.36,
+      "awayScore": 121.64
+    },
+    {
+      "homeTeam": "The Magik Man",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 98.9,
+      "awayScore": 108.94
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "CARRY ON MY HEYWARD SON",
+      "homeScore": 150.18,
+      "awayScore": 98.3
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "what are you doing step Burrow",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 138.46,
+      "awayScore": 84.14
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Bosa Rhymes",
+      "homeScore": 130.38,
+      "awayScore": 126.78
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "Head of the Table",
+      "homeScore": 94.2,
+      "awayScore": 121.8
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "The Magik Man",
+      "homeScore": 91.42,
+      "awayScore": 105.1
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Hangman Haywire",
+      "homeScore": 109.98,
+      "awayScore": 107.72
+    },
+    {
+      "homeTeam": "The Great Berrios Reef",
+      "awayTeam": "That Guy Pal",
+      "homeScore": 126.52,
+      "awayScore": 122.04
+    },
+    {
+      "homeTeam": "Chuba Chups",
+      "awayTeam": "Jesse",
+      "homeScore": 131.04,
+      "awayScore": 143.44
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "Hangman Haywire",
+      "homeScore": 113.57,
+      "awayScore": 115.86
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "That Guy Pal",
+      "homeScore": 96.48,
+      "awayScore": 158.91
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Head of the Table",
+      "homeScore": 67.32,
+      "awayScore": 125.78
+    },
+    {
+      "homeTeam": "what are you doing step Burrow",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 139.14,
+      "awayScore": 169.3
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Fantasy Football Team",
+      "homeScore": 66.7,
+      "awayScore": 117.38
+    },
+    {
+      "homeTeam": "He Man Woman Heyward",
+      "awayTeam": "The Magik Man",
+      "homeScore": 130.6,
+      "awayScore": 123.44
+    },
+    {
+      "homeTeam": "The Great Berrios Reef",
+      "awayTeam": "Chuba Chups",
+      "homeScore": 130.92,
+      "awayScore": 156.24
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "The Magik Man",
+      "awayTeam": "Head of the Table",
+      "homeScore": 113.25,
+      "awayScore": 94.62
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "Hangman Haywire",
+      "homeScore": 99.8,
+      "awayScore": 122.38
+    },
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 103.3,
+      "awayScore": 167.58
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 85.42,
+      "awayScore": 96.22
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 145.98,
+      "awayScore": 155.68
+    },
+    {
+      "homeTeam": "Chuba Chups",
+      "awayTeam": "what are you doing step Burrow",
+      "homeScore": 136.36,
+      "awayScore": 133.22
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 96.84,
+      "awayScore": 108.8
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "The Magik Man",
+      "awayTeam": "CARRY ON MY HEYWARD SON",
+      "homeScore": 155.42,
+      "awayScore": 162.42
+    },
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "That Guy Pal",
+      "homeScore": 95.02,
+      "awayScore": 110.1
+    },
+    {
+      "homeTeam": "what are you doing step Burrow",
+      "awayTeam": "Hangman Haywire",
+      "homeScore": 150.7,
+      "awayScore": 116.9
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 114.46,
+      "awayScore": 129.56
+    },
+    {
+      "homeTeam": "He Man Woman Heyward",
+      "awayTeam": "Fantasy Football Team",
+      "homeScore": 117.61,
+      "awayScore": 114.6
+    },
+    {
+      "homeTeam": "Chuba Chups",
+      "awayTeam": "DISRE2PECT",
+      "homeScore": 93.42,
+      "awayScore": 102.03
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "The Great Berrios Reef",
+      "homeScore": 153.58,
+      "awayScore": 137.36
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "The Magik Man",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 163.74,
+      "awayScore": 174.35
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Bosa Rhymes",
+      "homeScore": 175.4,
+      "awayScore": 82.58
+    },
+    {
+      "homeTeam": "CARRY ON MY HEYWARD SON",
+      "awayTeam": "That Guy Pal",
+      "homeScore": 114.22,
+      "awayScore": 142.82
+    },
+    {
+      "homeTeam": "The Great Berrios Reef",
+      "awayTeam": "what are you doing step Burrow",
+      "homeScore": 168.09,
+      "awayScore": 97.74
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Chuba Chups",
+      "homeScore": 139.07,
+      "awayScore": 119.94
+    },
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 107.92,
+      "awayScore": 195.09
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Fantasy Football Team",
+      "homeScore": 109.67,
+      "awayScore": 122.38
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "The Magik Man",
+      "awayTeam": "Jesse",
+      "homeScore": 93.55,
+      "awayScore": 108.2
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Bosa Rhymes",
+      "homeScore": 94.38,
+      "awayScore": 129.55
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "Head of the Table",
+      "homeScore": 132.1,
+      "awayScore": 96.14
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 130.96,
+      "awayScore": 107.82
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "Jesse",
+      "homeScore": 122.26,
+      "awayScore": 104.22
+    },
+    {
+      "homeTeam": "Bosa Rhymes",
+      "awayTeam": "CARRY ON MY HEYWARD SON",
+      "homeScore": 95.7,
+      "awayScore": 118.08
+    },
+    {
+      "homeTeam": "The Great Berrios Reef",
+      "awayTeam": "That Guy Pal",
+      "homeScore": 149.72,
+      "awayScore": 154.36
+    },
+    {
+      "homeTeam": "Fantasy Football Team",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 112.88,
+      "awayScore": 136.54
+    }
+  ],
+  "week-17": [
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "what are you doing step Burrow",
+      "homeScore": 113.06,
+      "awayScore": 158.04
+    },
+    {
+      "homeTeam": "Hangman Haywire",
+      "awayTeam": "Bosa Rhymes",
+      "homeScore": 124.46,
+      "awayScore": 64.7
+    },
+    {
+      "homeTeam": "DISRE2PECT",
+      "awayTeam": "Chuba Chups",
+      "homeScore": 114.92,
+      "awayScore": 77.29
+    },
+    {
+      "homeTeam": "That Guy Pal",
+      "awayTeam": "He Man Woman Heyward",
+      "homeScore": 179.9,
+      "awayScore": 156.74
+    },
+    {
+      "homeTeam": "The Great Berrios Reef",
+      "awayTeam": "Fantasy Football Team",
+      "homeScore": 150.62,
+      "awayScore": 130.36
+    },
+    {
+      "homeTeam": "Head of the Table",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 169.88,
+      "awayScore": 84.32
+    }
+  ]
+}

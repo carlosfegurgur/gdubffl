@@ -1,0 +1,664 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Fallen Kingdom",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 95.04,
+      "awayScore": 119.58
+    },
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 105.15,
+      "awayScore": 56.78
+    },
+    {
+      "homeTeam": "Hafa Addae",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 108.82,
+      "awayScore": 119.33
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 97.22,
+      "awayScore": 89.98
+    },
+    {
+      "homeTeam": "Golden Tate Warriors",
+      "awayTeam": "RUN CMC",
+      "homeScore": 118.84,
+      "awayScore": 127.14
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "Titty City",
+      "homeScore": 112.02,
+      "awayScore": 67.8
+    },
+    {
+      "homeTeam": "Winter Is Coming",
+      "awayTeam": "House Griffendor",
+      "homeScore": 119.29,
+      "awayScore": 191.14
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "Fallen Kingdom",
+      "homeScore": 56.71,
+      "awayScore": 160.52
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 96.88,
+      "awayScore": 153.32
+    },
+    {
+      "homeTeam": "BYE WEEK",
+      "awayTeam": "C Hawks",
+      "homeScore": 110.68,
+      "awayScore": 87.57
+    },
+    {
+      "homeTeam": "kaMaratavis Bryants",
+      "awayTeam": "Golden Tate Warriors",
+      "homeScore": 109.46,
+      "awayScore": 107.72
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Exotic Engram",
+      "homeScore": 110,
+      "awayScore": 99.22
+    },
+    {
+      "homeTeam": "RUN CMC",
+      "awayTeam": "Winter Is Coming",
+      "homeScore": 77.88,
+      "awayScore": 112.09
+    },
+    {
+      "homeTeam": "Titty City",
+      "awayTeam": "House Griffendor",
+      "homeScore": 144.7,
+      "awayScore": 98
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "Fallen Kingdom",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 106.68,
+      "awayScore": 92.02
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "Damn your Kuechy stinks",
+      "homeScore": 136.82,
+      "awayScore": 165.8
+    },
+    {
+      "homeTeam": "Golden Tate Warriors",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 141.62,
+      "awayScore": 92.06
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 151.1,
+      "awayScore": 118.52
+    },
+    {
+      "homeTeam": "Winter Is Coming",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 102.4,
+      "awayScore": 110.84
+    },
+    {
+      "homeTeam": "House Griffendor",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 123.06,
+      "awayScore": 102.72
+    },
+    {
+      "homeTeam": "Titty City",
+      "awayTeam": "RUN CMC",
+      "homeScore": 143.8,
+      "awayScore": 145.76
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "Fallen Kingdom",
+      "homeScore": 136,
+      "awayScore": 128.18
+    },
+    {
+      "homeTeam": "Hafa Addae",
+      "awayTeam": "Golden Tate Warriors",
+      "homeScore": 156.78,
+      "awayScore": 108.26
+    },
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "Exotic Engram",
+      "homeScore": 99.2,
+      "awayScore": 109.22
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Winter Is Coming",
+      "homeScore": 98.46,
+      "awayScore": 156.47
+    },
+    {
+      "homeTeam": "BYE WEEK",
+      "awayTeam": "House Griffendor",
+      "homeScore": 79.08,
+      "awayScore": 114.64
+    },
+    {
+      "homeTeam": "kaMaratavis Bryants",
+      "awayTeam": "Titty City",
+      "homeScore": 107.63,
+      "awayScore": 129.88
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "RUN CMC",
+      "homeScore": 142.39,
+      "awayScore": 91.48
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "Fallen Kingdom",
+      "awayTeam": "Golden Tate Warriors",
+      "homeScore": 91.88,
+      "awayScore": 99.74
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "C Hawks",
+      "homeScore": 149.74,
+      "awayScore": 104.87
+    },
+    {
+      "homeTeam": "Winter Is Coming",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 100.14,
+      "awayScore": 145.54
+    },
+    {
+      "homeTeam": "House Griffendor",
+      "awayTeam": "Damn your Kuechy stinks",
+      "homeScore": 113.62,
+      "awayScore": 119.7
+    },
+    {
+      "homeTeam": "Titty City",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 84.94,
+      "awayScore": 139.76
+    },
+    {
+      "homeTeam": "RUN CMC",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 133.46,
+      "awayScore": 91.37
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 97.1,
+      "awayScore": 133.26
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "Fallen Kingdom",
+      "homeScore": 136.15,
+      "awayScore": 111.47
+    },
+    {
+      "homeTeam": "Golden Tate Warriors",
+      "awayTeam": "Winter Is Coming",
+      "homeScore": 82.42,
+      "awayScore": 94.64
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "House Griffendor",
+      "homeScore": 117.52,
+      "awayScore": 123.88
+    },
+    {
+      "homeTeam": "Hafa Addae",
+      "awayTeam": "Titty City",
+      "homeScore": 90.74,
+      "awayScore": 72.24
+    },
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "RUN CMC",
+      "homeScore": 166.1,
+      "awayScore": 114.22
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 115.49,
+      "awayScore": 162.61
+    },
+    {
+      "homeTeam": "BYE WEEK",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 100.28,
+      "awayScore": 113.92
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Fallen Kingdom",
+      "awayTeam": "Winter Is Coming",
+      "homeScore": 113.52,
+      "awayScore": 155.04
+    },
+    {
+      "homeTeam": "House Griffendor",
+      "awayTeam": "Exotic Engram",
+      "homeScore": 101.57,
+      "awayScore": 107.88
+    },
+    {
+      "homeTeam": "Titty City",
+      "awayTeam": "Golden Tate Warriors",
+      "homeScore": 157.91,
+      "awayScore": 94.96
+    },
+    {
+      "homeTeam": "RUN CMC",
+      "awayTeam": "C Hawks",
+      "homeScore": 110.02,
+      "awayScore": 145.16
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 155.49,
+      "awayScore": 128.26
+    },
+    {
+      "homeTeam": "kaMaratavis Bryants",
+      "awayTeam": "Damn your Kuechy stinks",
+      "homeScore": 114.82,
+      "awayScore": 101.62
+    },
+    {
+      "homeTeam": "BYE WEEK",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 68.86,
+      "awayScore": 72.42
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "House Griffendor",
+      "awayTeam": "Fallen Kingdom",
+      "homeScore": 126.72,
+      "awayScore": 116.83
+    },
+    {
+      "homeTeam": "Winter Is Coming",
+      "awayTeam": "Titty City",
+      "homeScore": 201.81,
+      "awayScore": 102.3
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "RUN CMC",
+      "homeScore": 99.88,
+      "awayScore": 82.78
+    },
+    {
+      "homeTeam": "Golden Tate Warriors",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 73.82,
+      "awayScore": 125.06
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 190.78,
+      "awayScore": 113.54
+    },
+    {
+      "homeTeam": "Hafa Addae",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 128.32,
+      "awayScore": 87.52
+    },
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 87.82,
+      "awayScore": 130.58
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Fallen Kingdom",
+      "awayTeam": "Titty City",
+      "homeScore": 109.54,
+      "awayScore": 164.54
+    },
+    {
+      "homeTeam": "RUN CMC",
+      "awayTeam": "House Griffendor",
+      "homeScore": 131.12,
+      "awayScore": 88.22
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Winter Is Coming",
+      "homeScore": 114.58,
+      "awayScore": 119.62
+    },
+    {
+      "homeTeam": "kaMaratavis Bryants",
+      "awayTeam": "Exotic Engram",
+      "homeScore": 129.81,
+      "awayScore": 133.92
+    },
+    {
+      "homeTeam": "BYE WEEK",
+      "awayTeam": "Golden Tate Warriors",
+      "homeScore": 131.36,
+      "awayScore": 110.6
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "C Hawks",
+      "homeScore": 75.6,
+      "awayScore": 117.33
+    },
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 82.58,
+      "awayScore": 83.46
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "RUN CMC",
+      "awayTeam": "Fallen Kingdom",
+      "homeScore": 127.4,
+      "awayScore": 124.86
+    },
+    {
+      "homeTeam": "Titty City",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 136.1,
+      "awayScore": 122.66
+    },
+    {
+      "homeTeam": "House Griffendor",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 100.54,
+      "awayScore": 108.5
+    },
+    {
+      "homeTeam": "Winter Is Coming",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 111.26,
+      "awayScore": 79.14
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 80.04,
+      "awayScore": 123.68
+    },
+    {
+      "homeTeam": "Golden Tate Warriors",
+      "awayTeam": "Damn your Kuechy stinks",
+      "homeScore": 153.37,
+      "awayScore": 99.28
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 118.62,
+      "awayScore": 87.14
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Fallen Kingdom",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 116.66,
+      "awayScore": 118
+    },
+    {
+      "homeTeam": "kaMaratavis Bryants",
+      "awayTeam": "RUN CMC",
+      "homeScore": 107.12,
+      "awayScore": 160.75
+    },
+    {
+      "homeTeam": "BYE WEEK",
+      "awayTeam": "Titty City",
+      "homeScore": 130.2,
+      "awayScore": 118.9
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "House Griffendor",
+      "homeScore": 108.04,
+      "awayScore": 170.34
+    },
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "Winter Is Coming",
+      "homeScore": 149.68,
+      "awayScore": 101.5
+    },
+    {
+      "homeTeam": "Hafa Addae",
+      "awayTeam": "Exotic Engram",
+      "homeScore": 101.8,
+      "awayScore": 73.36
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "Golden Tate Warriors",
+      "homeScore": 148.72,
+      "awayScore": 81.83
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "kaMaratavis Bryants",
+      "awayTeam": "Fallen Kingdom",
+      "homeScore": 182.88,
+      "awayScore": 103.02
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 99.42,
+      "awayScore": 127.02
+    },
+    {
+      "homeTeam": "RUN CMC",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 104.88,
+      "awayScore": 152.46
+    },
+    {
+      "homeTeam": "Titty City",
+      "awayTeam": "Damn your Kuechy stinks",
+      "homeScore": 205.86,
+      "awayScore": 129.88
+    },
+    {
+      "homeTeam": "House Griffendor",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 84.36,
+      "awayScore": 145.56
+    },
+    {
+      "homeTeam": "Winter Is Coming",
+      "awayTeam": "C Hawks",
+      "homeScore": 162.44,
+      "awayScore": 93.72
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "Golden Tate Warriors",
+      "homeScore": 117.84,
+      "awayScore": 96.22
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "Fallen Kingdom",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 108,
+      "awayScore": 88.12
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 85.16,
+      "awayScore": 160.07
+    },
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 105.74,
+      "awayScore": 110.72
+    },
+    {
+      "homeTeam": "Hafa Addae",
+      "awayTeam": "RUN CMC",
+      "homeScore": 126.75,
+      "awayScore": 136.84
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "Titty City",
+      "homeScore": 139.88,
+      "awayScore": 95.15
+    },
+    {
+      "homeTeam": "Golden Tate Warriors",
+      "awayTeam": "House Griffendor",
+      "homeScore": 110.28,
+      "awayScore": 153.67
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "Winter Is Coming",
+      "homeScore": 119.1,
+      "awayScore": 94.16
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "Titty City",
+      "awayTeam": "Damn your Kuechy stinks",
+      "homeScore": 101.26,
+      "awayScore": 131.54
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 138.06,
+      "awayScore": 75.32
+    },
+    {
+      "homeTeam": "Winter Is Coming",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 109.54,
+      "awayScore": 126.1
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "RUN CMC",
+      "homeScore": 136.84,
+      "awayScore": 98.32
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "House Griffendor",
+      "awayTeam": "Damn your Kuechy stinks",
+      "homeScore": 171.24,
+      "awayScore": 78.44
+    },
+    {
+      "homeTeam": "Waiver Wire Heroes",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 83.68,
+      "awayScore": 132.45
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "Hafa Addae",
+      "homeScore": 146.64,
+      "awayScore": 134.78
+    },
+    {
+      "homeTeam": "C Hawks",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 98.48,
+      "awayScore": 99.62
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "House Griffendor",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 99.78,
+      "awayScore": 86.52
+    },
+    {
+      "homeTeam": "Damn your Kuechy stinks",
+      "awayTeam": "Waiver Wire Heroes",
+      "homeScore": 93.16,
+      "awayScore": 139.55
+    },
+    {
+      "homeTeam": "Titty City",
+      "awayTeam": "BYE WEEK",
+      "homeScore": 163.14,
+      "awayScore": 99.66
+    },
+    {
+      "homeTeam": "Exotic Engram",
+      "awayTeam": "kaMaratavis Bryants",
+      "homeScore": 99.44,
+      "awayScore": 103.58
+    },
+    {
+      "homeTeam": "Hafa Addae",
+      "awayTeam": "C Hawks",
+      "homeScore": 124.22,
+      "awayScore": 112.46
+    },
+    {
+      "homeTeam": "Winter Is Coming",
+      "awayTeam": "RUN CMC",
+      "homeScore": 109.61,
+      "awayScore": 101.36
+    }
+  ]
+}

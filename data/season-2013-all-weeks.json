@@ -1,0 +1,490 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "DEZpicable ME",
+      "homeScore": 180.86,
+      "awayScore": 92.7
+    },
+    {
+      "homeTeam": "The Real Slim Shady",
+      "awayTeam": "kux deluxe",
+      "homeScore": 137.76,
+      "awayScore": 188.02
+    },
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "easy breesy",
+      "homeScore": 192.02,
+      "awayScore": 132.38
+    },
+    {
+      "homeTeam": "Wrath Of Cunt",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 172.98,
+      "awayScore": 147.28
+    },
+    {
+      "homeTeam": "Mister Irrelevant",
+      "awayTeam": "Go BIG GREEN",
+      "homeScore": 146.52,
+      "awayScore": 182.32
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "The Real Slim Shady",
+      "homeScore": 113.52,
+      "awayScore": 157.9
+    },
+    {
+      "homeTeam": "DEZpicable ME",
+      "awayTeam": "Wrath Of Cunt",
+      "homeScore": 171.56,
+      "awayScore": 128.48
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Mister Irrelevant",
+      "homeScore": 180.16,
+      "awayScore": 150.44
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 136,
+      "awayScore": 183.42
+    },
+    {
+      "homeTeam": "easy breesy",
+      "awayTeam": "Go BIG GREEN",
+      "homeScore": 144.58,
+      "awayScore": 162.7
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "Mister Irrelevant",
+      "awayTeam": "Wrath Of Cunt",
+      "homeScore": 130.1,
+      "awayScore": 150.66
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "The Real Slim Shady",
+      "homeScore": 126.7,
+      "awayScore": 144.44
+    },
+    {
+      "homeTeam": "Go BIG GREEN",
+      "awayTeam": "Demaryius Targaryen",
+      "homeScore": 113.76,
+      "awayScore": 154.8
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "DEZpicable ME",
+      "homeScore": 120.64,
+      "awayScore": 172.72
+    },
+    {
+      "homeTeam": "easy breesy",
+      "awayTeam": "Guamfucius",
+      "homeScore": 103.88,
+      "awayScore": 105.6
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "Go BIG GREEN",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 174.2,
+      "awayScore": 143.28
+    },
+    {
+      "homeTeam": "Wrath Of Cunt",
+      "awayTeam": "kux deluxe",
+      "homeScore": 141.88,
+      "awayScore": 252.54
+    },
+    {
+      "homeTeam": "Mister Irrelevant",
+      "awayTeam": "easy breesy",
+      "homeScore": 171.68,
+      "awayScore": 206.02
+    },
+    {
+      "homeTeam": "The Real Slim Shady",
+      "awayTeam": "DEZpicable ME",
+      "homeScore": 127.64,
+      "awayScore": 137.58
+    },
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "Guamfucius",
+      "homeScore": 187.14,
+      "awayScore": 145.54
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "easy breesy",
+      "awayTeam": "kux deluxe",
+      "homeScore": 213.82,
+      "awayScore": 117.68
+    },
+    {
+      "homeTeam": "DEZpicable ME",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 163.02,
+      "awayScore": 125.58
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Go BIG GREEN",
+      "homeScore": 153.56,
+      "awayScore": 126.16
+    },
+    {
+      "homeTeam": "The Real Slim Shady",
+      "awayTeam": "Wrath Of Cunt",
+      "homeScore": 157.3,
+      "awayScore": 182.16
+    },
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "Mister Irrelevant",
+      "homeScore": 123.44,
+      "awayScore": 127.88
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "The Real Slim Shady",
+      "awayTeam": "Guamfucius",
+      "homeScore": 118.28,
+      "awayScore": 182.28
+    },
+    {
+      "homeTeam": "Wrath Of Cunt",
+      "awayTeam": "Demaryius Targaryen",
+      "homeScore": 149.9,
+      "awayScore": 123.7
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "Mister Irrelevant",
+      "homeScore": 131.62,
+      "awayScore": 126.28
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Go BIG GREEN",
+      "homeScore": 163.24,
+      "awayScore": 114.9
+    },
+    {
+      "homeTeam": "DEZpicable ME",
+      "awayTeam": "easy breesy",
+      "homeScore": 129.18,
+      "awayScore": 175.24
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Wrath Of Cunt",
+      "homeScore": 144.22,
+      "awayScore": 189.84
+    },
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 109.58,
+      "awayScore": 155.18
+    },
+    {
+      "homeTeam": "Mister Irrelevant",
+      "awayTeam": "kux deluxe",
+      "homeScore": 113.92,
+      "awayScore": 152.12
+    },
+    {
+      "homeTeam": "Go BIG GREEN",
+      "awayTeam": "DEZpicable ME",
+      "homeScore": 145.2,
+      "awayScore": 136.76
+    },
+    {
+      "homeTeam": "easy breesy",
+      "awayTeam": "The Real Slim Shady",
+      "homeScore": 113,
+      "awayScore": 123.5
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "Guamfucius",
+      "homeScore": 130.72,
+      "awayScore": 136.24
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Demaryius Targaryen",
+      "homeScore": 154.98,
+      "awayScore": 169.84
+    },
+    {
+      "homeTeam": "DEZpicable ME",
+      "awayTeam": "Mister Irrelevant",
+      "homeScore": 148.64,
+      "awayScore": 123.72
+    },
+    {
+      "homeTeam": "The Real Slim Shady",
+      "awayTeam": "Go BIG GREEN",
+      "homeScore": 62.8,
+      "awayScore": 129
+    },
+    {
+      "homeTeam": "Wrath Of Cunt",
+      "awayTeam": "easy breesy",
+      "homeScore": 200.66,
+      "awayScore": 130.38
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "kux deluxe",
+      "homeScore": 183.06,
+      "awayScore": 119.44
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "DEZpicable ME",
+      "homeScore": 94.36,
+      "awayScore": 190.16
+    },
+    {
+      "homeTeam": "easy breesy",
+      "awayTeam": "Demaryius Targaryen",
+      "homeScore": 192.68,
+      "awayScore": 144.18
+    },
+    {
+      "homeTeam": "Wrath Of Cunt",
+      "awayTeam": "The Real Slim Shady",
+      "homeScore": 141.6,
+      "awayScore": 134.94
+    },
+    {
+      "homeTeam": "Go BIG GREEN",
+      "awayTeam": "Mister Irrelevant",
+      "homeScore": 118.68,
+      "awayScore": 177.8
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "DEZpicable ME",
+      "homeScore": 204.42,
+      "awayScore": 91.56
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "The Real Slim Shady",
+      "homeScore": 126.74,
+      "awayScore": 133.92
+    },
+    {
+      "homeTeam": "Mister Irrelevant",
+      "awayTeam": "Guamfucius",
+      "homeScore": 109.62,
+      "awayScore": 131.42
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "Wrath Of Cunt",
+      "homeScore": 122.96,
+      "awayScore": 207.1
+    },
+    {
+      "homeTeam": "Go BIG GREEN",
+      "awayTeam": "easy breesy",
+      "homeScore": 121.16,
+      "awayScore": 159.48
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Mister Irrelevant",
+      "awayTeam": "The Real Slim Shady",
+      "homeScore": 110.78,
+      "awayScore": 131.12
+    },
+    {
+      "homeTeam": "Wrath Of Cunt",
+      "awayTeam": "DEZpicable ME",
+      "homeScore": 135.12,
+      "awayScore": 139.3
+    },
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "Go BIG GREEN",
+      "homeScore": 128.24,
+      "awayScore": 104.92
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "kux deluxe",
+      "homeScore": 152.78,
+      "awayScore": 125.56
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "easy breesy",
+      "homeScore": 173.12,
+      "awayScore": 109.6
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "Go BIG GREEN",
+      "awayTeam": "Wrath Of Cunt",
+      "homeScore": 184.5,
+      "awayScore": 126.1
+    },
+    {
+      "homeTeam": "The Real Slim Shady",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 158.38,
+      "awayScore": 95.28
+    },
+    {
+      "homeTeam": "easy breesy",
+      "awayTeam": "Mister Irrelevant",
+      "homeScore": 107.42,
+      "awayScore": 99.52
+    },
+    {
+      "homeTeam": "DEZpicable ME",
+      "awayTeam": "kux deluxe",
+      "homeScore": 180.86,
+      "awayScore": 179.76
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Demaryius Targaryen",
+      "homeScore": 105.68,
+      "awayScore": 169.06
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "easy breesy",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 138.08,
+      "awayScore": 90
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Wrath Of Cunt",
+      "homeScore": 181.44,
+      "awayScore": 208.52
+    },
+    {
+      "homeTeam": "Go BIG GREEN",
+      "awayTeam": "Guamfucius",
+      "homeScore": 165.6,
+      "awayScore": 161.48
+    },
+    {
+      "homeTeam": "DEZpicable ME",
+      "awayTeam": "The Real Slim Shady",
+      "homeScore": 146.04,
+      "awayScore": 102.68
+    },
+    {
+      "homeTeam": "Mister Irrelevant",
+      "awayTeam": "Demaryius Targaryen",
+      "homeScore": 179.7,
+      "awayScore": 123.2
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "easy breesy",
+      "homeScore": 157.96,
+      "awayScore": 142.42
+    },
+    {
+      "homeTeam": "Wrath Of Cunt",
+      "awayTeam": "Go BIG GREEN",
+      "homeScore": 184.78,
+      "awayScore": 116.4
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "The Real Slim Shady",
+      "awayTeam": "Mister Irrelevant",
+      "homeScore": 117.84,
+      "awayScore": 147.7
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 161.14,
+      "awayScore": 185.2
+    },
+    {
+      "homeTeam": "DEZpicable ME",
+      "awayTeam": "Demaryius Targaryen",
+      "homeScore": 165.92,
+      "awayScore": 120.82
+    },
+    {
+      "homeTeam": "Wrath Of Cunt",
+      "awayTeam": "Guamfucius",
+      "homeScore": 156.26,
+      "awayScore": 175.22
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Mister Irrelevant",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 117.34,
+      "awayScore": 123.88
+    },
+    {
+      "homeTeam": "The Real Slim Shady",
+      "awayTeam": "kux deluxe",
+      "homeScore": 128.44,
+      "awayScore": 138.28
+    },
+    {
+      "homeTeam": "DEZpicable ME",
+      "awayTeam": "Guamfucius",
+      "homeScore": 124.04,
+      "awayScore": 104.5
+    },
+    {
+      "homeTeam": "Demaryius Targaryen",
+      "awayTeam": "Wrath Of Cunt",
+      "homeScore": 122.84,
+      "awayScore": 146.6
+    },
+    {
+      "homeTeam": "easy breesy",
+      "awayTeam": "Go BIG GREEN",
+      "homeScore": 127.14,
+      "awayScore": 110.98
+    }
+  ]
+}

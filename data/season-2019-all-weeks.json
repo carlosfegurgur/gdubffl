@@ -1,0 +1,664 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Action Jackson",
+      "awayTeam": "The Indian in the Hubbard",
+      "homeScore": 131.2,
+      "awayScore": 127.5
+    },
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 145.42,
+      "awayScore": 240.23
+    },
+    {
+      "homeTeam": "Juicy Smollett",
+      "awayTeam": "HooperScooper",
+      "homeScore": 147.6,
+      "awayScore": 139.42
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 148.46,
+      "awayScore": 136.12
+    },
+    {
+      "homeTeam": "Team is a bunch of gurleys",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 153.02,
+      "awayScore": 141.29
+    },
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "Our Gordon Savior",
+      "homeScore": 88.42,
+      "awayScore": 168.92
+    },
+    {
+      "homeTeam": "el Poyer Loco",
+      "awayTeam": "Clamari cooper",
+      "homeScore": 129.84,
+      "awayScore": 128.41
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "Action Jackson",
+      "homeScore": 81.52,
+      "awayScore": 151.88
+    },
+    {
+      "homeTeam": "The Indian in the Hubbard",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 103.02,
+      "awayScore": 134.8
+    },
+    {
+      "homeTeam": "WINTTER is coming",
+      "awayTeam": "Higbee Baby One More Time",
+      "homeScore": 141.76,
+      "awayScore": 164.7
+    },
+    {
+      "homeTeam": "HooperScooper",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 112.61,
+      "awayScore": 167.12
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "You my Younghoe",
+      "homeScore": 142.74,
+      "awayScore": 120.32
+    },
+    {
+      "homeTeam": "Chris CarSaquon Barkley",
+      "awayTeam": "el Poyer Loco",
+      "homeScore": 112.22,
+      "awayScore": 134.16
+    },
+    {
+      "homeTeam": "Our Gordon Savior",
+      "awayTeam": "Clamari cooper",
+      "homeScore": 191.21,
+      "awayScore": 147.82
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "Action Jackson",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 142.23,
+      "awayScore": 236.74
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Cumming on WINTTER",
+      "homeScore": 177.16,
+      "awayScore": 137.16
+    },
+    {
+      "homeTeam": "Team is a bunch of gurleys",
+      "awayTeam": "The Indian in the Hubbard",
+      "homeScore": 99.26,
+      "awayScore": 154.2
+    },
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 130,
+      "awayScore": 106.14
+    },
+    {
+      "homeTeam": "el Poyer Loco",
+      "awayTeam": "HooperScooper",
+      "homeScore": 160.14,
+      "awayScore": 144.94
+    },
+    {
+      "homeTeam": "Clamari cooper",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 115.12,
+      "awayScore": 109.43
+    },
+    {
+      "homeTeam": "Our Gordon Savior",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 156.67,
+      "awayScore": 146.04
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Action Jackson",
+      "homeScore": 157.58,
+      "awayScore": 153.13
+    },
+    {
+      "homeTeam": "Juicy Smollett",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 139.8,
+      "awayScore": 129.9
+    },
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "You my Younghoe",
+      "homeScore": 114.75,
+      "awayScore": 124.48
+    },
+    {
+      "homeTeam": "The Indian in the Hubbard",
+      "awayTeam": "el Poyer Loco",
+      "homeScore": 109.4,
+      "awayScore": 61.1
+    },
+    {
+      "homeTeam": "WINTTER is coming",
+      "awayTeam": "Clamari cooper",
+      "homeScore": 85.72,
+      "awayScore": 138.89
+    },
+    {
+      "homeTeam": "HooperScooper",
+      "awayTeam": "Our Gordon Savior",
+      "homeScore": 176.7,
+      "awayScore": 104.74
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 105.7,
+      "awayScore": 138.68
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "Action Jackson",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 148.36,
+      "awayScore": 102.24
+    },
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "Higbee Baby One More Time",
+      "homeScore": 98.96,
+      "awayScore": 202.4
+    },
+    {
+      "homeTeam": "el Poyer Loco",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 132.32,
+      "awayScore": 177.82
+    },
+    {
+      "homeTeam": "Clamari cooper",
+      "awayTeam": "Cumming on WINTTER",
+      "homeScore": 211.28,
+      "awayScore": 111.94
+    },
+    {
+      "homeTeam": "Our Gordon Savior",
+      "awayTeam": "The Indian in the Hubbard",
+      "homeScore": 107.38,
+      "awayScore": 84.74
+    },
+    {
+      "homeTeam": "Chris CarSaquon Barkley",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 110.34,
+      "awayScore": 198.92
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "HooperScooper",
+      "homeScore": 114.16,
+      "awayScore": 201.74
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "Action Jackson",
+      "homeScore": 90.2,
+      "awayScore": 100.34
+    },
+    {
+      "homeTeam": "Team is a bunch of gurleys",
+      "awayTeam": "el Poyer Loco",
+      "homeScore": 73.52,
+      "awayScore": 148.41
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Clamari cooper",
+      "homeScore": 156.14,
+      "awayScore": 91.97
+    },
+    {
+      "homeTeam": "Juicy Smollett",
+      "awayTeam": "Our Gordon Savior",
+      "homeScore": 142.65,
+      "awayScore": 167
+    },
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 115.4,
+      "awayScore": 107.78
+    },
+    {
+      "homeTeam": "The Indian in the Hubbard",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 88.82,
+      "awayScore": 137.34
+    },
+    {
+      "homeTeam": "WINTTER is coming",
+      "awayTeam": "HooperScooper",
+      "homeScore": 165.92,
+      "awayScore": 167.6
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Action Jackson",
+      "awayTeam": "el Poyer Loco",
+      "homeScore": 187.52,
+      "awayScore": 133.56
+    },
+    {
+      "homeTeam": "Clamari cooper",
+      "awayTeam": "You my Younghoe",
+      "homeScore": 93.17,
+      "awayScore": 158.46
+    },
+    {
+      "homeTeam": "Our Gordon Savior",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 142.86,
+      "awayScore": 90.64
+    },
+    {
+      "homeTeam": "Chris CarSaquon Barkley",
+      "awayTeam": "Higbee Baby One More Time",
+      "homeScore": 129.02,
+      "awayScore": 123.26
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 116.19,
+      "awayScore": 88.44
+    },
+    {
+      "homeTeam": "HooperScooper",
+      "awayTeam": "Cumming on WINTTER",
+      "homeScore": 115.22,
+      "awayScore": 129.24
+    },
+    {
+      "homeTeam": "WINTTER is coming",
+      "awayTeam": "The Indian in the Hubbard",
+      "homeScore": 120.86,
+      "awayScore": 118.95
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Clamari cooper",
+      "awayTeam": "Action Jackson",
+      "homeScore": 141.08,
+      "awayScore": 160.26
+    },
+    {
+      "homeTeam": "el Poyer Loco",
+      "awayTeam": "Our Gordon Savior",
+      "homeScore": 118.11,
+      "awayScore": 125.1
+    },
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 126,
+      "awayScore": 122.55
+    },
+    {
+      "homeTeam": "Team is a bunch of gurleys",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 134.58,
+      "awayScore": 153.28
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "HooperScooper",
+      "homeScore": 177.12,
+      "awayScore": 155.96
+    },
+    {
+      "homeTeam": "Juicy Smollett",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 166.78,
+      "awayScore": 159.36
+    },
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "The Indian in the Hubbard",
+      "homeScore": 137.34,
+      "awayScore": 97.16
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Action Jackson",
+      "awayTeam": "Our Gordon Savior",
+      "homeScore": 115.72,
+      "awayScore": 94.6
+    },
+    {
+      "homeTeam": "Chris CarSaquon Barkley",
+      "awayTeam": "Clamari cooper",
+      "homeScore": 146.25,
+      "awayScore": 111.76
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "el Poyer Loco",
+      "homeScore": 127.06,
+      "awayScore": 100.6
+    },
+    {
+      "homeTeam": "HooperScooper",
+      "awayTeam": "You my Younghoe",
+      "homeScore": 124.44,
+      "awayScore": 109.84
+    },
+    {
+      "homeTeam": "WINTTER is coming",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 171.53,
+      "awayScore": 226.19
+    },
+    {
+      "homeTeam": "The Indian in the Hubbard",
+      "awayTeam": "Higbee Baby One More Time",
+      "homeScore": 132.66,
+      "awayScore": 141.08
+    },
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 78.76,
+      "awayScore": 201.72
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Chris CarSaquon Barkley",
+      "awayTeam": "Action Jackson",
+      "homeScore": 144,
+      "awayScore": 142.02
+    },
+    {
+      "homeTeam": "Our Gordon Savior",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 95.84,
+      "awayScore": 222.66
+    },
+    {
+      "homeTeam": "Clamari cooper",
+      "awayTeam": "HooperScooper",
+      "homeScore": 177.42,
+      "awayScore": 142.06
+    },
+    {
+      "homeTeam": "el Poyer Loco",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 97.32,
+      "awayScore": 161.73
+    },
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "The Indian in the Hubbard",
+      "homeScore": 115.42,
+      "awayScore": 114.18
+    },
+    {
+      "homeTeam": "Team is a bunch of gurleys",
+      "awayTeam": "Cumming on WINTTER",
+      "homeScore": 149.64,
+      "awayScore": 139.68
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 130.92,
+      "awayScore": 142.48
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Action Jackson",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 173.33,
+      "awayScore": 111.16
+    },
+    {
+      "homeTeam": "HooperScooper",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 68.36,
+      "awayScore": 176.06
+    },
+    {
+      "homeTeam": "WINTTER is coming",
+      "awayTeam": "Our Gordon Savior",
+      "homeScore": 122.86,
+      "awayScore": 160.06
+    },
+    {
+      "homeTeam": "The Indian in the Hubbard",
+      "awayTeam": "Clamari cooper",
+      "homeScore": 92.72,
+      "awayScore": 95.6
+    },
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "el Poyer Loco",
+      "homeScore": 116.94,
+      "awayScore": 88.34
+    },
+    {
+      "homeTeam": "Juicy Smollett",
+      "awayTeam": "You my Younghoe",
+      "homeScore": 123.38,
+      "awayScore": 77.47
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 172.86,
+      "awayScore": 103.28
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "HooperScooper",
+      "awayTeam": "Action Jackson",
+      "homeScore": 178.92,
+      "awayScore": 149.76
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 128.74,
+      "awayScore": 135.38
+    },
+    {
+      "homeTeam": "Chris CarSaquon Barkley",
+      "awayTeam": "The Indian in the Hubbard",
+      "homeScore": 152.88,
+      "awayScore": 137.34
+    },
+    {
+      "homeTeam": "Our Gordon Savior",
+      "awayTeam": "Cumming on WINTTER",
+      "homeScore": 118.88,
+      "awayScore": 198.7
+    },
+    {
+      "homeTeam": "Clamari cooper",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 114.7,
+      "awayScore": 124.6
+    },
+    {
+      "homeTeam": "el Poyer Loco",
+      "awayTeam": "Higbee Baby One More Time",
+      "homeScore": 95.3,
+      "awayScore": 133.44
+    },
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 91.82,
+      "awayScore": 83.76
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "Action Jackson",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 152.05,
+      "awayScore": 104.7
+    },
+    {
+      "homeTeam": "The Indian in the Hubbard",
+      "awayTeam": "HooperScooper",
+      "homeScore": 152.56,
+      "awayScore": 113.16
+    },
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 88.44,
+      "awayScore": 132.5
+    },
+    {
+      "homeTeam": "Juicy Smollett",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 78.4,
+      "awayScore": 163.31
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Our Gordon Savior",
+      "homeScore": 140.3,
+      "awayScore": 86.62
+    },
+    {
+      "homeTeam": "Team is a bunch of gurleys",
+      "awayTeam": "Clamari cooper",
+      "homeScore": 142.1,
+      "awayScore": 94.26
+    },
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "el Poyer Loco",
+      "homeScore": 75.82,
+      "awayScore": 107.94
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "Clamari cooper",
+      "awayTeam": "Cumming on WINTTER",
+      "homeScore": 115.4,
+      "awayScore": 154.74
+    },
+    {
+      "homeTeam": "el Poyer Loco",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 90.06,
+      "awayScore": 170.96
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Action Jackson",
+      "homeScore": 168.15,
+      "awayScore": 159.6
+    },
+    {
+      "homeTeam": "Our Gordon Savior",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 150.2,
+      "awayScore": 100.58
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "Cumming on WINTTER",
+      "homeScore": 207.52,
+      "awayScore": 128.06
+    },
+    {
+      "homeTeam": "WINTTER is coming",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 99.18,
+      "awayScore": 130.5
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 150.8,
+      "awayScore": 121.66
+    },
+    {
+      "homeTeam": "Our Gordon Savior",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 159.96,
+      "awayScore": 156.14
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "You my Younghoe",
+      "awayTeam": "Team is a bunch of gurleys",
+      "homeScore": 116.7,
+      "awayScore": 111.84
+    },
+    {
+      "homeTeam": "Cumming on WINTTER",
+      "awayTeam": "WINTTER is coming",
+      "homeScore": 156.12,
+      "awayScore": 107.1
+    },
+    {
+      "homeTeam": "The Indian in the Hubbard",
+      "awayTeam": "HooperScooper",
+      "homeScore": 146.86,
+      "awayScore": 134.96
+    },
+    {
+      "homeTeam": "Higbee Baby One More Time",
+      "awayTeam": "Our Gordon Savior",
+      "homeScore": 133.56,
+      "awayScore": 160.76
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Juicy Smollett",
+      "homeScore": 81.26,
+      "awayScore": 168.86
+    },
+    {
+      "homeTeam": "Action Jackson",
+      "awayTeam": "Chris CarSaquon Barkley",
+      "homeScore": 198.22,
+      "awayScore": 149.08
+    }
+  ]
+}

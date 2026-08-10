@@ -1,0 +1,664 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "We Kneel",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 126.4,
+      "awayScore": 111.6
+    },
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "The Handsome Jays",
+      "homeScore": 80.12,
+      "awayScore": 109.7
+    },
+    {
+      "homeTeam": "Nuckin Futz Lutz",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 84.98,
+      "awayScore": 87.04
+    },
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 100,
+      "awayScore": 98.82
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 148.22,
+      "awayScore": 111.24
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "James White and the 7 Dwarfs",
+      "homeScore": 114.16,
+      "awayScore": 146.86
+    },
+    {
+      "homeTeam": "Spoiler Squad",
+      "awayTeam": "And And TWINS",
+      "homeScore": 151.56,
+      "awayScore": 124.46
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "We Kneel",
+      "homeScore": 85.96,
+      "awayScore": 82.8
+    },
+    {
+      "homeTeam": "TeaNCrumpets",
+      "awayTeam": "Nuckin Futz Lutz",
+      "homeScore": 117.26,
+      "awayScore": 119.62
+    },
+    {
+      "homeTeam": "The Handsome Jays",
+      "awayTeam": "Alshon Anderson",
+      "homeScore": 80.76,
+      "awayScore": 72.08
+    },
+    {
+      "homeTeam": "A Very Murray Christmas",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 106.28,
+      "awayScore": 96.72
+    },
+    {
+      "homeTeam": "Triple S and the Spinebuster's",
+      "awayTeam": "Von Miller High Life",
+      "homeScore": 127.5,
+      "awayScore": 132.92
+    },
+    {
+      "homeTeam": "Don't Hyde the Blount",
+      "awayTeam": "Spoiler Squad",
+      "homeScore": 104.96,
+      "awayScore": 103.72
+    },
+    {
+      "homeTeam": "James White and the 7 Dwarfs",
+      "awayTeam": "And And TWINS",
+      "homeScore": 121.02,
+      "awayScore": 114.06
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "We Kneel",
+      "awayTeam": "Nuckin Futz Lutz",
+      "homeScore": 132.8,
+      "awayScore": 118.3
+    },
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "Super Russell WilSaiyan",
+      "homeScore": 112.04,
+      "awayScore": 108.62
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 207.14,
+      "awayScore": 91.58
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "The Handsome Jays",
+      "homeScore": 117.18,
+      "awayScore": 88.46
+    },
+    {
+      "homeTeam": "Spoiler Squad",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 104,
+      "awayScore": 137.16
+    },
+    {
+      "homeTeam": "And And TWINS",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 73.16,
+      "awayScore": 113.74
+    },
+    {
+      "homeTeam": "James White and the 7 Dwarfs",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 84.4,
+      "awayScore": 62.98
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "We Kneel",
+      "homeScore": 120.96,
+      "awayScore": 86.62
+    },
+    {
+      "homeTeam": "Nuckin Futz Lutz",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 130.42,
+      "awayScore": 113.28
+    },
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "Von Miller High Life",
+      "homeScore": 99.16,
+      "awayScore": 92.9
+    },
+    {
+      "homeTeam": "TeaNCrumpets",
+      "awayTeam": "Spoiler Squad",
+      "homeScore": 103.2,
+      "awayScore": 111.62
+    },
+    {
+      "homeTeam": "The Handsome Jays",
+      "awayTeam": "And And TWINS",
+      "homeScore": 115.7,
+      "awayScore": 115.06
+    },
+    {
+      "homeTeam": "A Very Murray Christmas",
+      "awayTeam": "James White and the 7 Dwarfs",
+      "homeScore": 97.72,
+      "awayScore": 76.28
+    },
+    {
+      "homeTeam": "Triple S and the Spinebuster's",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 138.74,
+      "awayScore": 120.52
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "We Kneel",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 84.8,
+      "awayScore": 117.52
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "Alshon Anderson",
+      "homeScore": 146.8,
+      "awayScore": 83.98
+    },
+    {
+      "homeTeam": "Spoiler Squad",
+      "awayTeam": "Nuckin Futz Lutz",
+      "homeScore": 90.68,
+      "awayScore": 103.16
+    },
+    {
+      "homeTeam": "And And TWINS",
+      "awayTeam": "Super Russell WilSaiyan",
+      "homeScore": 129.64,
+      "awayScore": 118.88
+    },
+    {
+      "homeTeam": "James White and the 7 Dwarfs",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 86.26,
+      "awayScore": 129.8
+    },
+    {
+      "homeTeam": "Don't Hyde the Blount",
+      "awayTeam": "The Handsome Jays",
+      "homeScore": 82.22,
+      "awayScore": 76.06
+    },
+    {
+      "homeTeam": "Triple S and the Spinebuster's",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 181.26,
+      "awayScore": 83.7
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "We Kneel",
+      "homeScore": 153.68,
+      "awayScore": 81.1
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Spoiler Squad",
+      "homeScore": 116,
+      "awayScore": 89.06
+    },
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "And And TWINS",
+      "homeScore": 148.08,
+      "awayScore": 96.44
+    },
+    {
+      "homeTeam": "Nuckin Futz Lutz",
+      "awayTeam": "James White and the 7 Dwarfs",
+      "homeScore": 74.76,
+      "awayScore": 101.96
+    },
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 126.1,
+      "awayScore": 88.02
+    },
+    {
+      "homeTeam": "TeaNCrumpets",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 101.16,
+      "awayScore": 108.42
+    },
+    {
+      "homeTeam": "The Handsome Jays",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 146.54,
+      "awayScore": 128.48
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "We Kneel",
+      "awayTeam": "Spoiler Squad",
+      "homeScore": 136.34,
+      "awayScore": 93.82
+    },
+    {
+      "homeTeam": "And And TWINS",
+      "awayTeam": "Von Miller High Life",
+      "homeScore": 110.18,
+      "awayScore": 112.34
+    },
+    {
+      "homeTeam": "James White and the 7 Dwarfs",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 151.74,
+      "awayScore": 101.78
+    },
+    {
+      "homeTeam": "Don't Hyde the Blount",
+      "awayTeam": "Alshon Anderson",
+      "homeScore": 125.64,
+      "awayScore": 104.12
+    },
+    {
+      "homeTeam": "Triple S and the Spinebuster's",
+      "awayTeam": "Nuckin Futz Lutz",
+      "homeScore": 144.74,
+      "awayScore": 111.72
+    },
+    {
+      "homeTeam": "A Very Murray Christmas",
+      "awayTeam": "Super Russell WilSaiyan",
+      "homeScore": 89.72,
+      "awayScore": 99.9
+    },
+    {
+      "homeTeam": "The Handsome Jays",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 85.96,
+      "awayScore": 111.16
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "And And TWINS",
+      "awayTeam": "We Kneel",
+      "homeScore": 136.6,
+      "awayScore": 102.1
+    },
+    {
+      "homeTeam": "Spoiler Squad",
+      "awayTeam": "James White and the 7 Dwarfs",
+      "homeScore": 84.02,
+      "awayScore": 119.04
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 128.68,
+      "awayScore": 120.42
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 98.7,
+      "awayScore": 81
+    },
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 82.9,
+      "awayScore": 114.88
+    },
+    {
+      "homeTeam": "Nuckin Futz Lutz",
+      "awayTeam": "The Handsome Jays",
+      "homeScore": 112.46,
+      "awayScore": 93.88
+    },
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 66.42,
+      "awayScore": 169.08
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "We Kneel",
+      "awayTeam": "James White and the 7 Dwarfs",
+      "homeScore": 138.82,
+      "awayScore": 117.38
+    },
+    {
+      "homeTeam": "Don't Hyde the Blount",
+      "awayTeam": "And And TWINS",
+      "homeScore": 105.66,
+      "awayScore": 69.96
+    },
+    {
+      "homeTeam": "Triple S and the Spinebuster's",
+      "awayTeam": "Spoiler Squad",
+      "homeScore": 116.24,
+      "awayScore": 172.16
+    },
+    {
+      "homeTeam": "A Very Murray Christmas",
+      "awayTeam": "Von Miller High Life",
+      "homeScore": 109.38,
+      "awayScore": 117.2
+    },
+    {
+      "homeTeam": "The Handsome Jays",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 99.76,
+      "awayScore": 126.42
+    },
+    {
+      "homeTeam": "TeaNCrumpets",
+      "awayTeam": "Alshon Anderson",
+      "homeScore": 78.28,
+      "awayScore": 81.44
+    },
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "Nuckin Futz Lutz",
+      "homeScore": 50.6,
+      "awayScore": 135.76
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Don't Hyde the Blount",
+      "awayTeam": "We Kneel",
+      "homeScore": 110.64,
+      "awayScore": 89.34
+    },
+    {
+      "homeTeam": "James White and the 7 Dwarfs",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 102.44,
+      "awayScore": 123.78
+    },
+    {
+      "homeTeam": "And And TWINS",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 97.44,
+      "awayScore": 135.74
+    },
+    {
+      "homeTeam": "Spoiler Squad",
+      "awayTeam": "The Handsome Jays",
+      "homeScore": 106.28,
+      "awayScore": 109.72
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 184.04,
+      "awayScore": 101.22
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Super Russell WilSaiyan",
+      "homeScore": 109.52,
+      "awayScore": 73.62
+    },
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "Nuckin Futz Lutz",
+      "homeScore": 112.7,
+      "awayScore": 118.16
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "We Kneel",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 100.54,
+      "awayScore": 114.14
+    },
+    {
+      "homeTeam": "A Very Murray Christmas",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 121.54,
+      "awayScore": 91.82
+    },
+    {
+      "homeTeam": "The Handsome Jays",
+      "awayTeam": "James White and the 7 Dwarfs",
+      "homeScore": 92.18,
+      "awayScore": 113.94
+    },
+    {
+      "homeTeam": "TeaNCrumpets",
+      "awayTeam": "And And TWINS",
+      "homeScore": 130.64,
+      "awayScore": 98.5
+    },
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "Spoiler Squad",
+      "homeScore": 98.98,
+      "awayScore": 98.6
+    },
+    {
+      "homeTeam": "Nuckin Futz Lutz",
+      "awayTeam": "Von Miller High Life",
+      "homeScore": 71.72,
+      "awayScore": 101.18
+    },
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 89.78,
+      "awayScore": 84.6
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "A Very Murray Christmas",
+      "awayTeam": "We Kneel",
+      "homeScore": 82.9,
+      "awayScore": 111.14
+    },
+    {
+      "homeTeam": "Triple S and the Spinebuster's",
+      "awayTeam": "The Handsome Jays",
+      "homeScore": 126.78,
+      "awayScore": 114.6
+    },
+    {
+      "homeTeam": "Don't Hyde the Blount",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 91.46,
+      "awayScore": 103.4
+    },
+    {
+      "homeTeam": "James White and the 7 Dwarfs",
+      "awayTeam": "Super Russell WilSaiyan",
+      "homeScore": 136.62,
+      "awayScore": 75.24
+    },
+    {
+      "homeTeam": "And And TWINS",
+      "awayTeam": "Nuckin Futz Lutz",
+      "homeScore": 101.84,
+      "awayScore": 118.28
+    },
+    {
+      "homeTeam": "Spoiler Squad",
+      "awayTeam": "Alshon Anderson",
+      "homeScore": 123.04,
+      "awayScore": 105.86
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "Kux Deluxe",
+      "homeScore": 135.96,
+      "awayScore": 135
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "We Kneel",
+      "awayTeam": "The Handsome Jays",
+      "homeScore": 59.46,
+      "awayScore": 78.7
+    },
+    {
+      "homeTeam": "TeaNCrumpets",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 124.24,
+      "awayScore": 88.56
+    },
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 115.98,
+      "awayScore": 138.5
+    },
+    {
+      "homeTeam": "Nuckin Futz Lutz",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 141.28,
+      "awayScore": 100
+    },
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "James White and the 7 Dwarfs",
+      "homeScore": 119.62,
+      "awayScore": 113.26
+    },
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "And And TWINS",
+      "homeScore": 115.64,
+      "awayScore": 122.76
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "Spoiler Squad",
+      "homeScore": 99.54,
+      "awayScore": 94.08
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 96.9,
+      "awayScore": 99.9
+    },
+    {
+      "homeTeam": "The Handsome Jays",
+      "awayTeam": "We Kneel",
+      "homeScore": 87.48,
+      "awayScore": 81.22
+    },
+    {
+      "homeTeam": "Nuckin Futz Lutz",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 74,
+      "awayScore": 123.7
+    },
+    {
+      "homeTeam": "James White and the 7 Dwarfs",
+      "awayTeam": "Alshon Anderson",
+      "homeScore": 80.44,
+      "awayScore": 136.04
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "Don't Hyde the Blount",
+      "homeScore": 115.96,
+      "awayScore": 100.72
+    },
+    {
+      "homeTeam": "The Handsome Jays",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 80.24,
+      "awayScore": 107.62
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "A Very Murray Christmas",
+      "homeScore": 88.8,
+      "awayScore": 119.64
+    },
+    {
+      "homeTeam": "Alshon Anderson",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 144.66,
+      "awayScore": 115.18
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Kux Deluxe",
+      "awayTeam": "TeaNCrumpets",
+      "homeScore": 47.96,
+      "awayScore": 130.06
+    },
+    {
+      "homeTeam": "Don't Hyde the Blount",
+      "awayTeam": "The Handsome Jays",
+      "homeScore": 30.26,
+      "awayScore": 119.38
+    },
+    {
+      "homeTeam": "Super Russell WilSaiyan",
+      "awayTeam": "We Kneel",
+      "homeScore": 73.2,
+      "awayScore": 86.74
+    },
+    {
+      "homeTeam": "A Very Murray Christmas",
+      "awayTeam": "Alshon Anderson",
+      "homeScore": 111.58,
+      "awayScore": 113.02
+    },
+    {
+      "homeTeam": "Von Miller High Life",
+      "awayTeam": "Triple S and the Spinebuster's",
+      "homeScore": 159.1,
+      "awayScore": 127.88
+    },
+    {
+      "homeTeam": "Nuckin Futz Lutz",
+      "awayTeam": "James White and the 7 Dwarfs",
+      "homeScore": 171.02,
+      "awayScore": 87.58
+    }
+  ]
+}

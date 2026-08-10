@@ -1,0 +1,586 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Sadie's Daddy",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 126.52,
+      "awayScore": 106.14
+    },
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "Purple Reign",
+      "homeScore": 175.62,
+      "awayScore": 84.5
+    },
+    {
+      "homeTeam": "Peyton Abbey",
+      "awayTeam": "kux deluxe",
+      "homeScore": 106.36,
+      "awayScore": 95.36
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 155.92,
+      "awayScore": 163.64
+    },
+    {
+      "homeTeam": "Bombai u learn",
+      "awayTeam": "ShowmeyourTD's",
+      "homeScore": 139.3,
+      "awayScore": 110.14
+    },
+    {
+      "homeTeam": "Godzilla",
+      "awayTeam": "japan bound",
+      "homeScore": 61.46,
+      "awayScore": 117.14
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "Sadie's Daddy",
+      "homeScore": 138.04,
+      "awayScore": 124.38
+    },
+    {
+      "homeTeam": "Gordon's Good Guys",
+      "awayTeam": "Peyton Abbey",
+      "homeScore": 87.04,
+      "awayScore": 162.08
+    },
+    {
+      "homeTeam": "Purple Reign",
+      "awayTeam": "kux deluxe",
+      "homeScore": 87.44,
+      "awayScore": 85.3
+    },
+    {
+      "homeTeam": "Bombai u learn",
+      "awayTeam": "Guamfucius",
+      "homeScore": 113.08,
+      "awayScore": 77.96
+    },
+    {
+      "homeTeam": "Checkwaself B4 U Wreck Yo'self",
+      "awayTeam": "Godzilla",
+      "homeScore": 104.28,
+      "awayScore": 125.64
+    },
+    {
+      "homeTeam": "ShowmeyourTD's",
+      "awayTeam": "japan bound",
+      "homeScore": 83.78,
+      "awayScore": 108.54
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "Sadie's Daddy",
+      "awayTeam": "Peyton Abbey",
+      "homeScore": 112.12,
+      "awayScore": 100.3
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "AlphaChino",
+      "homeScore": 124.34,
+      "awayScore": 121.64
+    },
+    {
+      "homeTeam": "Purple Reign",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 104.2,
+      "awayScore": 56.9
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Godzilla",
+      "homeScore": 92.66,
+      "awayScore": 112.38
+    },
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "Bombai u learn",
+      "homeScore": 84.34,
+      "awayScore": 145.3
+    },
+    {
+      "homeTeam": "ShowmeyourTD's",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 79.62,
+      "awayScore": 104.66
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Sadie's Daddy",
+      "homeScore": 135.48,
+      "awayScore": 99.28
+    },
+    {
+      "homeTeam": "Peyton Abbey",
+      "awayTeam": "Purple Reign",
+      "homeScore": 126.1,
+      "awayScore": 83.54
+    },
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 135.22,
+      "awayScore": 67.48
+    },
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "Guamfucius",
+      "homeScore": 143.52,
+      "awayScore": 121.68
+    },
+    {
+      "homeTeam": "Godzilla",
+      "awayTeam": "ShowmeyourTD's",
+      "homeScore": 168.88,
+      "awayScore": 147
+    },
+    {
+      "homeTeam": "Bombai u learn",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 130.32,
+      "awayScore": 97.96
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "Sadie's Daddy",
+      "awayTeam": "Purple Reign",
+      "homeScore": 105.64,
+      "awayScore": 147.76
+    },
+    {
+      "homeTeam": "Gordon's Good Guys",
+      "awayTeam": "kux deluxe",
+      "homeScore": 86.96,
+      "awayScore": 123.62
+    },
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "Peyton Abbey",
+      "homeScore": 204.64,
+      "awayScore": 144.66
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "ShowmeyourTD's",
+      "homeScore": 76.02,
+      "awayScore": 76.64
+    },
+    {
+      "homeTeam": "Checkwaself B4 U Wreck Yo'self",
+      "awayTeam": "japan bound",
+      "homeScore": 112.16,
+      "awayScore": 74.44
+    },
+    {
+      "homeTeam": "Bombai u learn",
+      "awayTeam": "Godzilla",
+      "homeScore": 132.18,
+      "awayScore": 70.14
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Sadie's Daddy",
+      "homeScore": 131.74,
+      "awayScore": 139.64
+    },
+    {
+      "homeTeam": "Checkwaself B4 U Wreck Yo'self",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 139.72,
+      "awayScore": 115.9
+    },
+    {
+      "homeTeam": "Bombai u learn",
+      "awayTeam": "AlphaChino",
+      "homeScore": 88.5,
+      "awayScore": 125.54
+    },
+    {
+      "homeTeam": "Godzilla",
+      "awayTeam": "Peyton Abbey",
+      "homeScore": 118.66,
+      "awayScore": 191.28
+    },
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "kux deluxe",
+      "homeScore": 110.9,
+      "awayScore": 85.82
+    },
+    {
+      "homeTeam": "ShowmeyourTD's",
+      "awayTeam": "Purple Reign",
+      "homeScore": 52.44,
+      "awayScore": 85.54
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Gordon's Good Guys",
+      "awayTeam": "Guamfucius",
+      "homeScore": 90.96,
+      "awayScore": 150.84
+    },
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 134.52,
+      "awayScore": 82.24
+    },
+    {
+      "homeTeam": "Peyton Abbey",
+      "awayTeam": "Bombai u learn",
+      "homeScore": 123.42,
+      "awayScore": 85.46
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Godzilla",
+      "homeScore": 125.8,
+      "awayScore": 82.1
+    },
+    {
+      "homeTeam": "Purple Reign",
+      "awayTeam": "japan bound",
+      "homeScore": 107.3,
+      "awayScore": 63.66
+    },
+    {
+      "homeTeam": "Sadie's Daddy",
+      "awayTeam": "ShowmeyourTD's",
+      "homeScore": 114.04,
+      "awayScore": 111.02
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "AlphaChino",
+      "homeScore": 163.56,
+      "awayScore": 141.94
+    },
+    {
+      "homeTeam": "Checkwaself B4 U Wreck Yo'self",
+      "awayTeam": "Peyton Abbey",
+      "homeScore": 101.44,
+      "awayScore": 190.44
+    },
+    {
+      "homeTeam": "Bombai u learn",
+      "awayTeam": "kux deluxe",
+      "homeScore": 102,
+      "awayScore": 131.68
+    },
+    {
+      "homeTeam": "Godzilla",
+      "awayTeam": "Purple Reign",
+      "homeScore": 133.52,
+      "awayScore": 122.68
+    },
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "Sadie's Daddy",
+      "homeScore": 94.9,
+      "awayScore": 152.34
+    },
+    {
+      "homeTeam": "ShowmeyourTD's",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 109.46,
+      "awayScore": 52.06
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Peyton Abbey",
+      "awayTeam": "Guamfucius",
+      "homeScore": 129.82,
+      "awayScore": 119.22
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 95.32,
+      "awayScore": 68.02
+    },
+    {
+      "homeTeam": "Purple Reign",
+      "awayTeam": "Bombai u learn",
+      "homeScore": 79.64,
+      "awayScore": 175.96
+    },
+    {
+      "homeTeam": "Sadie's Daddy",
+      "awayTeam": "Godzilla",
+      "homeScore": 137.88,
+      "awayScore": 112.9
+    },
+    {
+      "homeTeam": "Gordon's Good Guys",
+      "awayTeam": "japan bound",
+      "homeScore": 112.12,
+      "awayScore": 92.68
+    },
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "ShowmeyourTD's",
+      "homeScore": 140.66,
+      "awayScore": 133.46
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "kux deluxe",
+      "homeScore": 108.18,
+      "awayScore": 113.48
+    },
+    {
+      "homeTeam": "Checkwaself B4 U Wreck Yo'self",
+      "awayTeam": "Purple Reign",
+      "homeScore": 123.44,
+      "awayScore": 147.88
+    },
+    {
+      "homeTeam": "Bombai u learn",
+      "awayTeam": "Sadie's Daddy",
+      "homeScore": 123.06,
+      "awayScore": 85.68
+    },
+    {
+      "homeTeam": "Godzilla",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 133.3,
+      "awayScore": 86.48
+    },
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "AlphaChino",
+      "homeScore": 102.4,
+      "awayScore": 175.36
+    },
+    {
+      "homeTeam": "ShowmeyourTD's",
+      "awayTeam": "Peyton Abbey",
+      "homeScore": 128.88,
+      "awayScore": 136.3
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Purple Reign",
+      "awayTeam": "Guamfucius",
+      "homeScore": 114.8,
+      "awayScore": 102.38
+    },
+    {
+      "homeTeam": "Sadie's Daddy",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 84.6,
+      "awayScore": 77.98
+    },
+    {
+      "homeTeam": "Gordon's Good Guys",
+      "awayTeam": "Bombai u learn",
+      "homeScore": 82.2,
+      "awayScore": 98.72
+    },
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "Godzilla",
+      "homeScore": 159.72,
+      "awayScore": 99.04
+    },
+    {
+      "homeTeam": "Peyton Abbey",
+      "awayTeam": "japan bound",
+      "homeScore": 127.46,
+      "awayScore": 83.82
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "ShowmeyourTD's",
+      "homeScore": 98.02,
+      "awayScore": 112.12
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "Gordon's Good Guys",
+      "awayTeam": "Sadie's Daddy",
+      "homeScore": 122,
+      "awayScore": 108.8
+    },
+    {
+      "homeTeam": "Purple Reign",
+      "awayTeam": "AlphaChino",
+      "homeScore": 131.4,
+      "awayScore": 153.02
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Peyton Abbey",
+      "homeScore": 133.24,
+      "awayScore": 170.48
+    },
+    {
+      "homeTeam": "Checkwaself B4 U Wreck Yo'self",
+      "awayTeam": "Guamfucius",
+      "homeScore": 92.88,
+      "awayScore": 105.36
+    },
+    {
+      "homeTeam": "ShowmeyourTD's",
+      "awayTeam": "Bombai u learn",
+      "homeScore": 86.64,
+      "awayScore": 120.32
+    },
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "Godzilla",
+      "homeScore": 86.84,
+      "awayScore": 82.16
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "Sadie's Daddy",
+      "awayTeam": "AlphaChino",
+      "homeScore": 148.18,
+      "awayScore": 101.16
+    },
+    {
+      "homeTeam": "Peyton Abbey",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 101.36,
+      "awayScore": 85.76
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Purple Reign",
+      "homeScore": 147.02,
+      "awayScore": 94.2
+    },
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Bombai u learn",
+      "homeScore": 134.1,
+      "awayScore": 151.04
+    },
+    {
+      "homeTeam": "Godzilla",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 108.32,
+      "awayScore": 129.48
+    },
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "ShowmeyourTD's",
+      "homeScore": 142.4,
+      "awayScore": 131.74
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "ShowmeyourTD's",
+      "awayTeam": "Guamfucius",
+      "homeScore": 91.62,
+      "awayScore": 194.58
+    },
+    {
+      "homeTeam": "Godzilla",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 101.38,
+      "awayScore": 135.5
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "Sadie's Daddy",
+      "homeScore": 117.76,
+      "awayScore": 69.8
+    },
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "Purple Reign",
+      "homeScore": 188.3,
+      "awayScore": 138.64
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "Guamfucius",
+      "homeScore": 80.72,
+      "awayScore": 110.48
+    },
+    {
+      "homeTeam": "Gordon's Good Guys",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 91.1,
+      "awayScore": 54.78
+    },
+    {
+      "homeTeam": "Peyton Abbey",
+      "awayTeam": "kux deluxe",
+      "homeScore": 97.62,
+      "awayScore": 95.38
+    },
+    {
+      "homeTeam": "AlphaChino",
+      "awayTeam": "Bombai u learn",
+      "homeScore": 128.4,
+      "awayScore": 129.08
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Guamfucius",
+      "awayTeam": "Gordon's Good Guys",
+      "homeScore": 133.38,
+      "awayScore": 112.32
+    },
+    {
+      "homeTeam": "japan bound",
+      "awayTeam": "Checkwaself B4 U Wreck Yo'self",
+      "homeScore": 70.92,
+      "awayScore": 101.26
+    },
+    {
+      "homeTeam": "ShowmeyourTD's",
+      "awayTeam": "Godzilla",
+      "homeScore": 155.26,
+      "awayScore": 110.92
+    },
+    {
+      "homeTeam": "Peyton Abbey",
+      "awayTeam": "Bombai u learn",
+      "homeScore": 103.24,
+      "awayScore": 104.06
+    },
+    {
+      "homeTeam": "kux deluxe",
+      "awayTeam": "AlphaChino",
+      "homeScore": 82.3,
+      "awayScore": 100.78
+    },
+    {
+      "homeTeam": "Sadie's Daddy",
+      "awayTeam": "Purple Reign",
+      "homeScore": 100.08,
+      "awayScore": 94.6
+    }
+  ]
+}

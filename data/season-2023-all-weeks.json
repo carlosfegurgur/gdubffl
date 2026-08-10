@@ -1,0 +1,708 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 88.16,
+      "awayScore": 108.04
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Kraft Mac and Cheese",
+      "homeScore": 124.96,
+      "awayScore": 113.06
+    },
+    {
+      "homeTeam": "Just Win Baby",
+      "awayTeam": "Olave Oil",
+      "homeScore": 80.1,
+      "awayScore": 122.08
+    },
+    {
+      "homeTeam": "Kung Fu Puka",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 140.18,
+      "awayScore": 109.48
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "HamHock and Pollard Greens",
+      "homeScore": 181.66,
+      "awayScore": 108.74
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "London Has Fallen",
+      "homeScore": 89.7,
+      "awayScore": 121.54
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 96.44,
+      "awayScore": 122.18
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 116.05,
+      "awayScore": 186.82
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Kraft Mac and Cheese",
+      "homeScore": 132.92,
+      "awayScore": 137.68
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "Limu Emu",
+      "homeScore": 117.04,
+      "awayScore": 100.6
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 120.99,
+      "awayScore": 115.23
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "Olave Oil",
+      "homeScore": 147.2,
+      "awayScore": 179.12
+    },
+    {
+      "homeTeam": "Kung Fu Puka",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 115.82,
+      "awayScore": 141.46
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 79.34,
+      "awayScore": 162.44
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "Haoles Deleted Castle",
+      "awayTeam": "Kraft Mac and Cheese",
+      "homeScore": 202.06,
+      "awayScore": 144.58
+    },
+    {
+      "homeTeam": "Kung Fu Puka",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 152.66,
+      "awayScore": 148.74
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 123.9,
+      "awayScore": 111.96
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 101.36,
+      "awayScore": 86.42
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "Limu Emu",
+      "homeScore": 164.06,
+      "awayScore": 134.98
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 162.1,
+      "awayScore": 153.18
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Olave Oil",
+      "homeScore": 136.1,
+      "awayScore": 133.72
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "Kung Fu Puka",
+      "homeScore": 171.32,
+      "awayScore": 117.64
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 165.54,
+      "awayScore": 123
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Limu Emu",
+      "homeScore": 105.52,
+      "awayScore": 108.82
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Jesse",
+      "homeScore": 139.86,
+      "awayScore": 64.98
+    },
+    {
+      "homeTeam": "Bijan Wicks",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 203.2,
+      "awayScore": 151.84
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "Kraft Mac and Cheese",
+      "homeScore": 84.98,
+      "awayScore": 140.16
+    },
+    {
+      "homeTeam": "Olave Oil",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 128.8,
+      "awayScore": 111.2
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "Bijan Wicks",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 173.06,
+      "awayScore": 176.08
+    },
+    {
+      "homeTeam": "Kraft Mac and Cheese",
+      "awayTeam": "Kung Fu Puka",
+      "homeScore": 103.34,
+      "awayScore": 112.52
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Jesse",
+      "homeScore": 122.56,
+      "awayScore": 91.52
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Olave Oil",
+      "homeScore": 199.02,
+      "awayScore": 120.64
+    },
+    {
+      "homeTeam": "Angels in the Mayfield",
+      "awayTeam": "Limu Emu",
+      "homeScore": 186.18,
+      "awayScore": 103.14
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 113.53,
+      "awayScore": 154.58
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "London Has Fallen",
+      "homeScore": 114.22,
+      "awayScore": 149.16
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Kung Fu Puka",
+      "homeScore": 118.29,
+      "awayScore": 133.04
+    },
+    {
+      "homeTeam": "Kraft Mac and Cheese",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 96.54,
+      "awayScore": 109.76
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "Limu Emu",
+      "homeScore": 115.86,
+      "awayScore": 136.94
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "Olave Oil",
+      "homeScore": 146.4,
+      "awayScore": 116.82
+    },
+    {
+      "homeTeam": "Just Win Baby",
+      "awayTeam": "HamHock and Pollard Greens",
+      "homeScore": 152.74,
+      "awayScore": 88.22
+    },
+    {
+      "homeTeam": "Haoles Deleted Castle",
+      "awayTeam": "Jesse",
+      "homeScore": 128,
+      "awayScore": 119.08
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 110.7,
+      "awayScore": 174.1
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Kraft Mac and Cheese",
+      "awayTeam": "Limu Emu",
+      "homeScore": 89.48,
+      "awayScore": 179.06
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Olave Oil",
+      "homeScore": 116.16,
+      "awayScore": 132.06
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "Jesse",
+      "homeScore": 106.86,
+      "awayScore": 73.76
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 109.58,
+      "awayScore": 149.9
+    },
+    {
+      "homeTeam": "Bijan Wicks",
+      "awayTeam": "The Stroud Family",
+      "homeScore": 110.7,
+      "awayScore": 139.41
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Kung Fu Puka",
+      "homeScore": 103.26,
+      "awayScore": 146.6
+    },
+    {
+      "homeTeam": "Haoles Deleted Castle",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 120.7,
+      "awayScore": 152.64
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Kung Fu Puka",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 126.46,
+      "awayScore": 195.56
+    },
+    {
+      "homeTeam": "Kraft Mac and Cheese",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 111.98,
+      "awayScore": 124.18
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Olave Oil",
+      "homeScore": 96.3,
+      "awayScore": 114.78
+    },
+    {
+      "homeTeam": "Angels in the Mayfield",
+      "awayTeam": "Jesse",
+      "homeScore": 190.52,
+      "awayScore": 122.62
+    },
+    {
+      "homeTeam": "Haoles Deleted Castle",
+      "awayTeam": "HamHock and Pollard Greens",
+      "homeScore": 132.16,
+      "awayScore": 140.58
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "The Stroud Family",
+      "homeScore": 148.12,
+      "awayScore": 127.4
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Mac Daddy Make Yuh Wanna",
+      "homeScore": 184.26,
+      "awayScore": 150.79
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Limu Emu",
+      "homeScore": 131.28,
+      "awayScore": 112.5
+    },
+    {
+      "homeTeam": "Bijan Wicks",
+      "awayTeam": "Olave Oil",
+      "homeScore": 146.77,
+      "awayScore": 140.46
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "Jesse",
+      "homeScore": 159.1,
+      "awayScore": 163.24
+    },
+    {
+      "homeTeam": "Haoles Deleted Castle",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 107.54,
+      "awayScore": 113.72
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "Kung Fu Puka",
+      "homeScore": 113.52,
+      "awayScore": 100.1
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 133.52,
+      "awayScore": 81.55
+    },
+    {
+      "homeTeam": "Kraft Mac and Cheese",
+      "awayTeam": "London Has Fallen",
+      "homeScore": 86.08,
+      "awayScore": 116.78
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Bijan Wicks",
+      "awayTeam": "Kraft Mac and Cheese",
+      "homeScore": 161.58,
+      "awayScore": 123.72
+    },
+    {
+      "homeTeam": "Just Win Baby",
+      "awayTeam": "Kung Fu Puka",
+      "homeScore": 165.36,
+      "awayScore": 128.52
+    },
+    {
+      "homeTeam": "Angels in the Mayfield",
+      "awayTeam": "Olave Oil",
+      "homeScore": 118.33,
+      "awayScore": 143.52
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Limu Emu",
+      "homeScore": 128.62,
+      "awayScore": 95.42
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 162.99,
+      "awayScore": 159.6
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "HamHock and Pollard Greens",
+      "homeScore": 127.88,
+      "awayScore": 134.3
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 125.04,
+      "awayScore": 139.22
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "Olave Oil",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 110.04,
+      "awayScore": 104.18
+    },
+    {
+      "homeTeam": "Bijan Wicks",
+      "awayTeam": "HamHock and Pollard Greens",
+      "homeScore": 114.6,
+      "awayScore": 151.86
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "Mac Daddy Make Yuh Wanna",
+      "homeScore": 144.12,
+      "awayScore": 140.34
+    },
+    {
+      "homeTeam": "Kraft Mac and Cheese",
+      "awayTeam": "The Stroud Family",
+      "homeScore": 141.96,
+      "awayScore": 144.14
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 116.4,
+      "awayScore": 143.46
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Kung Fu Puka",
+      "homeScore": 97.38,
+      "awayScore": 152.46
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 125.3,
+      "awayScore": 110.24
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "Just Win Baby",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 154.44,
+      "awayScore": 149.96
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 160.95,
+      "awayScore": 169.12
+    },
+    {
+      "homeTeam": "Kung Fu Puka",
+      "awayTeam": "Kraft Mac and Cheese",
+      "homeScore": 141.91,
+      "awayScore": 133.98
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Olave Oil",
+      "homeScore": 89.18,
+      "awayScore": 155.54
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "The Stroud Family",
+      "homeScore": 120.95,
+      "awayScore": 143.76
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 106.17,
+      "awayScore": 114.91
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "London Has Fallen",
+      "homeScore": 135.48,
+      "awayScore": 124.96
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "Kung Fu Puka",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 178.04,
+      "awayScore": 122.58
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "HamHock and Pollard Greens",
+      "homeScore": 121.78,
+      "awayScore": 111.32
+    },
+    {
+      "homeTeam": "Just Win Baby",
+      "awayTeam": "Kraft Mac and Cheese",
+      "homeScore": 100.65,
+      "awayScore": 112.16
+    },
+    {
+      "homeTeam": "Angels in the Mayfield",
+      "awayTeam": "The Stroud Family",
+      "homeScore": 141.38,
+      "awayScore": 151.46
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "London Has Fallen",
+      "homeScore": 79.58,
+      "awayScore": 135.46
+    },
+    {
+      "homeTeam": "Bijan Wicks",
+      "awayTeam": "Shawty u Etienne",
+      "homeScore": 145.1,
+      "awayScore": 166.64
+    },
+    {
+      "homeTeam": "Limu Emu",
+      "awayTeam": "Olave Oil",
+      "homeScore": 104.7,
+      "awayScore": 195.56
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "Angels in the Mayfield",
+      "awayTeam": "Kraft Mac and Cheese",
+      "homeScore": 139.06,
+      "awayScore": 142.04
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "Kung Fu Puka",
+      "homeScore": 155.04,
+      "awayScore": 130.06
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 154.69,
+      "awayScore": 158.92
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 104.88,
+      "awayScore": 129.12
+    },
+    {
+      "homeTeam": "Jesse",
+      "awayTeam": "Limu Emu",
+      "homeScore": 93.09,
+      "awayScore": 122.24
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "Olave Oil",
+      "homeScore": 88.02,
+      "awayScore": 123.34
+    },
+    {
+      "homeTeam": "Just Win Baby",
+      "awayTeam": "London Has Fallen",
+      "homeScore": 115.46,
+      "awayScore": 180.52
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Mac Daddy Make Yuh Wanna",
+      "homeScore": 95.92,
+      "awayScore": 124.96
+    },
+    {
+      "homeTeam": "Angels in the Mayfield",
+      "awayTeam": "Limu Emu",
+      "homeScore": 133.34,
+      "awayScore": 132
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "The Stroud Family",
+      "homeScore": 103.34,
+      "awayScore": 190.36
+    },
+    {
+      "homeTeam": "Just Win Baby",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 153.48,
+      "awayScore": 110.36
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Kung Fu Puka",
+      "awayTeam": "Mac Daddy Make Yuh Wanna",
+      "homeScore": 142.52,
+      "awayScore": 111.12
+    },
+    {
+      "homeTeam": "Angels in the Mayfield",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 157.12,
+      "awayScore": 103.06
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "The Stroud Family",
+      "homeScore": 122.5,
+      "awayScore": 179.56
+    },
+    {
+      "homeTeam": "Just Win Baby",
+      "awayTeam": "Olave Oil",
+      "homeScore": 156.12,
+      "awayScore": 170.55
+    }
+  ],
+  "week-17": [
+    {
+      "homeTeam": "Kung Fu Puka",
+      "awayTeam": "Angels in the Mayfield",
+      "homeScore": 143.66,
+      "awayScore": 148.26
+    },
+    {
+      "homeTeam": "Mac Daddy Make Yuh Wanna",
+      "awayTeam": "Haoles Deleted Castle",
+      "homeScore": 103.26,
+      "awayScore": 144.79
+    },
+    {
+      "homeTeam": "Shawty u Etienne",
+      "awayTeam": "Limu Emu",
+      "homeScore": 146.03,
+      "awayScore": 85.8
+    },
+    {
+      "homeTeam": "The Stroud Family",
+      "awayTeam": "Olave Oil",
+      "homeScore": 130.32,
+      "awayScore": 130.6
+    },
+    {
+      "homeTeam": "London Has Fallen",
+      "awayTeam": "Just Win Baby",
+      "homeScore": 172.35,
+      "awayScore": 104.58
+    },
+    {
+      "homeTeam": "HamHock and Pollard Greens",
+      "awayTeam": "Bijan Wicks",
+      "homeScore": 137.12,
+      "awayScore": 214.31
+    }
+  ]
+}

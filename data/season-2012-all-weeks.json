@@ -1,0 +1,418 @@
+{
+  "week-1": [
+    {
+      "homeTeam": "ShaiBreezy",
+      "awayTeam": "Washer Dryer",
+      "homeScore": 127.06,
+      "awayScore": 94.1
+    },
+    {
+      "homeTeam": "steelernigga671",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 114.86,
+      "awayScore": 119.22
+    },
+    {
+      "homeTeam": "For Lance Armstrong",
+      "awayTeam": "Spunky Misunderstood Geniuses",
+      "homeScore": 91.28,
+      "awayScore": 112.96
+    },
+    {
+      "homeTeam": "Taotao Areva",
+      "awayTeam": "Taylor",
+      "homeScore": 125.24,
+      "awayScore": 143.02
+    }
+  ],
+  "week-2": [
+    {
+      "homeTeam": "steelernigga671",
+      "awayTeam": "ShaiBreezy",
+      "homeScore": 108.58,
+      "awayScore": 110.76
+    },
+    {
+      "homeTeam": "Washer Dryer",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 80.6,
+      "awayScore": 120.52
+    },
+    {
+      "homeTeam": "Taotao Areva",
+      "awayTeam": "For Lance Armstrong",
+      "homeScore": 66.44,
+      "awayScore": 97.24
+    },
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "Taylor",
+      "homeScore": 82.1,
+      "awayScore": 100.06
+    }
+  ],
+  "week-3": [
+    {
+      "homeTeam": "ShaiBreezy",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 101.86,
+      "awayScore": 109.68
+    },
+    {
+      "homeTeam": "Washer Dryer",
+      "awayTeam": "steelernigga671",
+      "homeScore": 95.82,
+      "awayScore": 106.16
+    },
+    {
+      "homeTeam": "For Lance Armstrong",
+      "awayTeam": "Taylor",
+      "homeScore": 51.22,
+      "awayScore": 94.62
+    },
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 116.24,
+      "awayScore": 117.6
+    }
+  ],
+  "week-4": [
+    {
+      "homeTeam": "For Lance Armstrong",
+      "awayTeam": "ShaiBreezy",
+      "homeScore": 90.88,
+      "awayScore": 89.06
+    },
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "Washer Dryer",
+      "homeScore": 129.42,
+      "awayScore": 95.66
+    },
+    {
+      "homeTeam": "Taotao Areva",
+      "awayTeam": "steelernigga671",
+      "homeScore": 113.7,
+      "awayScore": 128.84
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 93.32,
+      "awayScore": 120.26
+    }
+  ],
+  "week-5": [
+    {
+      "homeTeam": "Washer Dryer",
+      "awayTeam": "For Lance Armstrong",
+      "homeScore": 103.66,
+      "awayScore": 90.26
+    },
+    {
+      "homeTeam": "steelernigga671",
+      "awayTeam": "Spunky Misunderstood Geniuses",
+      "homeScore": 112.78,
+      "awayScore": 90.64
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 105.66,
+      "awayScore": 120.22
+    },
+    {
+      "homeTeam": "ShaiBreezy",
+      "awayTeam": "Taylor",
+      "homeScore": 81.6,
+      "awayScore": 130.2
+    }
+  ],
+  "week-6": [
+    {
+      "homeTeam": "For Lance Armstrong",
+      "awayTeam": "steelernigga671",
+      "homeScore": 106.98,
+      "awayScore": 98.22
+    },
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 91.78,
+      "awayScore": 83.32
+    },
+    {
+      "homeTeam": "Taotao Areva",
+      "awayTeam": "ShaiBreezy",
+      "homeScore": 84.6,
+      "awayScore": 130.96
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "Washer Dryer",
+      "homeScore": 136.32,
+      "awayScore": 97.34
+    }
+  ],
+  "week-7": [
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "For Lance Armstrong",
+      "homeScore": 114.28,
+      "awayScore": 123.78
+    },
+    {
+      "homeTeam": "ShaiBreezy",
+      "awayTeam": "Spunky Misunderstood Geniuses",
+      "homeScore": 90.9,
+      "awayScore": 103.42
+    },
+    {
+      "homeTeam": "Washer Dryer",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 86.52,
+      "awayScore": 107.86
+    },
+    {
+      "homeTeam": "steelernigga671",
+      "awayTeam": "Taylor",
+      "homeScore": 124.32,
+      "awayScore": 80.08
+    }
+  ],
+  "week-8": [
+    {
+      "homeTeam": "Washer Dryer",
+      "awayTeam": "ShaiBreezy",
+      "homeScore": 46.36,
+      "awayScore": 106.68
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "steelernigga671",
+      "homeScore": 97.38,
+      "awayScore": 85.98
+    },
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "For Lance Armstrong",
+      "homeScore": 90.78,
+      "awayScore": 129.5
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 86.74,
+      "awayScore": 160.06
+    }
+  ],
+  "week-9": [
+    {
+      "homeTeam": "ShaiBreezy",
+      "awayTeam": "steelernigga671",
+      "homeScore": 114.18,
+      "awayScore": 108.44
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "Washer Dryer",
+      "homeScore": 132.48,
+      "awayScore": 81.7
+    },
+    {
+      "homeTeam": "For Lance Armstrong",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 97.24,
+      "awayScore": 169.22
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "Spunky Misunderstood Geniuses",
+      "homeScore": 132.02,
+      "awayScore": 103.4
+    }
+  ],
+  "week-10": [
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "ShaiBreezy",
+      "homeScore": 90.6,
+      "awayScore": 159.84
+    },
+    {
+      "homeTeam": "steelernigga671",
+      "awayTeam": "Washer Dryer",
+      "homeScore": 101.58,
+      "awayScore": 142.26
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "For Lance Armstrong",
+      "homeScore": 107.3,
+      "awayScore": 75.14
+    },
+    {
+      "homeTeam": "Taotao Areva",
+      "awayTeam": "Spunky Misunderstood Geniuses",
+      "homeScore": 94.98,
+      "awayScore": 97.72
+    }
+  ],
+  "week-11": [
+    {
+      "homeTeam": "ShaiBreezy",
+      "awayTeam": "For Lance Armstrong",
+      "homeScore": 85.48,
+      "awayScore": 103.8
+    },
+    {
+      "homeTeam": "Washer Dryer",
+      "awayTeam": "Spunky Misunderstood Geniuses",
+      "homeScore": 85.74,
+      "awayScore": 101.6
+    },
+    {
+      "homeTeam": "steelernigga671",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 77.14,
+      "awayScore": 95.56
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "Taylor",
+      "homeScore": 95.72,
+      "awayScore": 113.94
+    }
+  ],
+  "week-12": [
+    {
+      "homeTeam": "For Lance Armstrong",
+      "awayTeam": "Washer Dryer",
+      "homeScore": 105.5,
+      "awayScore": 112.44
+    },
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "steelernigga671",
+      "homeScore": 108.06,
+      "awayScore": 113.72
+    },
+    {
+      "homeTeam": "Taotao Areva",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 99.7,
+      "awayScore": 111.58
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "ShaiBreezy",
+      "homeScore": 112.96,
+      "awayScore": 97.82
+    }
+  ],
+  "week-13": [
+    {
+      "homeTeam": "steelernigga671",
+      "awayTeam": "For Lance Armstrong",
+      "homeScore": 117.92,
+      "awayScore": 125.18
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "Spunky Misunderstood Geniuses",
+      "homeScore": 72.94,
+      "awayScore": 100.52
+    },
+    {
+      "homeTeam": "ShaiBreezy",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 109.38,
+      "awayScore": 110.94
+    },
+    {
+      "homeTeam": "Washer Dryer",
+      "awayTeam": "Taylor",
+      "homeScore": 99.42,
+      "awayScore": 125.34
+    }
+  ],
+  "week-14": [
+    {
+      "homeTeam": "For Lance Armstrong",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 85.9,
+      "awayScore": 115.56
+    },
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "ShaiBreezy",
+      "homeScore": 140.18,
+      "awayScore": 159.48
+    },
+    {
+      "homeTeam": "Taotao Areva",
+      "awayTeam": "Washer Dryer",
+      "homeScore": 96.34,
+      "awayScore": 91.26
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "steelernigga671",
+      "homeScore": 104.62,
+      "awayScore": 104.14
+    }
+  ],
+  "week-15": [
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "Washer Dryer",
+      "homeScore": 71.64,
+      "awayScore": 112.34
+    },
+    {
+      "homeTeam": "ShaiBreezy",
+      "awayTeam": "steelernigga671",
+      "homeScore": 103.64,
+      "awayScore": 109.62
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "For Lance Armstrong",
+      "homeScore": 149.14,
+      "awayScore": 97.66
+    },
+    {
+      "homeTeam": "Your Mom's Team",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 82.26,
+      "awayScore": 125.84
+    }
+  ],
+  "week-16": [
+    {
+      "homeTeam": "Washer Dryer",
+      "awayTeam": "steelernigga671",
+      "homeScore": 84.82,
+      "awayScore": 76.58
+    },
+    {
+      "homeTeam": "Spunky Misunderstood Geniuses",
+      "awayTeam": "ShaiBreezy",
+      "homeScore": 140.42,
+      "awayScore": 110.4
+    },
+    {
+      "homeTeam": "Taylor",
+      "awayTeam": "Taotao Areva",
+      "homeScore": 147.08,
+      "awayScore": 100.5
+    },
+    {
+      "homeTeam": "For Lance Armstrong",
+      "awayTeam": "Your Mom's Team",
+      "homeScore": 96.66,
+      "awayScore": 149.44
+    }
+  ]
+}

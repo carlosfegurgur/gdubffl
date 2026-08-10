@@ -1,0 +1,66 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated/prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Matchup {
+  id        Int    @id @default(autoincrement())
+  week      Int
+  homeTeam  String
+  awayTeam  String
+  homeScore Float
+  awayScore Float
+}
+
+model Owner {
+  id    Int         @id @default(autoincrement())
+  name  String      @unique
+  teams TeamOwner[]
+}
+
+model Team {
+  id          Int         @id @default(autoincrement())
+  name        String
+  seasons     TeamOwner[]
+  homeMatches Match[]     @relation("HomeTeam")
+  awayMatches Match[]     @relation("AwayTeam")
+}
+
+model TeamOwner {
+  id         Int   @id @default(autoincrement())
+  seasonYear Int
+  team       Team  @relation(fields: [teamId], references: [id], onDelete: Cascade)
+  teamId     Int
+  owner      Owner @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  ownerId    Int
+
+  @@unique([teamId, seasonYear])
+}
+
+model Week {
+  id         Int     @id @default(autoincrement())
+  seasonYear Int
+  weekNumber Int
+  matches    Match[]
+
+  @@unique([seasonYear, weekNumber])
+}
+
+model Match {
+  id     Int  @id @default(autoincrement())
+  week   Week @relation(fields: [weekId], references: [id], onDelete: Cascade)
+  weekId Int
+
+  homeTeam   Team @relation("HomeTeam", fields: [homeTeamId], references: [id])
+  homeTeamId Int
+
+  awayTeam   Team @relation("AwayTeam", fields: [awayTeamId], references: [id])
+  awayTeamId Int
+
+  homeScore Int?
+  awayScore Int?
+}
