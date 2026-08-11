@@ -1,0 +1,1135 @@
+{
+  "season": 2019,
+  "weeks": [
+    {
+      "week": 1,
+      "matchups": [
+        {
+          "id": "m2019-w1-1",
+          "homeOwnerId": "3520130",
+          "homeOwnerName": "Justin",
+          "awayOwnerId": "3629486",
+          "awayOwnerName": "Taylor",
+          "homeScore": 131.2,
+          "awayScore": 127.5,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w1-2",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 145.42,
+          "awayScore": 240.23,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w1-3",
+          "homeOwnerId": "2108440",
+          "homeOwnerName": "Guamfucius",
+          "awayOwnerId": "22598860",
+          "awayOwnerName": "Jerome",
+          "homeScore": 147.6,
+          "awayScore": 139.42,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w1-4",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "1905754",
+          "awayOwnerName": "drake",
+          "homeScore": 148.46,
+          "awayScore": 136.12,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w1-5",
+          "homeOwnerId": "9870478",
+          "homeOwnerName": "Jesse",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 153.02,
+          "awayScore": 141.29,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w1-6",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "3629308",
+          "awayOwnerName": "Haywire",
+          "homeScore": 88.42,
+          "awayScore": 168.92,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w1-7",
+          "homeOwnerId": "8546922",
+          "homeOwnerName": "Derek",
+          "awayOwnerId": "2563586",
+          "awayOwnerName": "Sean",
+          "homeScore": 129.84,
+          "awayScore": 128.41,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "matchups": [
+        {
+          "id": "m2019-w2-1",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "3520130",
+          "awayOwnerName": "Justin",
+          "homeScore": 81.52,
+          "awayScore": 151.88,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w2-2",
+          "homeOwnerId": "3629486",
+          "homeOwnerName": "Taylor",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 103.02,
+          "awayScore": 134.8,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w2-3",
+          "homeOwnerId": "14369380",
+          "homeOwnerName": "phil",
+          "awayOwnerId": "3629342",
+          "awayOwnerName": "Julius",
+          "homeScore": 141.76,
+          "awayScore": 164.7,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w2-4",
+          "homeOwnerId": "22598860",
+          "homeOwnerName": "Jerome",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 112.61,
+          "awayScore": 167.12,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w2-5",
+          "homeOwnerId": "1905754",
+          "homeOwnerName": "drake",
+          "awayOwnerId": "22628615",
+          "awayOwnerName": "Drew P Balls",
+          "homeScore": 142.74,
+          "awayScore": 120.32,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w2-6",
+          "homeOwnerId": "3629724",
+          "homeOwnerName": "Carlos",
+          "awayOwnerId": "8546922",
+          "awayOwnerName": "Derek",
+          "homeScore": 112.22,
+          "awayScore": 134.16,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w2-7",
+          "homeOwnerId": "3629308",
+          "homeOwnerName": "Haywire",
+          "awayOwnerId": "2563586",
+          "awayOwnerName": "Sean",
+          "homeScore": 191.21,
+          "awayScore": 147.82,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "matchups": [
+        {
+          "id": "m2019-w3-1",
+          "homeOwnerId": "3520130",
+          "homeOwnerName": "Justin",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 142.23,
+          "awayScore": 236.74,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w3-2",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "34611",
+          "awayOwnerName": "Jared",
+          "homeScore": 177.16,
+          "awayScore": 137.16,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w3-3",
+          "homeOwnerId": "9870478",
+          "homeOwnerName": "Jesse",
+          "awayOwnerId": "3629486",
+          "awayOwnerName": "Taylor",
+          "homeScore": 99.26,
+          "awayScore": 154.2,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w3-4",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 130,
+          "awayScore": 106.14,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w3-5",
+          "homeOwnerId": "8546922",
+          "homeOwnerName": "Derek",
+          "awayOwnerId": "22598860",
+          "awayOwnerName": "Jerome",
+          "homeScore": 160.14,
+          "awayScore": 144.94,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w3-6",
+          "homeOwnerId": "2563586",
+          "homeOwnerName": "Sean",
+          "awayOwnerId": "1905754",
+          "awayOwnerName": "drake",
+          "homeScore": 115.12,
+          "awayScore": 109.43,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w3-7",
+          "homeOwnerId": "3629308",
+          "homeOwnerName": "Haywire",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 156.67,
+          "awayScore": 146.04,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "matchups": [
+        {
+          "id": "m2019-w4-1",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "3520130",
+          "awayOwnerName": "Justin",
+          "homeScore": 157.58,
+          "awayScore": 153.13,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w4-2",
+          "homeOwnerId": "2108440",
+          "homeOwnerName": "Guamfucius",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 139.8,
+          "awayScore": 129.9,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w4-3",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "22628615",
+          "awayOwnerName": "Drew P Balls",
+          "homeScore": 114.75,
+          "awayScore": 124.48,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w4-4",
+          "homeOwnerId": "3629486",
+          "homeOwnerName": "Taylor",
+          "awayOwnerId": "8546922",
+          "awayOwnerName": "Derek",
+          "homeScore": 109.4,
+          "awayScore": 61.1,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w4-5",
+          "homeOwnerId": "14369380",
+          "homeOwnerName": "phil",
+          "awayOwnerId": "2563586",
+          "awayOwnerName": "Sean",
+          "homeScore": 85.72,
+          "awayScore": 138.89,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w4-6",
+          "homeOwnerId": "22598860",
+          "homeOwnerName": "Jerome",
+          "awayOwnerId": "3629308",
+          "awayOwnerName": "Haywire",
+          "homeScore": 176.7,
+          "awayScore": 104.74,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w4-7",
+          "homeOwnerId": "1905754",
+          "homeOwnerName": "drake",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 105.7,
+          "awayScore": 138.68,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "matchups": [
+        {
+          "id": "m2019-w5-1",
+          "homeOwnerId": "3520130",
+          "homeOwnerName": "Justin",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 148.36,
+          "awayScore": 102.24,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w5-2",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "3629342",
+          "awayOwnerName": "Julius",
+          "homeScore": 98.96,
+          "awayScore": 202.4,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w5-3",
+          "homeOwnerId": "8546922",
+          "homeOwnerName": "Derek",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 132.32,
+          "awayScore": 177.82,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w5-4",
+          "homeOwnerId": "2563586",
+          "homeOwnerName": "Sean",
+          "awayOwnerId": "34611",
+          "awayOwnerName": "Jared",
+          "homeScore": 211.28,
+          "awayScore": 111.94,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w5-5",
+          "homeOwnerId": "3629308",
+          "homeOwnerName": "Haywire",
+          "awayOwnerId": "3629486",
+          "awayOwnerName": "Taylor",
+          "homeScore": 107.38,
+          "awayScore": 84.74,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w5-6",
+          "homeOwnerId": "3629724",
+          "homeOwnerName": "Carlos",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 110.34,
+          "awayScore": 198.92,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w5-7",
+          "homeOwnerId": "1905754",
+          "homeOwnerName": "drake",
+          "awayOwnerId": "22598860",
+          "awayOwnerName": "Jerome",
+          "homeScore": 114.16,
+          "awayScore": 201.74,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "matchups": [
+        {
+          "id": "m2019-w6-1",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "3520130",
+          "awayOwnerName": "Justin",
+          "homeScore": 90.2,
+          "awayScore": 100.34,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w6-2",
+          "homeOwnerId": "9870478",
+          "homeOwnerName": "Jesse",
+          "awayOwnerId": "8546922",
+          "awayOwnerName": "Derek",
+          "homeScore": 73.52,
+          "awayScore": 148.41,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w6-3",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "2563586",
+          "awayOwnerName": "Sean",
+          "homeScore": 156.14,
+          "awayScore": 91.97,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w6-4",
+          "homeOwnerId": "2108440",
+          "homeOwnerName": "Guamfucius",
+          "awayOwnerId": "3629308",
+          "awayOwnerName": "Haywire",
+          "homeScore": 142.65,
+          "awayScore": 167,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w6-5",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 115.4,
+          "awayScore": 107.78,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w6-6",
+          "homeOwnerId": "3629486",
+          "homeOwnerName": "Taylor",
+          "awayOwnerId": "1905754",
+          "awayOwnerName": "drake",
+          "homeScore": 88.82,
+          "awayScore": 137.34,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w6-7",
+          "homeOwnerId": "14369380",
+          "homeOwnerName": "phil",
+          "awayOwnerId": "22598860",
+          "awayOwnerName": "Jerome",
+          "homeScore": 165.92,
+          "awayScore": 167.6,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "matchups": [
+        {
+          "id": "m2019-w7-1",
+          "homeOwnerId": "3520130",
+          "homeOwnerName": "Justin",
+          "awayOwnerId": "8546922",
+          "awayOwnerName": "Derek",
+          "homeScore": 187.52,
+          "awayScore": 133.56,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w7-2",
+          "homeOwnerId": "2563586",
+          "homeOwnerName": "Sean",
+          "awayOwnerId": "22628615",
+          "awayOwnerName": "Drew P Balls",
+          "homeScore": 93.17,
+          "awayScore": 158.46,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w7-3",
+          "homeOwnerId": "3629308",
+          "homeOwnerName": "Haywire",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 142.86,
+          "awayScore": 90.64,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w7-4",
+          "homeOwnerId": "3629724",
+          "homeOwnerName": "Carlos",
+          "awayOwnerId": "3629342",
+          "awayOwnerName": "Julius",
+          "homeScore": 129.02,
+          "awayScore": 123.26,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w7-5",
+          "homeOwnerId": "1905754",
+          "homeOwnerName": "drake",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 116.19,
+          "awayScore": 88.44,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w7-6",
+          "homeOwnerId": "22598860",
+          "homeOwnerName": "Jerome",
+          "awayOwnerId": "34611",
+          "awayOwnerName": "Jared",
+          "homeScore": 115.22,
+          "awayScore": 129.24,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w7-7",
+          "homeOwnerId": "14369380",
+          "homeOwnerName": "phil",
+          "awayOwnerId": "3629486",
+          "awayOwnerName": "Taylor",
+          "homeScore": 120.86,
+          "awayScore": 118.95,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "matchups": [
+        {
+          "id": "m2019-w8-1",
+          "homeOwnerId": "2563586",
+          "homeOwnerName": "Sean",
+          "awayOwnerId": "3520130",
+          "awayOwnerName": "Justin",
+          "homeScore": 141.08,
+          "awayScore": 160.26,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w8-2",
+          "homeOwnerId": "8546922",
+          "homeOwnerName": "Derek",
+          "awayOwnerId": "3629308",
+          "awayOwnerName": "Haywire",
+          "homeScore": 118.11,
+          "awayScore": 125.1,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w8-3",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 126,
+          "awayScore": 122.55,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w8-4",
+          "homeOwnerId": "9870478",
+          "homeOwnerName": "Jesse",
+          "awayOwnerId": "1905754",
+          "awayOwnerName": "drake",
+          "homeScore": 134.58,
+          "awayScore": 153.28,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w8-5",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "22598860",
+          "awayOwnerName": "Jerome",
+          "homeScore": 177.12,
+          "awayScore": 155.96,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w8-6",
+          "homeOwnerId": "2108440",
+          "homeOwnerName": "Guamfucius",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 166.78,
+          "awayScore": 159.36,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w8-7",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "3629486",
+          "awayOwnerName": "Taylor",
+          "homeScore": 137.34,
+          "awayScore": 97.16,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "matchups": [
+        {
+          "id": "m2019-w9-1",
+          "homeOwnerId": "3520130",
+          "homeOwnerName": "Justin",
+          "awayOwnerId": "3629308",
+          "awayOwnerName": "Haywire",
+          "homeScore": 115.72,
+          "awayScore": 94.6,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w9-2",
+          "homeOwnerId": "3629724",
+          "homeOwnerName": "Carlos",
+          "awayOwnerId": "2563586",
+          "awayOwnerName": "Sean",
+          "homeScore": 146.25,
+          "awayScore": 111.76,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w9-3",
+          "homeOwnerId": "1905754",
+          "homeOwnerName": "drake",
+          "awayOwnerId": "8546922",
+          "awayOwnerName": "Derek",
+          "homeScore": 127.06,
+          "awayScore": 100.6,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w9-4",
+          "homeOwnerId": "22598860",
+          "homeOwnerName": "Jerome",
+          "awayOwnerId": "22628615",
+          "awayOwnerName": "Drew P Balls",
+          "homeScore": 124.44,
+          "awayScore": 109.84,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w9-5",
+          "homeOwnerId": "14369380",
+          "homeOwnerName": "phil",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 171.53,
+          "awayScore": 226.19,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w9-6",
+          "homeOwnerId": "3629486",
+          "homeOwnerName": "Taylor",
+          "awayOwnerId": "3629342",
+          "awayOwnerName": "Julius",
+          "homeScore": 132.66,
+          "awayScore": 141.08,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w9-7",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 78.76,
+          "awayScore": 201.72,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "matchups": [
+        {
+          "id": "m2019-w10-1",
+          "homeOwnerId": "3629724",
+          "homeOwnerName": "Carlos",
+          "awayOwnerId": "3520130",
+          "awayOwnerName": "Justin",
+          "homeScore": 144,
+          "awayScore": 142.02,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w10-2",
+          "homeOwnerId": "3629308",
+          "homeOwnerName": "Haywire",
+          "awayOwnerId": "1905754",
+          "awayOwnerName": "drake",
+          "homeScore": 95.84,
+          "awayScore": 222.66,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w10-3",
+          "homeOwnerId": "2563586",
+          "homeOwnerName": "Sean",
+          "awayOwnerId": "22598860",
+          "awayOwnerName": "Jerome",
+          "homeScore": 177.42,
+          "awayScore": 142.06,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w10-4",
+          "homeOwnerId": "8546922",
+          "homeOwnerName": "Derek",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 97.32,
+          "awayScore": 161.73,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w10-5",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "3629486",
+          "awayOwnerName": "Taylor",
+          "homeScore": 115.42,
+          "awayScore": 114.18,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w10-6",
+          "homeOwnerId": "9870478",
+          "homeOwnerName": "Jesse",
+          "awayOwnerId": "34611",
+          "awayOwnerName": "Jared",
+          "homeScore": 149.64,
+          "awayScore": 139.68,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w10-7",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 130.92,
+          "awayScore": 142.48,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "matchups": [
+        {
+          "id": "m2019-w11-1",
+          "homeOwnerId": "3520130",
+          "homeOwnerName": "Justin",
+          "awayOwnerId": "1905754",
+          "awayOwnerName": "drake",
+          "homeScore": 173.33,
+          "awayScore": 111.16,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w11-2",
+          "homeOwnerId": "22598860",
+          "homeOwnerName": "Jerome",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 68.36,
+          "awayScore": 176.06,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w11-3",
+          "homeOwnerId": "14369380",
+          "homeOwnerName": "phil",
+          "awayOwnerId": "3629308",
+          "awayOwnerName": "Haywire",
+          "homeScore": 122.86,
+          "awayScore": 160.06,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w11-4",
+          "homeOwnerId": "3629486",
+          "homeOwnerName": "Taylor",
+          "awayOwnerId": "2563586",
+          "awayOwnerName": "Sean",
+          "homeScore": 92.72,
+          "awayScore": 95.6,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w11-5",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "8546922",
+          "awayOwnerName": "Derek",
+          "homeScore": 116.94,
+          "awayScore": 88.34,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w11-6",
+          "homeOwnerId": "2108440",
+          "homeOwnerName": "Guamfucius",
+          "awayOwnerId": "22628615",
+          "awayOwnerName": "Drew P Balls",
+          "homeScore": 123.38,
+          "awayScore": 77.47,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w11-7",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 172.86,
+          "awayScore": 103.28,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "matchups": [
+        {
+          "id": "m2019-w12-1",
+          "homeOwnerId": "22598860",
+          "homeOwnerName": "Jerome",
+          "awayOwnerId": "3520130",
+          "awayOwnerName": "Justin",
+          "homeScore": 178.92,
+          "awayScore": 149.76,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w12-2",
+          "homeOwnerId": "1905754",
+          "homeOwnerName": "drake",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 128.74,
+          "awayScore": 135.38,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w12-3",
+          "homeOwnerId": "3629724",
+          "homeOwnerName": "Carlos",
+          "awayOwnerId": "3629486",
+          "awayOwnerName": "Taylor",
+          "homeScore": 152.88,
+          "awayScore": 137.34,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w12-4",
+          "homeOwnerId": "3629308",
+          "homeOwnerName": "Haywire",
+          "awayOwnerId": "34611",
+          "awayOwnerName": "Jared",
+          "homeScore": 118.88,
+          "awayScore": 198.7,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w12-5",
+          "homeOwnerId": "2563586",
+          "homeOwnerName": "Sean",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 114.7,
+          "awayScore": 124.6,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w12-6",
+          "homeOwnerId": "8546922",
+          "homeOwnerName": "Derek",
+          "awayOwnerId": "3629342",
+          "awayOwnerName": "Julius",
+          "homeScore": 95.3,
+          "awayScore": 133.44,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w12-7",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 91.82,
+          "awayScore": 83.76,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "matchups": [
+        {
+          "id": "m2019-w13-1",
+          "homeOwnerId": "3520130",
+          "homeOwnerName": "Justin",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 152.05,
+          "awayScore": 104.7,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w13-2",
+          "homeOwnerId": "3629486",
+          "homeOwnerName": "Taylor",
+          "awayOwnerId": "22598860",
+          "awayOwnerName": "Jerome",
+          "homeScore": 152.56,
+          "awayScore": 113.16,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w13-3",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "1905754",
+          "awayOwnerName": "drake",
+          "homeScore": 88.44,
+          "awayScore": 132.5,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w13-4",
+          "homeOwnerId": "2108440",
+          "homeOwnerName": "Guamfucius",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 78.4,
+          "awayScore": 163.31,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w13-5",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "3629308",
+          "awayOwnerName": "Haywire",
+          "homeScore": 140.3,
+          "awayScore": 86.62,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w13-6",
+          "homeOwnerId": "9870478",
+          "homeOwnerName": "Jesse",
+          "awayOwnerId": "2563586",
+          "awayOwnerName": "Sean",
+          "homeScore": 142.1,
+          "awayScore": 94.26,
+          "isPlayoff": false
+        },
+        {
+          "id": "m2019-w13-7",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "8546922",
+          "awayOwnerName": "Derek",
+          "homeScore": 75.82,
+          "awayScore": 107.94,
+          "isPlayoff": false
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "matchups": [
+        {
+          "id": "m2019-w14-1",
+          "homeOwnerId": "2563586",
+          "homeOwnerName": "Sean",
+          "awayOwnerId": "34611",
+          "awayOwnerName": "Jared",
+          "homeScore": 115.4,
+          "awayScore": 154.74,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w14-2",
+          "homeOwnerId": "8546922",
+          "homeOwnerName": "Derek",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 90.06,
+          "awayScore": 170.96,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w14-3",
+          "homeOwnerId": "1905754",
+          "homeOwnerName": "drake",
+          "awayOwnerId": "3520130",
+          "awayOwnerName": "Justin",
+          "homeScore": 168.15,
+          "awayScore": 159.6,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w14-4",
+          "homeOwnerId": "3629308",
+          "homeOwnerName": "Haywire",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 150.2,
+          "awayScore": 100.58,
+          "isPlayoff": true
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "matchups": [
+        {
+          "id": "m2019-w15-1",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "34611",
+          "awayOwnerName": "Jared",
+          "homeScore": 207.52,
+          "awayScore": 128.06,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w15-2",
+          "homeOwnerId": "14369380",
+          "homeOwnerName": "phil",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 99.18,
+          "awayScore": 130.5,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w15-3",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "1905754",
+          "awayOwnerName": "drake",
+          "homeScore": 150.8,
+          "awayScore": 121.66,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w15-4",
+          "homeOwnerId": "3629308",
+          "homeOwnerName": "Haywire",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 159.96,
+          "awayScore": 156.14,
+          "isPlayoff": true
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "matchups": [
+        {
+          "id": "m2019-w16-1",
+          "homeOwnerId": "22628615",
+          "homeOwnerName": "Drew P Balls",
+          "awayOwnerId": "9870478",
+          "awayOwnerName": "Jesse",
+          "homeScore": 116.7,
+          "awayScore": 111.84,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w16-2",
+          "homeOwnerId": "34611",
+          "homeOwnerName": "Jared",
+          "awayOwnerId": "14369380",
+          "awayOwnerName": "phil",
+          "homeScore": 156.12,
+          "awayScore": 107.1,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w16-3",
+          "homeOwnerId": "3629486",
+          "homeOwnerName": "Taylor",
+          "awayOwnerId": "22598860",
+          "awayOwnerName": "Jerome",
+          "homeScore": 146.86,
+          "awayScore": 134.96,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w16-4",
+          "homeOwnerId": "3629342",
+          "homeOwnerName": "Julius",
+          "awayOwnerId": "3629308",
+          "awayOwnerName": "Haywire",
+          "homeScore": 133.56,
+          "awayScore": 160.76,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w16-5",
+          "homeOwnerId": "1905754",
+          "homeOwnerName": "drake",
+          "awayOwnerId": "2108440",
+          "awayOwnerName": "Guamfucius",
+          "homeScore": 81.26,
+          "awayScore": 168.86,
+          "isPlayoff": true
+        },
+        {
+          "id": "m2019-w16-6",
+          "homeOwnerId": "3520130",
+          "homeOwnerName": "Justin",
+          "awayOwnerId": "3629724",
+          "awayOwnerName": "Carlos",
+          "homeScore": 198.22,
+          "awayScore": 149.08,
+          "isPlayoff": true
+        }
+      ]
+    }
+  ]
+}

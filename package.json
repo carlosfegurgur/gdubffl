@@ -9,13 +9,15 @@
     "lint": "eslint",
     "import:matchups": "ts-node --project tsconfig.scripts.json scripts/importMatchups.ts",
     "import:owners": "ts-node --project tsconfig.scripts.json scripts/importOwners.ts",
-    "import:test": "ts-node --project tsconfig.scripts.json scripts/test.ts"
+    "import:test": "ts-node --project tsconfig.scripts.json scripts/test.ts",
+    "scrape:league": "ts-node --project tsconfig.scripts.json scripts/scrapeNflLeague.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.1.0",
     "@prisma/client": "^7.1.0",
     "@radix-ui/colors": "^3.0.0",
     "@radix-ui/react-accordion": "^1.2.12",
+    "cheerio": "^1.2.0",
     "claude-code": "^1.0.0",
     "fs": "^0.0.1-security",
     "next": "^16.0.7",

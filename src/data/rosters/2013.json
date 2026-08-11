@@ -1,0 +1,1435 @@
+{
+  "season": 2013,
+  "rosters": {
+    "34611": {
+      "week": 16,
+      "teamId": "2",
+      "teamName": "DEZpicable ME",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "C. Newton",
+          "position": "QB",
+          "nflTeam": "CAR",
+          "points": 9.84,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "R. Rice",
+          "position": "RB",
+          "nflTeam": "BAL",
+          "points": 8.3,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "E. Lacy",
+          "position": "RB",
+          "nflTeam": "GB",
+          "points": 23,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "D. Bryant",
+          "position": "WR",
+          "nflTeam": "DAL",
+          "points": 17.3,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "K. Allen",
+          "position": "WR",
+          "nflTeam": "LAC",
+          "points": 9.6,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "J. Graham",
+          "position": "TE",
+          "nflTeam": "NO",
+          "points": 18.3,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "M. Jones-Drew",
+          "position": "RB",
+          "nflTeam": "JAX",
+          "points": 10.9,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "M. Wallace",
+          "position": "WR",
+          "nflTeam": "MIA",
+          "points": 7.8,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "A. Henery",
+          "position": "K",
+          "nflTeam": "PHI",
+          "points": 10,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Lions",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 9,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "B. LaFell",
+          "position": "WR",
+          "nflTeam": "CAR",
+          "points": 2.3,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "A. Dalton",
+          "position": "QB",
+          "nflTeam": "CIN",
+          "points": 36.64,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "J. Todman",
+          "position": "RB",
+          "nflTeam": "JAX",
+          "points": 2.1,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "G. Jennings",
+          "position": "WR",
+          "nflTeam": "MIN",
+          "points": 6.7,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Z. Ertz",
+          "position": "TE",
+          "nflTeam": "PHI",
+          "points": 3.7,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "A. Vinatieri",
+          "position": "K",
+          "nflTeam": "IND",
+          "points": 11,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Saints",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 7,
+          "starter": false
+        }
+      ]
+    },
+    "1905754": {
+      "week": 16,
+      "teamId": "10",
+      "teamName": "kux deluxe",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "K. Cousins",
+          "position": "QB",
+          "nflTeam": "WAS",
+          "points": 10.88,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "F. Gore",
+          "position": "RB",
+          "nflTeam": "SF",
+          "points": 17.3,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "A. Peterson",
+          "position": "RB",
+          "nflTeam": "MIN",
+          "points": 5.7,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "M. Crabtree",
+          "position": "WR",
+          "nflTeam": "SF",
+          "points": 20.2,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "J. Gordon",
+          "position": "WR",
+          "nflTeam": "CLE",
+          "points": 17.9,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "G. Olsen",
+          "position": "TE",
+          "nflTeam": "CAR",
+          "points": 7.5,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "R. Mathews",
+          "position": "RB",
+          "nflTeam": "LAC",
+          "points": 20.9,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "L. Bell",
+          "position": "RB",
+          "nflTeam": "PIT",
+          "points": 22.9,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "S. Hauschka",
+          "position": "K",
+          "nflTeam": "SEA",
+          "points": 4,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "49ers",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 11,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "J. Nelson",
+          "position": "WR",
+          "nflTeam": "GB",
+          "points": 7.6,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "P. Harvin",
+          "position": "WR",
+          "nflTeam": "SEA",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "J. Cameron",
+          "position": "TE",
+          "nflTeam": "CLE",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "T. Brady",
+          "position": "QB",
+          "nflTeam": "NE",
+          "points": 10.88,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "V. Cruz",
+          "position": "WR",
+          "nflTeam": "NYG",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Crosby",
+          "position": "K",
+          "nflTeam": "GB",
+          "points": 7,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Patriots",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 28,
+          "starter": false
+        }
+      ]
+    },
+    "2108440": {
+      "week": 16,
+      "teamId": "1",
+      "teamName": "Guamfucius",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "N. Foles",
+          "position": "QB",
+          "nflTeam": "PHI",
+          "points": 18.9,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "C. Johnson",
+          "position": "RB",
+          "nflTeam": "TEN",
+          "points": 10.3,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "D. Murray",
+          "position": "RB",
+          "nflTeam": "DAL",
+          "points": 26.1,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "D. Jackson",
+          "position": "WR",
+          "nflTeam": "PHI",
+          "points": 8.1,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "A. Johnson",
+          "position": "WR",
+          "nflTeam": "HOU",
+          "points": 10.3,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "C. Clay",
+          "position": "TE",
+          "nflTeam": "MIA",
+          "points": 7.2,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "L. Fitzgerald",
+          "position": "WR",
+          "nflTeam": "ARI",
+          "points": 4.8,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "V. Jackson",
+          "position": "WR",
+          "nflTeam": "TB",
+          "points": 14.8,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "C. Sturgis",
+          "position": "K",
+          "nflTeam": "MIA",
+          "points": 0,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Dolphins",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 4,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "H. Douglas",
+          "position": "WR",
+          "nflTeam": "ATL",
+          "points": 9.6,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "D. McFadden",
+          "position": "RB",
+          "nflTeam": "LV",
+          "points": 8.6,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Ryan",
+          "position": "QB",
+          "nflTeam": "ATL",
+          "points": 22.92,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "A. Gates",
+          "position": "TE",
+          "nflTeam": "LAC",
+          "points": 7.2,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "L. Miller",
+          "position": "RB",
+          "nflTeam": "MIA",
+          "points": 0.8,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "R. Gould",
+          "position": "K",
+          "nflTeam": "CHI",
+          "points": 5,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Cowboys",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 2,
+          "starter": false
+        }
+      ]
+    },
+    "2563586": {
+      "week": 16,
+      "teamId": "9",
+      "teamName": "easy breesy",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "D. Brees",
+          "position": "QB",
+          "nflTeam": "NO",
+          "points": 12.14,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "J. Charles",
+          "position": "RB",
+          "nflTeam": "KC",
+          "points": 30.4,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "R. Jennings",
+          "position": "RB",
+          "nflTeam": "LV",
+          "points": 10.2,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "B. Hartline",
+          "position": "WR",
+          "nflTeam": "MIA",
+          "points": 7.3,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "T. Hilton",
+          "position": "WR",
+          "nflTeam": "IND",
+          "points": 10.2,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "J. Thomas",
+          "position": "TE",
+          "nflTeam": "DEN",
+          "points": 19.8,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "S. Jackson",
+          "position": "RB",
+          "nflTeam": "ATL",
+          "points": 12.9,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "M. Ball",
+          "position": "RB",
+          "nflTeam": "DEN",
+          "points": 3.2,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "P. Dawson",
+          "position": "K",
+          "nflTeam": "SF",
+          "points": 10,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Broncos",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 11,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "H. Nicks",
+          "position": "WR",
+          "nflTeam": "NYG",
+          "points": 9.2,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Colston",
+          "position": "WR",
+          "nflTeam": "NO",
+          "points": 11.3,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "T. Gonzalez",
+          "position": "TE",
+          "nflTeam": "ATL",
+          "points": 20.3,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "R. Wilson",
+          "position": "QB",
+          "nflTeam": "SEA",
+          "points": 9.52,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "D. Hopkins",
+          "position": "WR",
+          "nflTeam": "HOU",
+          "points": 1.8,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "D. Carpenter",
+          "position": "K",
+          "nflTeam": "BUF",
+          "points": 13,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Panthers",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 14,
+          "starter": false
+        }
+      ]
+    },
+    "3520130": {
+      "week": 16,
+      "teamId": "3",
+      "teamName": "The Real Slim Shady",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "P. Rivers",
+          "position": "QB",
+          "nflTeam": "LAC",
+          "points": 7.74,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "L. McCoy",
+          "position": "RB",
+          "nflTeam": "PHI",
+          "points": 39.2,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "A. Morris",
+          "position": "RB",
+          "nflTeam": "WAS",
+          "points": 14.8,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "T. Smith",
+          "position": "WR",
+          "nflTeam": "BAL",
+          "points": 9.9,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "R. White",
+          "position": "WR",
+          "nflTeam": "ATL",
+          "points": 37.1,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "J. Witten",
+          "position": "TE",
+          "nflTeam": "DAL",
+          "points": 3.3,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "D. Sproles",
+          "position": "RB",
+          "nflTeam": "NO",
+          "points": 5,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "A. Brown",
+          "position": "RB",
+          "nflTeam": "NYG",
+          "points": 5.4,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "N. Folk",
+          "position": "K",
+          "nflTeam": "NYJ",
+          "points": 6,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Bears",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 0,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "J. Cutler",
+          "position": "QB",
+          "nflTeam": "CHI",
+          "points": 14.38,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "S. Smith",
+          "position": "WR",
+          "nflTeam": "CAR",
+          "points": 5.4,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "N. Burleson",
+          "position": "WR",
+          "nflTeam": "DET",
+          "points": 3.2,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "J. Boykin",
+          "position": "WR",
+          "nflTeam": "GB",
+          "points": 16.4,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "C. Fleener",
+          "position": "TE",
+          "nflTeam": "IND",
+          "points": 2.8,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "N. Novak",
+          "position": "K",
+          "nflTeam": "LAC",
+          "points": 14,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Chargers",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 9,
+          "starter": false
+        }
+      ]
+    },
+    "3629308": {
+      "week": 16,
+      "teamId": "4",
+      "teamName": "Demaryius Targaryen",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "T. Romo",
+          "position": "QB",
+          "nflTeam": "DAL",
+          "points": 14.94,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "S. Vereen",
+          "position": "RB",
+          "nflTeam": "NE",
+          "points": 8,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "R. Bush",
+          "position": "RB",
+          "nflTeam": "DET",
+          "points": 4.4,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "D. Thomas",
+          "position": "WR",
+          "nflTeam": "DEN",
+          "points": 31.3,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "B. Marshall",
+          "position": "WR",
+          "nflTeam": "CHI",
+          "points": 13.6,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "D. Pitta",
+          "position": "TE",
+          "nflTeam": "BAL",
+          "points": 7.4,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "A. Brown",
+          "position": "WR",
+          "nflTeam": "PIT",
+          "points": 21.5,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "G. Bernard",
+          "position": "RB",
+          "nflTeam": "CIN",
+          "points": 8.7,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "G. Zuerlein",
+          "position": "K",
+          "nflTeam": "STL",
+          "points": 13,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Browns",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 0,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "J. Bell",
+          "position": "RB",
+          "nflTeam": "DET",
+          "points": 31.4,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "C. Shorts",
+          "position": "WR",
+          "nflTeam": "JAX",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Glennon",
+          "position": "QB",
+          "nflTeam": "TB",
+          "points": 4.62,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "J. Hunter",
+          "position": "WR",
+          "nflTeam": "TEN",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "J. Reed",
+          "position": "TE",
+          "nflTeam": "WAS",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "B. Walsh",
+          "position": "K",
+          "nflTeam": "MIN",
+          "points": 2,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Bengals",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 19,
+          "starter": false
+        }
+      ]
+    },
+    "3629338": {
+      "week": 16,
+      "teamId": "5",
+      "teamName": "Mister Irrelevant",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "A. Luck",
+          "position": "QB",
+          "nflTeam": "IND",
+          "points": 14.14,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "B. Rainey",
+          "position": "RB",
+          "nflTeam": "TB",
+          "points": 9.1,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "Z. Stacy",
+          "position": "RB",
+          "nflTeam": "STL",
+          "points": 20.9,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "D. Amendola",
+          "position": "WR",
+          "nflTeam": "NE",
+          "points": 6.5,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "D. Baldwin",
+          "position": "WR",
+          "nflTeam": "SEA",
+          "points": 1.8,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "V. Davis",
+          "position": "TE",
+          "nflTeam": "SF",
+          "points": 0,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "D. Woodhead",
+          "position": "RB",
+          "nflTeam": "LAC",
+          "points": 9.8,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "E. Decker",
+          "position": "WR",
+          "nflTeam": "DEN",
+          "points": 40.1,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "S. Gostkowski",
+          "position": "K",
+          "nflTeam": "NE",
+          "points": 11,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Packers",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 4,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "R. Cooper",
+          "position": "WR",
+          "nflTeam": "PHI",
+          "points": 14.3,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "R. Fitzpatrick",
+          "position": "QB",
+          "nflTeam": "TEN",
+          "points": 9.34,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "C. Ivory",
+          "position": "RB",
+          "nflTeam": "NYJ",
+          "points": 15.9,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Floyd",
+          "position": "WR",
+          "nflTeam": "ARI",
+          "points": 10.1,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "T. Wright",
+          "position": "TE",
+          "nflTeam": "TB",
+          "points": 6.7,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Nugent",
+          "position": "K",
+          "nflTeam": "CIN",
+          "points": 6,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Falcons",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 2,
+          "starter": false
+        }
+      ]
+    },
+    "3629342": {
+      "week": 16,
+      "teamId": "6",
+      "teamName": "Wrath Of Cunt",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "P. Manning",
+          "position": "QB",
+          "nflTeam": "DEN",
+          "points": 40,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "K. Moreno",
+          "position": "RB",
+          "nflTeam": "DEN",
+          "points": 12.2,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "M. Tolbert",
+          "position": "RB",
+          "nflTeam": "CAR",
+          "points": 2.6,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "A. Green",
+          "position": "WR",
+          "nflTeam": "CIN",
+          "points": 28.7,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "C. Johnson",
+          "position": "WR",
+          "nflTeam": "DET",
+          "points": 7.3,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "M. Bennett",
+          "position": "TE",
+          "nflTeam": "CHI",
+          "points": 13.5,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "J. Edelman",
+          "position": "WR",
+          "nflTeam": "NE",
+          "points": 14.7,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "A. Jeffery",
+          "position": "WR",
+          "nflTeam": "CHI",
+          "points": 13.6,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "M. Prater",
+          "position": "K",
+          "nflTeam": "DEN",
+          "points": 13,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Chiefs",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 1,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "E. Sanders",
+          "position": "WR",
+          "nflTeam": "PIT",
+          "points": 8.7,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "B. Roethlisberger",
+          "position": "QB",
+          "nflTeam": "PIT",
+          "points": 19.98,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "H. Miller",
+          "position": "TE",
+          "nflTeam": "PIT",
+          "points": 4.7,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "P. Thomas",
+          "position": "RB",
+          "nflTeam": "NO",
+          "points": 6.5,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "A. Ellington",
+          "position": "RB",
+          "nflTeam": "ARI",
+          "points": 9.2,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "R. Succop",
+          "position": "K",
+          "nflTeam": "KC",
+          "points": 1,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Rams",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 18,
+          "starter": false
+        }
+      ]
+    },
+    "3629486": {
+      "week": 16,
+      "teamId": "7",
+      "teamName": "Go BIG GREEN",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "C. Kaepernick",
+          "position": "QB",
+          "nflTeam": "SF",
+          "points": 22.98,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "M. Forte",
+          "position": "RB",
+          "nflTeam": "CHI",
+          "points": 9.4,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "B. Tate",
+          "position": "RB",
+          "nflTeam": "HOU",
+          "points": 0,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "J. Jones",
+          "position": "WR",
+          "nflTeam": "GB",
+          "points": 17.4,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "K. Wright",
+          "position": "WR",
+          "nflTeam": "TEN",
+          "points": 6.2,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "J. Cook",
+          "position": "TE",
+          "nflTeam": "STL",
+          "points": 4.7,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "A. Boldin",
+          "position": "WR",
+          "nflTeam": "SF",
+          "points": 19.2,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "M. Jones",
+          "position": "WR",
+          "nflTeam": "CIN",
+          "points": 15.1,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "J. Tucker",
+          "position": "K",
+          "nflTeam": "BAL",
+          "points": 1,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Cardinals",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 15,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "R. Gronkowski",
+          "position": "TE",
+          "nflTeam": "NE",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "G. Tate",
+          "position": "WR",
+          "nflTeam": "SEA",
+          "points": 5.4,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "R. Helu",
+          "position": "RB",
+          "nflTeam": "WAS",
+          "points": 2.3,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "A. Rodgers",
+          "position": "QB",
+          "nflTeam": "GB",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "F. Jackson",
+          "position": "RB",
+          "nflTeam": "BUF",
+          "points": 24.8,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "D. Akers",
+          "position": "K",
+          "nflTeam": "DET",
+          "points": 4,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Ravens",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 1,
+          "starter": false
+        }
+      ]
+    },
+    "3629724": {
+      "week": 16,
+      "teamId": "8",
+      "teamName": "Your Mom's Team",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "M. Stafford",
+          "position": "QB",
+          "nflTeam": "DET",
+          "points": 6.78,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "C. Spiller",
+          "position": "RB",
+          "nflTeam": "BUF",
+          "points": 13.3,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "M. Lynch",
+          "position": "RB",
+          "nflTeam": "SEA",
+          "points": 9.6,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "E. Royal",
+          "position": "WR",
+          "nflTeam": "LAC",
+          "points": 9.4,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "P. Garcon",
+          "position": "WR",
+          "nflTeam": "WAS",
+          "points": 36.4,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "S. Chandler",
+          "position": "TE",
+          "nflTeam": "BUF",
+          "points": 5.1,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "D. Bowe",
+          "position": "WR",
+          "nflTeam": "KC",
+          "points": 9.6,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "D. Williams",
+          "position": "RB",
+          "nflTeam": "CAR",
+          "points": 16.7,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "D. Bailey",
+          "position": "K",
+          "nflTeam": "DAL",
+          "points": 6,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Seahawks",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 11,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "J. Rodgers",
+          "position": "RB",
+          "nflTeam": "ATL",
+          "points": 5.5,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "D. Walker",
+          "position": "TE",
+          "nflTeam": "TEN",
+          "points": 7.5,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "W. Welker",
+          "position": "WR",
+          "nflTeam": "DEN",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "A. Smith",
+          "position": "QB",
+          "nflTeam": "KC",
+          "points": 4.82,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "T. Williams",
+          "position": "WR",
+          "nflTeam": "DAL",
+          "points": 12.4,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Bryant",
+          "position": "K",
+          "nflTeam": "ATL",
+          "points": 6,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Vikings",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 0,
+          "starter": false
+        }
+      ]
+    }
+  }
+}
