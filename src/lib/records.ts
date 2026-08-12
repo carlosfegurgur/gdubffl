@@ -195,3 +195,29 @@ function computeStreaks(
 
   return { longestWinStreak, longestLossStreak };
 }
+
+export type LeagueTotals = {
+  seasons: number;
+  matchups: number;
+  pointsScored: number;
+  managers: number;
+};
+
+/** League-wide all-time totals, for a homepage stats strip. */
+export async function computeLeagueTotals(): Promise<LeagueTotals> {
+  const [seasonRows, matchupCount, scoreSum, managerCount] = await Promise.all([
+    prisma.matchup.findMany({ select: { season: true }, distinct: ["season"] }),
+    prisma.matchup.count(),
+    prisma.matchup.aggregate({ _sum: { homeScore: true, awayScore: true } }),
+    prisma.owner.count(),
+  ]);
+
+  const pointsScored = (scoreSum._sum.homeScore ?? 0) + (scoreSum._sum.awayScore ?? 0);
+
+  return {
+    seasons: seasonRows.length,
+    matchups: matchupCount,
+    pointsScored: Math.round(pointsScored),
+    managers: managerCount,
+  };
+}

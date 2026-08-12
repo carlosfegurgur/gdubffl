@@ -1,0 +1,45 @@
+.card,
+.cardLink {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--primary-6);
+  background: var(--primary-2);
+}
+
+.cardLink {
+  transition: 0.15s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cardLink:hover {
+    border-color: var(--secondary-9);
+    background: var(--primary-3);
+  }
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary-11);
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.titleEmphasis {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--secondary-11);
+}
+
+.description {
+  font-size: 0.85rem;
+  color: var(--primary-11);
+}

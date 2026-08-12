@@ -1,66 +1,79 @@
 import Link from "next/link";
-import { loadOwners } from "@/lib/data-loader.server";
-import { computePowerRankings } from "@/lib/power-rankings";
+import { computeChampionSpotlight, computeSeasonSummaries } from "@/lib/season-archive";
+import { computeLeagueTotals } from "@/lib/records";
+import ChampionSpotlight from "./ChampionSpotlight";
+import MatchupCompareCard from "./MatchupCompareCard";
+import Card from "@/components/Card/Card";
 import styles from "./page.module.css";
 
-const CURRENT_SEASON = 2025;
-const LEAGUE_NAME = "GDUBFFL";
+const RECENT_SEASONS_COUNT = 5;
 
-const links = [
+const exploreLinks = [
   { href: "/rankings", title: "Power Rankings", description: "See how every team stacks up this season." },
   { href: "/matchups", title: "Matchups", description: "Head-to-head results, week by week." },
+  { href: "/records", title: "Records", description: "All-time bests, blowouts, and streaks." },
   { href: "/teams", title: "Teams", description: "Every owner and their team history." },
+  { href: "/seasons", title: "Seasons", description: "Standings and playoff brackets, year by year." },
 ];
 
 export default async function Home() {
-  const owners = await loadOwners();
-  const ownerMap = new Map(owners.map((o) => [o.id, o]));
+  const [spotlight, seasons, totals] = await Promise.all([
+    computeChampionSpotlight(),
+    computeSeasonSummaries(),
+    computeLeagueTotals(),
+  ]);
 
-  const rankings = await computePowerRankings(CURRENT_SEASON);
-  const top3 = rankings
-    .slice(0, 3)
-    .map((r, i) => ({
-      ...r,
-      rank: i + 1,
-      teamName: ownerMap.get(r.ownerId)?.teamName ?? r.ownerId,
-      ownerName: ownerMap.get(r.ownerId)?.name,
-    }));
+  const recentSeasons = seasons.slice(0, RECENT_SEASONS_COUNT);
+
+  const metricItems = [
+    { eyebrow: "Seasons", title: String(totals.seasons) },
+    { eyebrow: "Matchups Played", title: totals.matchups.toLocaleString() },
+    { eyebrow: "Points Scored", title: totals.pointsScored.toLocaleString() },
+    { eyebrow: "Managers", title: String(totals.managers) },
+  ];
 
   return (
     <main className={styles.page}>
-      <header className={styles.hero}>
-        <p className={styles.eyebrow}>{CURRENT_SEASON} Season</p>
-        <h1 className={styles.title}>{LEAGUE_NAME}</h1>
-      </header>
+      {spotlight && (
+        <section className={styles.hero}>
+          <ChampionSpotlight spotlight={spotlight} />
+          <MatchupCompareCard spotlight={spotlight} />
+        </section>
+      )}
+
+      <section className={styles.metricStrip}>
+        {metricItems.map((m) => (
+          <Card key={m.eyebrow} eyebrow={m.eyebrow} title={m.title} emphasis />
+        ))}
+      </section>
+
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Explore</h2>
+        <div className={styles.exploreGrid}>
+          {exploreLinks.map((link) => (
+            <Card key={link.href} href={link.href} title={link.title} description={link.description} />
+          ))}
+        </div>
+      </section>
 
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
-          <h2>Power Rankings</h2>
-          <Link href="/rankings" className={styles.sectionLink}>
-            View full rankings →
+          <h2 className={styles.sectionTitle}>Recent Seasons</h2>
+          <Link href="/seasons" className={styles.sectionLink}>
+            View all seasons →
           </Link>
         </div>
-        <ol className={styles.top3}>
-          {top3.map((r) => (
-            <li key={r.ownerId} className={styles.top3Item}>
-              <span className={styles.top3Rank}>{r.rank}</span>
-              <div className={styles.top3Info}>
-                <span className={styles.top3Team}>{r.teamName}</span>
-                {r.ownerName && <span className={styles.top3Owner}>{r.ownerName}</span>}
-              </div>
-              <span className={styles.top3Score}>{r.score}</span>
-            </li>
+        <div className={styles.seasonsGrid}>
+          {recentSeasons.map((s) => (
+            <Card
+              key={s.season}
+              href={`/seasons/${s.season}`}
+              eyebrow={String(s.season)}
+              title={s.championTeamName ?? "—"}
+              description={s.championOwnerName ? `${s.championOwnerName} · Champion` : undefined}
+            />
           ))}
-        </ol>
-      </section>
-
-      <section className={styles.cards}>
-        {links.map((link) => (
-          <Link key={link.href} href={link.href} className={styles.card}>
-            <h3>{link.title}</h3>
-            <p>{link.description}</p>
-          </Link>
-        ))}
+        </div>
       </section>
     </main>
   );

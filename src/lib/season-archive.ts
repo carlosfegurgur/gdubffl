@@ -187,3 +187,37 @@ export async function computePlayoffBracket(season: number): Promise<PlayoffRoun
     return { week, roundName: roundName(i), matchups: bracketMatchups };
   });
 }
+
+export type ChampionSpotlight = {
+  season: number;
+  champion: StandingRow & { logoUrl?: string };
+  runnerUp?: StandingRow & { logoUrl?: string };
+  championshipGame?: BracketMatchup;
+};
+
+/** Most recent season's champion, runner-up, and the championship game itself. */
+export async function computeChampionSpotlight(): Promise<ChampionSpotlight | null> {
+  const seasons = await listAvailableSeasons();
+  const season = seasons[0];
+  if (season === undefined) return null;
+
+  const [standings, bracket, owners] = await Promise.all([
+    computeSeasonStandings(season),
+    computePlayoffBracket(season),
+    loadOwners(),
+  ]);
+
+  const champion = standings.find((s) => s.place === 1);
+  if (!champion) return null;
+
+  const logoById = new Map(owners.map((o) => [o.id, o.logoUrl]));
+  const runnerUp = standings.find((s) => s.place === 2);
+  const championshipGame = bracket[bracket.length - 1]?.matchups.find((m) => m.label === "Championship");
+
+  return {
+    season,
+    champion: { ...champion, logoUrl: logoById.get(champion.ownerId) },
+    runnerUp: runnerUp ? { ...runnerUp, logoUrl: logoById.get(runnerUp.ownerId) } : undefined,
+    championshipGame,
+  };
+}
