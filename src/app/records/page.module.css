@@ -1,0 +1,157 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary-11);
+}
+
+.field select {
+  font: inherit;
+  padding: 0.5rem 0.65rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--primary-7);
+  background: var(--background);
+  color: var(--foreground);
+  min-width: 10rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.75rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--primary-6);
+  background: var(--primary-2);
+}
+
+.cardLabel {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--primary-11);
+  font-weight: 700;
+}
+
+.cardValue {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--secondary-11);
+}
+
+.cardDetail {
+  font-size: 0.8rem;
+  color: var(--primary-11);
+  line-height: 1.4;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sectionTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.loadingTag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--primary-11);
+}
+
+.tableWrap {
+  overflow: auto;
+  max-height: 32rem;
+  border: 1px solid var(--primary-6);
+  border-radius: 0.75rem;
+  background: var(--primary-2);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table th {
+  position: sticky;
+  top: 0;
+  text-align: left;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--primary-11);
+  padding: 0.65rem 1rem;
+  background: var(--primary-2);
+  border-bottom: 1px solid var(--primary-6);
+}
+
+.table td {
+  padding: 0.55rem 1rem;
+  border-bottom: 1px solid var(--primary-4);
+  white-space: nowrap;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table tbody tr:hover {
+  background: var(--primary-3);
+}
+
+.emphasis {
+  font-weight: 700;
+}
+
+.ownerLink {
+  font-weight: 600;
+}
+
+.ownerLink:hover {
+  text-decoration: underline;
+}
+
+.win {
+  color: var(--secondary-11);
+  font-weight: 600;
+}
+
+.loss {
+  color: var(--primary-9);
+}

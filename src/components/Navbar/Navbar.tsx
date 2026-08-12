@@ -4,6 +4,7 @@ const navbarLinks = [
   { title: "Dashboard", url: "/" },
   { title: "Power Rankings", url: "/rankings" },
   { title: "Matchups", url: "/matchups" },
+  { title: "Records", url: "/records" },
   { title: "Teams", url: "/teams" },
   { title: "Playoffs", url: "/playoffs" },
   { title: "History", url: "/history" },

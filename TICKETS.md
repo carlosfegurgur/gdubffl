@@ -17,9 +17,9 @@ Foundation. Nothing in Epic 2+ should read raw JSON directly once this is done.
 - [~] TICKET-1.5: Build derived-stats utilities (head-to-head records, win streaks, points-for/against aggregates) on top of the unified model — head-to-head (`matchup-utils.ts`) and points-for/against + win-loss (`team-stats.ts`, `power-rankings.ts`) done and wired into real pages. **Win streaks not built yet.**
 
 ## EPIC 2: Records & Leaderboards
-- [ ] TICKET-2.1: Compute all-time records (most points, biggest blowout, closest matchup, longest win/loss streak)
-- [ ] TICKET-2.2: Leaderboard page/component — sortable by stat
-- [ ] TICKET-2.3: Season-level records view (per-year highlights)
+- [x] TICKET-2.1: Compute all-time records (most points, biggest blowout, closest matchup, longest win/loss streak) — `src/lib/records.ts`, `computeAllTimeRecords()`. Verified against raw data (e.g. closest game margin 0.03 double-checked against the source season JSON).
+- [x] TICKET-2.2: Leaderboard page/component — sortable by stat — `/records`, every game flattened to one row per team (2,828 all-time), sortable on every column via the same useSortableTable pattern from the tables work. Scrollable/sticky-header container since it's ~2,800 rows unbounded.
+- [x] TICKET-2.3: Season-level records view (per-year highlights) — same page, a Scope selector (All-Time + each season) recomputes both the headline cards and the leaderboard for that year via `/api/records?season=`.
 
 ## EPIC 3: Head-to-Head / Rivalries — ACTIVE
 - [x] TICKET-3.1: Manager-vs-manager record lookup (all-time W-L, avg margin) — `/matchups`, all-time by default, biggest win + closest game included
