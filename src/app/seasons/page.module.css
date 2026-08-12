@@ -1,0 +1,74 @@
+.page {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  color: var(--primary-11);
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid var(--primary-6);
+  border-radius: 0.75rem;
+  background: var(--primary-2);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table th {
+  text-align: left;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--primary-11);
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--primary-6);
+}
+
+.table td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--primary-4);
+  white-space: nowrap;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table tbody tr:hover {
+  background: var(--primary-3);
+}
+
+.muted {
+  color: var(--primary-11);
+}
+
+.emphasis {
+  font-weight: 700;
+}
+
+.seasonLink {
+  font-weight: 700;
+}
+
+.seasonLink:hover {
+  text-decoration: underline;
+}
+
+.ownerLink:hover {
+  text-decoration: underline;
+}

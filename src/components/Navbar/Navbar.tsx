@@ -6,8 +6,7 @@ const navbarLinks = [
   { title: "Matchups", url: "/matchups" },
   { title: "Records", url: "/records" },
   { title: "Teams", url: "/teams" },
-  { title: "Playoffs", url: "/playoffs" },
-  { title: "History", url: "/history" },
+  { title: "Seasons", url: "/seasons" },
 ];
 
 export const Navbar = () => {

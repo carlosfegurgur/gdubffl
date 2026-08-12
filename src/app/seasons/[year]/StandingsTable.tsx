@@ -1,24 +1,25 @@
 "use client";
 
-import type { SeasonStats } from "@/lib/team-stats";
+import Link from "next/link";
+import type { StandingRow } from "@/lib/season-archive";
 import { useSortableTable } from "@/lib/useSortableTable";
 import SortableHeader from "@/components/SortableHeader";
-import { ordinal } from "@/lib/format";
 import styles from "./page.module.css";
 
-const columns: { key: keyof SeasonStats; label: string }[] = [
-  { key: "season", label: "Season" },
-  { key: "teamName", label: "Team Name" },
-  { key: "place", label: "Finish" },
+const columns: { key: keyof StandingRow; label: string }[] = [
+  { key: "place", label: "Place" },
+  { key: "teamName", label: "Team" },
+  { key: "ownerName", label: "Owner" },
   { key: "wins", label: "Record" },
   { key: "pointsFor", label: "PF" },
   { key: "pointsAgainst", label: "PA" },
 ];
 
-export default function SeasonHistoryTable({ seasonStats }: { seasonStats: SeasonStats[] }) {
-  const { sorted, sortKey, direction, toggleSort } = useSortableTable<SeasonStats, keyof SeasonStats>(
-    seasonStats,
-    "season"
+export default function StandingsTable({ standings }: { standings: StandingRow[] }) {
+  const { sorted, sortKey, direction, toggleSort } = useSortableTable<StandingRow, keyof StandingRow>(
+    standings,
+    "place",
+    "asc"
   );
 
   return (
@@ -40,16 +41,20 @@ export default function SeasonHistoryTable({ seasonStats }: { seasonStats: Seaso
         </thead>
         <tbody>
           {sorted.map((s) => (
-            <tr key={s.season}>
-              <td>{s.season}</td>
-              <td>{s.teamName}</td>
-              <td className={s.place === 1 ? styles.champion : undefined}>{s.place ? ordinal(s.place) : "—"}</td>
+            <tr key={s.ownerId}>
+              <td className={s.place === 1 ? styles.champion : undefined}>{s.place ?? "—"}</td>
+              <td className={styles.emphasis}>
+                <Link href={`/teams/${s.ownerId}`} className={styles.teamLink}>
+                  {s.teamName}
+                </Link>
+              </td>
+              <td className={styles.muted}>{s.ownerName}</td>
               <td>
                 {s.wins}-{s.losses}
                 {s.ties ? `-${s.ties}` : ""}
               </td>
-              <td>{s.pointsFor}</td>
-              <td>{s.pointsAgainst}</td>
+              <td className={styles.muted}>{s.pointsFor}</td>
+              <td className={styles.muted}>{s.pointsAgainst}</td>
             </tr>
           ))}
         </tbody>

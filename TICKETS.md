@@ -27,9 +27,9 @@ Foundation. Nothing in Epic 2+ should read raw JSON directly once this is done.
 - [ ] TICKET-3.3: "Biggest rivalry" auto-detection (most games played, closest overall record)
 
 ## EPIC 4: Season Archives
-- [ ] TICKET-4.1: Season list/index page
-- [ ] TICKET-4.2: Single-season view — standings, weekly matchups
-- [ ] TICKET-4.3: Playoff bracket display per season — format has changed historically, stable in recent seasons. Build bracket logic to handle format as a per-season config value (not hardcoded), so old seasons don't break the current-format assumption.
+- [x] TICKET-4.1: Season list/index page — `/seasons`, sortable, champion + team count per year.
+- [x] TICKET-4.2: Single-season view — standings, weekly matchups — `/seasons/[year]`: sortable standings table, week selector reusing MatchupViewer.
+- [x] TICKET-4.3: Playoff bracket display per season — implemented as **derived from data, not a per-season config table**: round count/names (Quarterfinals/Semifinals/Championship Week) come from each season's actual `isPlayoff` week count, and the final week's individual games are labeled precisely (Championship, 3rd Place Game, ...) by cross-referencing each side's final standing. No hardcoded format table to maintain — verified correct against 2012 (2 rounds), 2016 (3 rounds, matches the exact structure found via live research early in this project), and 2025.
 
 ## EPIC 5: Draft History
 - [!] TICKET-5.0: BLOCKED — no draft data exists yet. Needs data entry/sourcing before any sub-ticket below can start. Deprioritize this epic until data exists.
