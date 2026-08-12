@@ -7,10 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "import:matchups": "ts-node --project tsconfig.scripts.json scripts/importMatchups.ts",
-    "import:owners": "ts-node --project tsconfig.scripts.json scripts/importOwners.ts",
     "import:test": "ts-node --project tsconfig.scripts.json scripts/test.ts",
-    "scrape:league": "ts-node --project tsconfig.scripts.json scripts/scrapeNflLeague.ts"
+    "scrape:league": "ts-node --project tsconfig.scripts.json scripts/scrapeNflLeague.ts",
+    "db:import": "ts-node --project tsconfig.scripts.json scripts/importToDb.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.1.0",

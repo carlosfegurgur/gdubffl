@@ -7,60 +7,65 @@ datasource db {
   provider = "postgresql"
 }
 
-model Matchup {
-  id        Int    @id @default(autoincrement())
-  week      Int
-  homeTeam  String
-  awayTeam  String
-  homeScore Float
-  awayScore Float
-}
-
+// Mirrors src/data/owners.json. id is the NFL.com account id (after alias
+// consolidation for managers who've played under more than one account).
 model Owner {
-  id     Int          @id @default(autoincrement())
-  name   String       @unique
-  teams  TeamOwner[]
+  id       String  @id
+  name     String
+  teamName String
+  logoUrl  String?
+
+  homeMatchups Matchup[]    @relation("HomeOwner")
+  awayMatchups Matchup[]    @relation("AwayOwner")
+  seasonTeams  SeasonTeam[]
 }
 
-model Team {
-  id          Int          @id @default(autoincrement())
-  name        String
-  seasons     TeamOwner[]
-  homeMatches Match[]      @relation("HomeTeam")
-  awayMatches Match[]      @relation("AwayTeam")
+// Mirrors a single matchup entry inside src/data/<season>-season.json.
+model Matchup {
+  id          String  @id
+  season      Int
+  week        Int
+  homeOwner   Owner   @relation("HomeOwner", fields: [homeOwnerId], references: [id])
+  homeOwnerId String
+  awayOwner   Owner   @relation("AwayOwner", fields: [awayOwnerId], references: [id])
+  awayOwnerId String
+  homeScore   Float
+  awayScore   Float
+  isPlayoff   Boolean @default(false)
+
+  @@index([season])
+  @@index([homeOwnerId])
+  @@index([awayOwnerId])
 }
 
-model TeamOwner {
-  id          Int    @id @default(autoincrement())
-  seasonYear  Int
-  team        Team   @relation(fields: [teamId], references: [id], onDelete: Cascade)
-  teamId      Int
-  owner       Owner  @relation(fields: [ownerId], references: [id], onDelete: Cascade)
-  ownerId     Int
+// Mirrors one owner's entry in src/data/rosters/<season>.json: their team
+// for that season, final standing, and final-week roster.
+model SeasonTeam {
+  id       Int     @id @default(autoincrement())
+  season   Int
+  owner    Owner   @relation(fields: [ownerId], references: [id])
+  ownerId  String
+  teamId   String
+  teamName String
+  week     Int
+  place    Int?
 
-  @@unique([teamId, seasonYear])
+  players RosterPlayer[]
+
+  @@unique([season, ownerId])
 }
 
-model Week {
-  id         Int      @id @default(autoincrement())
-  seasonYear Int
-  weekNumber Int
-  matches    Match[]
+// One player on a SeasonTeam's final-week roster.
+model RosterPlayer {
+  id           Int        @id @default(autoincrement())
+  seasonTeam   SeasonTeam @relation(fields: [seasonTeamId], references: [id], onDelete: Cascade)
+  seasonTeamId Int
+  slot         String
+  name         String
+  position     String
+  nflTeam      String
+  points       Float
+  starter      Boolean
 
-  @@unique([seasonYear, weekNumber])
-}
-
-model Match {
-  id          Int   @id @default(autoincrement())
-  week        Week  @relation(fields: [weekId], references: [id], onDelete: Cascade)
-  weekId      Int
-
-  homeTeam    Team  @relation("HomeTeam", fields: [homeTeamId], references: [id])
-  homeTeamId  Int
-
-  awayTeam    Team  @relation("AwayTeam", fields: [awayTeamId], references: [id])
-  awayTeamId  Int
-
-  homeScore   Int?
-  awayScore   Int?
+  @@index([seasonTeamId])
 }

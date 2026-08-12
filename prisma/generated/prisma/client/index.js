@@ -93,45 +93,43 @@ exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
   Serializable: 'Serializable'
 });
 
-exports.Prisma.MatchupScalarFieldEnum = {
-  id: 'id',
-  week: 'week',
-  homeTeam: 'homeTeam',
-  awayTeam: 'awayTeam',
-  homeScore: 'homeScore',
-  awayScore: 'awayScore'
-};
-
 exports.Prisma.OwnerScalarFieldEnum = {
   id: 'id',
-  name: 'name'
+  name: 'name',
+  teamName: 'teamName',
+  logoUrl: 'logoUrl'
 };
 
-exports.Prisma.TeamScalarFieldEnum = {
+exports.Prisma.MatchupScalarFieldEnum = {
   id: 'id',
-  name: 'name'
-};
-
-exports.Prisma.TeamOwnerScalarFieldEnum = {
-  id: 'id',
-  seasonYear: 'seasonYear',
-  teamId: 'teamId',
-  ownerId: 'ownerId'
-};
-
-exports.Prisma.WeekScalarFieldEnum = {
-  id: 'id',
-  seasonYear: 'seasonYear',
-  weekNumber: 'weekNumber'
-};
-
-exports.Prisma.MatchScalarFieldEnum = {
-  id: 'id',
-  weekId: 'weekId',
-  homeTeamId: 'homeTeamId',
-  awayTeamId: 'awayTeamId',
+  season: 'season',
+  week: 'week',
+  homeOwnerId: 'homeOwnerId',
+  awayOwnerId: 'awayOwnerId',
   homeScore: 'homeScore',
-  awayScore: 'awayScore'
+  awayScore: 'awayScore',
+  isPlayoff: 'isPlayoff'
+};
+
+exports.Prisma.SeasonTeamScalarFieldEnum = {
+  id: 'id',
+  season: 'season',
+  ownerId: 'ownerId',
+  teamId: 'teamId',
+  teamName: 'teamName',
+  week: 'week',
+  place: 'place'
+};
+
+exports.Prisma.RosterPlayerScalarFieldEnum = {
+  id: 'id',
+  seasonTeamId: 'seasonTeamId',
+  slot: 'slot',
+  name: 'name',
+  position: 'position',
+  nflTeam: 'nflTeam',
+  points: 'points',
+  starter: 'starter'
 };
 
 exports.Prisma.SortOrder = {
@@ -151,12 +149,10 @@ exports.Prisma.NullsOrder = {
 
 
 exports.Prisma.ModelName = {
-  Matchup: 'Matchup',
   Owner: 'Owner',
-  Team: 'Team',
-  TeamOwner: 'TeamOwner',
-  Week: 'Week',
-  Match: 'Match'
+  Matchup: 'Matchup',
+  SeasonTeam: 'SeasonTeam',
+  RosterPlayer: 'RosterPlayer'
 };
 /**
  * Create the Client
@@ -166,10 +162,10 @@ const config = {
   "clientVersion": "7.1.0",
   "engineVersion": "ab635e6b9d606fa5c8fb8b1a7f909c3c3c1c98ba",
   "activeProvider": "postgresql",
-  "inlineSchema": "generator client {\n  provider = \"prisma-client-js\"\n  output   = \"./generated/prisma/client\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel Matchup {\n  id        Int    @id @default(autoincrement())\n  week      Int\n  homeTeam  String\n  awayTeam  String\n  homeScore Float\n  awayScore Float\n}\n\nmodel Owner {\n  id    Int         @id @default(autoincrement())\n  name  String      @unique\n  teams TeamOwner[]\n}\n\nmodel Team {\n  id          Int         @id @default(autoincrement())\n  name        String\n  seasons     TeamOwner[]\n  homeMatches Match[]     @relation(\"HomeTeam\")\n  awayMatches Match[]     @relation(\"AwayTeam\")\n}\n\nmodel TeamOwner {\n  id         Int   @id @default(autoincrement())\n  seasonYear Int\n  team       Team  @relation(fields: [teamId], references: [id], onDelete: Cascade)\n  teamId     Int\n  owner      Owner @relation(fields: [ownerId], references: [id], onDelete: Cascade)\n  ownerId    Int\n\n  @@unique([teamId, seasonYear])\n}\n\nmodel Week {\n  id         Int     @id @default(autoincrement())\n  seasonYear Int\n  weekNumber Int\n  matches    Match[]\n\n  @@unique([seasonYear, weekNumber])\n}\n\nmodel Match {\n  id     Int  @id @default(autoincrement())\n  week   Week @relation(fields: [weekId], references: [id], onDelete: Cascade)\n  weekId Int\n\n  homeTeam   Team @relation(\"HomeTeam\", fields: [homeTeamId], references: [id])\n  homeTeamId Int\n\n  awayTeam   Team @relation(\"AwayTeam\", fields: [awayTeamId], references: [id])\n  awayTeamId Int\n\n  homeScore Int?\n  awayScore Int?\n}\n"
+  "inlineSchema": "generator client {\n  provider = \"prisma-client-js\"\n  output   = \"./generated/prisma/client\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\n// Mirrors src/data/owners.json. id is the NFL.com account id (after alias\n// consolidation for managers who've played under more than one account).\nmodel Owner {\n  id       String  @id\n  name     String\n  teamName String\n  logoUrl  String?\n\n  homeMatchups Matchup[]    @relation(\"HomeOwner\")\n  awayMatchups Matchup[]    @relation(\"AwayOwner\")\n  seasonTeams  SeasonTeam[]\n}\n\n// Mirrors a single matchup entry inside src/data/<season>-season.json.\nmodel Matchup {\n  id          String  @id\n  season      Int\n  week        Int\n  homeOwner   Owner   @relation(\"HomeOwner\", fields: [homeOwnerId], references: [id])\n  homeOwnerId String\n  awayOwner   Owner   @relation(\"AwayOwner\", fields: [awayOwnerId], references: [id])\n  awayOwnerId String\n  homeScore   Float\n  awayScore   Float\n  isPlayoff   Boolean @default(false)\n\n  @@index([season])\n  @@index([homeOwnerId])\n  @@index([awayOwnerId])\n}\n\n// Mirrors one owner's entry in src/data/rosters/<season>.json: their team\n// for that season, final standing, and final-week roster.\nmodel SeasonTeam {\n  id       Int    @id @default(autoincrement())\n  season   Int\n  owner    Owner  @relation(fields: [ownerId], references: [id])\n  ownerId  String\n  teamId   String\n  teamName String\n  week     Int\n  place    Int?\n\n  players RosterPlayer[]\n\n  @@unique([season, ownerId])\n}\n\n// One player on a SeasonTeam's final-week roster.\nmodel RosterPlayer {\n  id           Int        @id @default(autoincrement())\n  seasonTeam   SeasonTeam @relation(fields: [seasonTeamId], references: [id], onDelete: Cascade)\n  seasonTeamId Int\n  slot         String\n  name         String\n  position     String\n  nflTeam      String\n  points       Float\n  starter      Boolean\n\n  @@index([seasonTeamId])\n}\n"
 }
 
-config.runtimeDataModel = JSON.parse("{\"models\":{\"Matchup\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"week\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"homeTeam\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"awayTeam\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"homeScore\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"awayScore\",\"kind\":\"scalar\",\"type\":\"Float\"}],\"dbName\":null},\"Owner\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"teams\",\"kind\":\"object\",\"type\":\"TeamOwner\",\"relationName\":\"OwnerToTeamOwner\"}],\"dbName\":null},\"Team\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"seasons\",\"kind\":\"object\",\"type\":\"TeamOwner\",\"relationName\":\"TeamToTeamOwner\"},{\"name\":\"homeMatches\",\"kind\":\"object\",\"type\":\"Match\",\"relationName\":\"HomeTeam\"},{\"name\":\"awayMatches\",\"kind\":\"object\",\"type\":\"Match\",\"relationName\":\"AwayTeam\"}],\"dbName\":null},\"TeamOwner\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"seasonYear\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"team\",\"kind\":\"object\",\"type\":\"Team\",\"relationName\":\"TeamToTeamOwner\"},{\"name\":\"teamId\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"owner\",\"kind\":\"object\",\"type\":\"Owner\",\"relationName\":\"OwnerToTeamOwner\"},{\"name\":\"ownerId\",\"kind\":\"scalar\",\"type\":\"Int\"}],\"dbName\":null},\"Week\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"seasonYear\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"weekNumber\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"matches\",\"kind\":\"object\",\"type\":\"Match\",\"relationName\":\"MatchToWeek\"}],\"dbName\":null},\"Match\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"week\",\"kind\":\"object\",\"type\":\"Week\",\"relationName\":\"MatchToWeek\"},{\"name\":\"weekId\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"homeTeam\",\"kind\":\"object\",\"type\":\"Team\",\"relationName\":\"HomeTeam\"},{\"name\":\"homeTeamId\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"awayTeam\",\"kind\":\"object\",\"type\":\"Team\",\"relationName\":\"AwayTeam\"},{\"name\":\"awayTeamId\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"homeScore\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"awayScore\",\"kind\":\"scalar\",\"type\":\"Int\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
+config.runtimeDataModel = JSON.parse("{\"models\":{\"Owner\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"teamName\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"logoUrl\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"homeMatchups\",\"kind\":\"object\",\"type\":\"Matchup\",\"relationName\":\"HomeOwner\"},{\"name\":\"awayMatchups\",\"kind\":\"object\",\"type\":\"Matchup\",\"relationName\":\"AwayOwner\"},{\"name\":\"seasonTeams\",\"kind\":\"object\",\"type\":\"SeasonTeam\",\"relationName\":\"OwnerToSeasonTeam\"}],\"dbName\":null},\"Matchup\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"season\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"week\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"homeOwner\",\"kind\":\"object\",\"type\":\"Owner\",\"relationName\":\"HomeOwner\"},{\"name\":\"homeOwnerId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"awayOwner\",\"kind\":\"object\",\"type\":\"Owner\",\"relationName\":\"AwayOwner\"},{\"name\":\"awayOwnerId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"homeScore\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"awayScore\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"isPlayoff\",\"kind\":\"scalar\",\"type\":\"Boolean\"}],\"dbName\":null},\"SeasonTeam\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"season\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"owner\",\"kind\":\"object\",\"type\":\"Owner\",\"relationName\":\"OwnerToSeasonTeam\"},{\"name\":\"ownerId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"teamId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"teamName\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"week\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"place\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"players\",\"kind\":\"object\",\"type\":\"RosterPlayer\",\"relationName\":\"RosterPlayerToSeasonTeam\"}],\"dbName\":null},\"RosterPlayer\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"seasonTeam\",\"kind\":\"object\",\"type\":\"SeasonTeam\",\"relationName\":\"RosterPlayerToSeasonTeam\"},{\"name\":\"seasonTeamId\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"slot\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"position\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"nflTeam\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"points\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"starter\",\"kind\":\"scalar\",\"type\":\"Boolean\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
 defineDmmfProperty(exports.Prisma, config.runtimeDataModel)
 config.compilerWasm = {
       getRuntime: async () => require('./query_compiler_bg.js'),

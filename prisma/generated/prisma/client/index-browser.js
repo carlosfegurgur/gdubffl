@@ -120,45 +120,43 @@ exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
   Serializable: 'Serializable'
 });
 
-exports.Prisma.MatchupScalarFieldEnum = {
-  id: 'id',
-  week: 'week',
-  homeTeam: 'homeTeam',
-  awayTeam: 'awayTeam',
-  homeScore: 'homeScore',
-  awayScore: 'awayScore'
-};
-
 exports.Prisma.OwnerScalarFieldEnum = {
   id: 'id',
-  name: 'name'
+  name: 'name',
+  teamName: 'teamName',
+  logoUrl: 'logoUrl'
 };
 
-exports.Prisma.TeamScalarFieldEnum = {
+exports.Prisma.MatchupScalarFieldEnum = {
   id: 'id',
-  name: 'name'
-};
-
-exports.Prisma.TeamOwnerScalarFieldEnum = {
-  id: 'id',
-  seasonYear: 'seasonYear',
-  teamId: 'teamId',
-  ownerId: 'ownerId'
-};
-
-exports.Prisma.WeekScalarFieldEnum = {
-  id: 'id',
-  seasonYear: 'seasonYear',
-  weekNumber: 'weekNumber'
-};
-
-exports.Prisma.MatchScalarFieldEnum = {
-  id: 'id',
-  weekId: 'weekId',
-  homeTeamId: 'homeTeamId',
-  awayTeamId: 'awayTeamId',
+  season: 'season',
+  week: 'week',
+  homeOwnerId: 'homeOwnerId',
+  awayOwnerId: 'awayOwnerId',
   homeScore: 'homeScore',
-  awayScore: 'awayScore'
+  awayScore: 'awayScore',
+  isPlayoff: 'isPlayoff'
+};
+
+exports.Prisma.SeasonTeamScalarFieldEnum = {
+  id: 'id',
+  season: 'season',
+  ownerId: 'ownerId',
+  teamId: 'teamId',
+  teamName: 'teamName',
+  week: 'week',
+  place: 'place'
+};
+
+exports.Prisma.RosterPlayerScalarFieldEnum = {
+  id: 'id',
+  seasonTeamId: 'seasonTeamId',
+  slot: 'slot',
+  name: 'name',
+  position: 'position',
+  nflTeam: 'nflTeam',
+  points: 'points',
+  starter: 'starter'
 };
 
 exports.Prisma.SortOrder = {
@@ -178,12 +176,10 @@ exports.Prisma.NullsOrder = {
 
 
 exports.Prisma.ModelName = {
-  Matchup: 'Matchup',
   Owner: 'Owner',
-  Team: 'Team',
-  TeamOwner: 'TeamOwner',
-  Week: 'Week',
-  Match: 'Match'
+  Matchup: 'Matchup',
+  SeasonTeam: 'SeasonTeam',
+  RosterPlayer: 'RosterPlayer'
 };
 
 /**
