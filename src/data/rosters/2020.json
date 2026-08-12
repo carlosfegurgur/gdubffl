@@ -126,7 +126,8 @@
           "points": 13.7,
           "starter": false
         }
-      ]
+      ],
+      "place": 8
     },
     "1905754": {
       "week": 16,
@@ -253,7 +254,8 @@
           "points": 6.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 1
     },
     "2108440": {
       "week": 16,
@@ -380,7 +382,15 @@
           "points": 13.2,
           "starter": false
         }
-      ]
+      ],
+      "place": 12
+    },
+    "2563586": {
+      "week": 16,
+      "teamId": "9",
+      "teamName": "Budda Kupp",
+      "place": 13,
+      "players": []
     },
     "3520130": {
       "week": 16,
@@ -507,7 +517,8 @@
           "points": 6.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 6
     },
     "3629308": {
       "week": 16,
@@ -634,7 +645,8 @@
           "points": 14.2,
           "starter": false
         }
-      ]
+      ],
+      "place": 3
     },
     "3629342": {
       "week": 16,
@@ -769,7 +781,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 4
     },
     "3629486": {
       "week": 16,
@@ -896,7 +909,8 @@
           "points": 7,
           "starter": false
         }
-      ]
+      ],
+      "place": 10
     },
     "3629724": {
       "week": 16,
@@ -1023,7 +1037,8 @@
           "points": 6.9,
           "starter": false
         }
-      ]
+      ],
+      "place": 5
     },
     "8546922": {
       "week": 16,
@@ -1158,7 +1173,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 11
     },
     "9870478": {
       "week": 16,
@@ -1293,7 +1309,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 2
     },
     "22598860": {
       "week": 16,
@@ -1412,7 +1429,8 @@
           "points": 6.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 7
     },
     "22628615": {
       "week": 16,
@@ -1539,7 +1557,15 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 9
+    },
+    "25292913": {
+      "week": 16,
+      "teamId": "14",
+      "teamName": "Murray in the Grave - Drake",
+      "place": 14,
+      "players": []
     }
   }
 }

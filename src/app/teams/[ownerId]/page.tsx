@@ -6,6 +6,12 @@ import { computeSeasonStats } from "@/lib/team-stats";
 import RosterViewer from "./RosterViewer";
 import styles from "./page.module.css";
 
+function ordinal(n: number): string {
+  const suffixes = ["th", "st", "nd", "rd"];
+  const v = n % 100;
+  return `${n}${suffixes[(v - 20) % 10] ?? suffixes[v] ?? suffixes[0]}`;
+}
+
 export default async function TeamDetailPage({ params }: { params: Promise<{ ownerId: string }> }) {
   const { ownerId } = await params;
   const owner = loadOwners().find((o) => o.id === ownerId);
@@ -35,6 +41,7 @@ export default async function TeamDetailPage({ params }: { params: Promise<{ own
     { wins: 0, losses: 0, ties: 0, pointsFor: 0, pointsAgainst: 0 }
   );
   const totalGames = career.wins + career.losses + career.ties || 1;
+  const championships = seasonStats.filter((s) => s.place === 1).length;
 
   return (
     <main className={styles.page}>
@@ -52,6 +59,7 @@ export default async function TeamDetailPage({ params }: { params: Promise<{ own
 
       <section className={styles.statsRow}>
         <Stat label="Seasons" value={seasonStats.length} />
+        <Stat label="Championships" value={championships} />
         <Stat label="Record" value={`${career.wins}-${career.losses}${career.ties ? `-${career.ties}` : ""}`} />
         <Stat label="Win %" value={`${Math.round((career.wins / totalGames) * 100)}%`} />
         <Stat label="Total PF" value={career.pointsFor.toFixed(1)} />
@@ -66,6 +74,7 @@ export default async function TeamDetailPage({ params }: { params: Promise<{ own
               <tr>
                 <th>Season</th>
                 <th>Team Name</th>
+                <th>Finish</th>
                 <th>Record</th>
                 <th>PF</th>
                 <th>PA</th>
@@ -76,6 +85,9 @@ export default async function TeamDetailPage({ params }: { params: Promise<{ own
                 <tr key={s.season}>
                   <td>{s.season}</td>
                   <td>{s.teamName}</td>
+                  <td className={s.place === 1 ? styles.champion : undefined}>
+                    {s.place ? ordinal(s.place) : "—"}
+                  </td>
                   <td>
                     {s.wins}-{s.losses}
                     {s.ties ? `-${s.ties}` : ""}

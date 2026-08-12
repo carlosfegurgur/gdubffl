@@ -38,7 +38,7 @@ type RosterPlayer = {
   points: number;
   starter: boolean;
 };
-type FinalRoster = { week: number; teamId: string; teamName: string; players: RosterPlayer[] };
+type FinalRoster = { week: number; teamId: string; teamName: string; place?: number; players: RosterPlayer[] };
 type ScrapedOwner = { id: string; name: string; teamName: string; logoUrl?: string };
 type ScrapedMatchup = {
   id: string;
@@ -105,38 +105,66 @@ async function fetchHtml(url: string): Promise<string> {
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function detectRegularSeasonWeeks(league: string, season: number): Promise<number | null> {
+type StandingsInfo = {
+  regularSeasonWeeks: number | null;
+  placementsByTeamId: Map<string, number>;
+};
+
+async function scrapeStandings(league: string, season: number): Promise<StandingsInfo> {
   const url = `https://fantasy.nfl.com/league/${league}/history/${season}/standings?gameSeason=${season}&leagueId=${league}`;
   const html = await fetchHtml(url);
-  const match = html.match(/Reg\. Season:\s*(\d+)-(\d+)-(\d+)/);
-  if (!match) return null;
-  const [, wins, losses, ties] = match;
-  return parseInt(wins, 10) + parseInt(losses, 10) + parseInt(ties, 10);
+
+  const recordMatch = html.match(/Reg\. Season:\s*(\d+)-(\d+)-(\d+)/);
+  const regularSeasonWeeks = recordMatch
+    ? parseInt(recordMatch[1], 10) + parseInt(recordMatch[2], 10) + parseInt(recordMatch[3], 10)
+    : null;
+
+  const $ = cheerio.load(html);
+  const placementsByTeamId = new Map<string, number>();
+  $('li[class^="place-"]').each((_, el) => {
+    const $el = $(el);
+    const placeText = $el.find(".place").first().text().trim(); // e.g. "1st Place"
+    const placeMatch = placeText.match(/^(\d+)/);
+    const teamClass = $el.find("a.teamName").first().attr("class") ?? "";
+    const teamIdMatch = teamClass.match(/teamId-(\d+)/);
+    if (placeMatch && teamIdMatch) {
+      placementsByTeamId.set(teamIdMatch[1], parseInt(placeMatch[1], 10));
+    }
+  });
+
+  return { regularSeasonWeeks, placementsByTeamId };
 }
 
-async function scrapeOwners(league: string, season: number): Promise<Map<string, ScrapedOwner>> {
+async function scrapeOwners(
+  league: string,
+  season: number
+): Promise<Map<string, ScrapedOwner & { teamId: string }>> {
   const url = `https://fantasy.nfl.com/league/${league}/history/${season}/owners?leagueId=${league}`;
   const html = await fetchHtml(url);
   const $ = cheerio.load(html);
 
-  const owners = new Map<string, ScrapedOwner>();
+  const owners = new Map<string, ScrapedOwner & { teamId: string }>();
 
   $("tr[class^='team-']").each((_, row) => {
     const $row = $(row);
-    const teamName = $row.find("a.teamName").first().text().trim();
+    const $teamLink = $row.find("a.teamName").first();
+    const teamName = $teamLink.text().trim();
+    const teamClass = $teamLink.attr("class") ?? "";
+    const teamIdMatch = teamClass.match(/teamId-(\d+)/);
     const logoUrl = $row.find("img").first().attr("src");
     const $userSpan = $row.find(".teamOwnerName .userName").first();
     const userClass = $userSpan.attr("class") ?? "";
     const userIdMatch = userClass.match(/userId-(\d+)/);
     const ownerName = $userSpan.text().trim();
 
-    if (!userIdMatch || !teamName || !ownerName) return;
+    if (!userIdMatch || !teamIdMatch || !teamName || !ownerName) return;
 
     owners.set(userIdMatch[1], {
       id: userIdMatch[1],
       name: ownerName,
       teamName,
       logoUrl,
+      teamId: teamIdMatch[1],
     });
   });
 
@@ -350,23 +378,29 @@ async function scrapeSeason(
 
   console.log("→ Fetching managers/owners...");
   const owners = await scrapeOwners(league, season);
-  for (const o of owners.values()) ownersById.set(o.id, o);
+  for (const o of owners.values()) {
+    // teamId is season-scoped; owners.json holds cross-season identity, so leave it out.
+    const { teamId: _teamId, ...identity } = o;
+    ownersById.set(o.id, identity);
+  }
   console.log(`  ✓ Found ${owners.size} owners`);
+  await sleep(150);
+
+  console.log("→ Fetching standings (regular-season length + final placements)...");
+  const standings = await scrapeStandings(league, season);
   await sleep(150);
 
   let regularSeasonWeeks = regularSeasonWeeksOverride;
   if (regularSeasonWeeks === undefined) {
-    console.log("→ Detecting regular-season length from standings...");
-    const detected = await detectRegularSeasonWeeks(league, season);
-    if (detected === null) {
+    if (standings.regularSeasonWeeks === null) {
       throw new Error(
         `Could not auto-detect regular-season length for ${season}. Pass --regularSeasonWeeks to override.`
       );
     }
-    regularSeasonWeeks = detected;
+    regularSeasonWeeks = standings.regularSeasonWeeks;
     console.log(`  ✓ Regular season is ${regularSeasonWeeks} weeks`);
-    await sleep(150);
   }
+  console.log(`  ✓ Final placements for ${standings.placementsByTeamId.size} teams`);
 
   const weeks: ScrapedWeek[] = [];
   let week = 1;
@@ -398,6 +432,22 @@ async function scrapeSeason(
     const finalWeek = weeks[weeks.length - 1].week;
     const ownerTeamNames = new Map(Array.from(owners.values()).map((o) => [o.id, o.teamName] as const));
     const rosters = await scrapeFinalRosters(league, season, finalWeek, ownerTeamNames);
+
+    for (const roster of Object.values(rosters)) {
+      const place = standings.placementsByTeamId.get(roster.teamId);
+      if (place !== undefined) roster.place = place;
+    }
+
+    // Bottom-seeded teams sometimes have no matchup in the final week (bye in
+    // the consolation bracket), so they never show up in `rosters` above.
+    // Their placement is still known from standings — attach a roster-less
+    // placeholder so that data isn't lost.
+    for (const o of owners.values()) {
+      if (rosters[o.id]) continue;
+      const place = standings.placementsByTeamId.get(o.teamId);
+      if (place === undefined) continue;
+      rosters[o.id] = { week: finalWeek, teamId: o.teamId, teamName: o.teamName, place, players: [] };
+    }
 
     const rostersDir = path.join(outDir, "rosters");
     fs.mkdirSync(rostersDir, { recursive: true });

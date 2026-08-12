@@ -126,7 +126,8 @@
           "points": 24.5,
           "starter": false
         }
-      ]
+      ],
+      "place": 8
     },
     "1905754": {
       "week": 16,
@@ -253,7 +254,8 @@
           "points": 0.1,
           "starter": false
         }
-      ]
+      ],
+      "place": 14
     },
     "2108440": {
       "week": 16,
@@ -380,7 +382,8 @@
           "points": 11.74,
           "starter": false
         }
-      ]
+      ],
+      "place": 7
     },
     "2563586": {
       "week": 16,
@@ -507,7 +510,8 @@
           "points": 7.64,
           "starter": false
         }
-      ]
+      ],
+      "place": 9
     },
     "3520130": {
       "week": 16,
@@ -634,7 +638,8 @@
           "points": 1.7,
           "starter": false
         }
-      ]
+      ],
+      "place": 11
     },
     "3629308": {
       "week": 16,
@@ -761,7 +766,8 @@
           "points": 4.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 2
     },
     "3629338": {
       "week": 16,
@@ -888,7 +894,8 @@
           "points": 1.6,
           "starter": false
         }
-      ]
+      ],
+      "place": 12
     },
     "3629342": {
       "week": 16,
@@ -1015,7 +1022,8 @@
           "points": 12.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 1
     },
     "3629486": {
       "week": 16,
@@ -1142,7 +1150,8 @@
           "points": 2.1,
           "starter": false
         }
-      ]
+      ],
+      "place": 6
     },
     "3629724": {
       "week": 16,
@@ -1269,7 +1278,8 @@
           "points": 11.68,
           "starter": false
         }
-      ]
+      ],
+      "place": 13
     },
     "8027127": {
       "week": 16,
@@ -1396,7 +1406,8 @@
           "points": 9.3,
           "starter": false
         }
-      ]
+      ],
+      "place": 4
     },
     "8546922": {
       "week": 16,
@@ -1531,7 +1542,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 10
     },
     "9870478": {
       "week": 16,
@@ -1658,7 +1670,8 @@
           "points": 7.5,
           "starter": false
         }
-      ]
+      ],
+      "place": 3
     },
     "14369380": {
       "week": 16,
@@ -1785,7 +1798,8 @@
           "points": 0,
           "starter": false
         }
-      ]
+      ],
+      "place": 5
     }
   }
 }

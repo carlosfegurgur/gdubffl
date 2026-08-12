@@ -142,7 +142,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 9
     },
     "1905754": {
       "week": 17,
@@ -277,7 +278,8 @@
           "points": 32.5,
           "starter": false
         }
-      ]
+      ],
+      "place": 12
     },
     "2108440": {
       "week": 17,
@@ -420,7 +422,15 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 5
+    },
+    "2563586": {
+      "week": 17,
+      "teamId": "11",
+      "teamName": "Dont Draft on Vacation",
+      "place": 13,
+      "players": []
     },
     "3520130": {
       "week": 17,
@@ -555,7 +565,8 @@
           "points": 5.6,
           "starter": false
         }
-      ]
+      ],
+      "place": 10
     },
     "3629308": {
       "week": 17,
@@ -690,7 +701,8 @@
           "points": 8.2,
           "starter": false
         }
-      ]
+      ],
+      "place": 1
     },
     "3629338": {
       "week": 17,
@@ -833,7 +845,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 8
     },
     "3629342": {
       "week": 17,
@@ -976,7 +989,15 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 7
+    },
+    "3629486": {
+      "week": 17,
+      "teamId": "7",
+      "teamName": "Draft on Vacation",
+      "place": 14,
+      "players": []
     },
     "3629724": {
       "week": 17,
@@ -1111,7 +1132,8 @@
           "points": 1.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 3
     },
     "8546922": {
       "week": 17,
@@ -1254,7 +1276,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 4
     },
     "9870478": {
       "week": 17,
@@ -1397,7 +1420,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 2
     },
     "22628615": {
       "week": 17,
@@ -1540,7 +1564,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 11
     },
     "36060149": {
       "week": 17,
@@ -1675,7 +1700,8 @@
           "points": 2.9,
           "starter": false
         }
-      ]
+      ],
+      "place": 6
     }
   }
 }

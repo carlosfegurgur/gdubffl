@@ -134,7 +134,8 @@
           "points": 0,
           "starter": false
         }
-      ]
+      ],
+      "place": 5
     },
     "1905754": {
       "week": 17,
@@ -277,7 +278,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 2
     },
     "2108440": {
       "week": 17,
@@ -412,7 +414,8 @@
           "points": 4.5,
           "starter": false
         }
-      ]
+      ],
+      "place": 8
     },
     "2563586": {
       "week": 17,
@@ -555,7 +558,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 3
     },
     "3520130": {
       "week": 17,
@@ -698,7 +702,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 4
     },
     "3629308": {
       "week": 17,
@@ -841,7 +846,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 9
     },
     "3629338": {
       "week": 17,
@@ -976,7 +982,8 @@
           "points": 11.2,
           "starter": false
         }
-      ]
+      ],
+      "place": 10
     },
     "3629342": {
       "week": 17,
@@ -1111,7 +1118,15 @@
           "points": 2.1,
           "starter": false
         }
-      ]
+      ],
+      "place": 1
+    },
+    "3629486": {
+      "week": 17,
+      "teamId": "7",
+      "teamName": "Kraft Mac and Cheese",
+      "place": 14,
+      "players": []
     },
     "3629724": {
       "week": 17,
@@ -1254,7 +1269,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 6
     },
     "8546922": {
       "week": 17,
@@ -1397,7 +1413,15 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 12
+    },
+    "9870478": {
+      "week": 17,
+      "teamId": "12",
+      "teamName": "Jesse",
+      "place": 13,
+      "players": []
     },
     "22628615": {
       "week": 17,
@@ -1524,7 +1548,8 @@
           "points": 4.6,
           "starter": false
         }
-      ]
+      ],
+      "place": 7
     },
     "25292913": {
       "week": 17,
@@ -1659,7 +1684,8 @@
           "points": 5.6,
           "starter": false
         }
-      ]
+      ],
+      "place": 11
     }
   }
 }

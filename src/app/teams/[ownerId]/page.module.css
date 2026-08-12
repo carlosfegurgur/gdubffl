@@ -45,7 +45,7 @@
 
 .statsRow {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 0.75rem;
 }
 
@@ -113,6 +113,11 @@
 
 .table tbody tr:last-child td {
   border-bottom: none;
+}
+
+.champion {
+  font-weight: 700;
+  color: var(--secondary-11);
 }
 
 @media (max-width: 640px) {

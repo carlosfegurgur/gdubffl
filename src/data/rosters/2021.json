@@ -142,7 +142,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 5
     },
     "1905754": {
       "week": 17,
@@ -285,7 +286,8 @@
           "points": 17.38,
           "starter": true
         }
-      ]
+      ],
+      "place": 6
     },
     "2108440": {
       "week": 17,
@@ -420,7 +422,22 @@
           "points": 0,
           "starter": false
         }
-      ]
+      ],
+      "place": 10
+    },
+    "2563586": {
+      "week": 17,
+      "teamId": "9",
+      "teamName": "CARRY ON MY HEYWARD SON",
+      "place": 13,
+      "players": []
+    },
+    "3520130": {
+      "week": 17,
+      "teamId": "3",
+      "teamName": "The Magik Man",
+      "place": 14,
+      "players": []
     },
     "3629308": {
       "week": 17,
@@ -539,7 +556,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 9
     },
     "3629342": {
       "week": 17,
@@ -674,7 +692,8 @@
           "points": 5,
           "starter": false
         }
-      ]
+      ],
+      "place": 3
     },
     "3629486": {
       "week": 17,
@@ -809,7 +828,8 @@
           "points": 11,
           "starter": false
         }
-      ]
+      ],
+      "place": 2
     },
     "3629724": {
       "week": 17,
@@ -944,7 +964,8 @@
           "points": 4,
           "starter": false
         }
-      ]
+      ],
+      "place": 1
     },
     "8546922": {
       "week": 17,
@@ -1079,7 +1100,8 @@
           "points": 6.2,
           "starter": false
         }
-      ]
+      ],
+      "place": 12
     },
     "9870478": {
       "week": 17,
@@ -1182,7 +1204,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 8
     },
     "22598860": {
       "week": 17,
@@ -1317,7 +1340,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 4
     },
     "22628615": {
       "week": 17,
@@ -1452,7 +1476,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 7
     },
     "25292913": {
       "week": 17,
@@ -1587,7 +1612,8 @@
           "points": 25,
           "starter": false
         }
-      ]
+      ],
+      "place": 11
     }
   }
 }

@@ -11,7 +11,7 @@ export default function RosterViewer({
   rostersBySeason: Record<number, FinalRoster>;
   seasons: number[];
 }) {
-  const seasonsWithRosters = seasons.filter((s) => rostersBySeason[s]);
+  const seasonsWithRosters = seasons.filter((s) => (rostersBySeason[s]?.players.length ?? 0) > 0);
   const [season, setSeason] = useState<number | undefined>(seasonsWithRosters[0]);
   const roster = season !== undefined ? rostersBySeason[season] : undefined;
 

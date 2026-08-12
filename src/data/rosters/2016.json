@@ -118,7 +118,8 @@
           "points": 0,
           "starter": false
         }
-      ]
+      ],
+      "place": 5
     },
     "1905754": {
       "week": 16,
@@ -237,7 +238,8 @@
           "points": -4,
           "starter": false
         }
-      ]
+      ],
+      "place": 8
     },
     "2108440": {
       "week": 16,
@@ -356,7 +358,8 @@
           "points": 2.5,
           "starter": false
         }
-      ]
+      ],
+      "place": 10
     },
     "2563586": {
       "week": 16,
@@ -475,7 +478,8 @@
           "points": 3,
           "starter": false
         }
-      ]
+      ],
+      "place": 4
     },
     "3520130": {
       "week": 16,
@@ -594,7 +598,8 @@
           "points": 0.5,
           "starter": false
         }
-      ]
+      ],
+      "place": 9
     },
     "3629308": {
       "week": 16,
@@ -713,7 +718,8 @@
           "points": 8.1,
           "starter": false
         }
-      ]
+      ],
+      "place": 11
     },
     "3629338": {
       "week": 16,
@@ -832,7 +838,8 @@
           "points": 7.7,
           "starter": false
         }
-      ]
+      ],
+      "place": 2
     },
     "3629342": {
       "week": 16,
@@ -951,7 +958,8 @@
           "points": 29,
           "starter": false
         }
-      ]
+      ],
+      "place": 1
     },
     "3629486": {
       "week": 16,
@@ -1070,7 +1078,8 @@
           "points": 12.1,
           "starter": false
         }
-      ]
+      ],
+      "place": 6
     },
     "3629724": {
       "week": 16,
@@ -1189,7 +1198,22 @@
           "points": 0,
           "starter": false
         }
-      ]
+      ],
+      "place": 12
+    },
+    "8027127": {
+      "week": 16,
+      "teamId": "11",
+      "teamName": "Spoiler Squad",
+      "place": 13,
+      "players": []
+    },
+    "8546922": {
+      "week": 16,
+      "teamId": "5",
+      "teamName": "And And TWINS",
+      "place": 14,
+      "players": []
     },
     "8555607": {
       "week": 16,
@@ -1300,7 +1324,8 @@
           "points": 15.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 7
     },
     "9870478": {
       "week": 16,
@@ -1387,7 +1412,8 @@
           "points": 11.52,
           "starter": false
         }
-      ]
+      ],
+      "place": 3
     }
   }
 }

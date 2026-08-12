@@ -98,6 +98,8 @@ export type SeasonStats = {
   ties: number;
   pointsFor: number;
   pointsAgainst: number;
+  /** Final standing for the season, e.g. 1 = champion. Undefined if not scraped. */
+  place?: number;
 };
 
 /** Season-by-season breakdown for one owner, newest season first. */
@@ -127,9 +129,12 @@ export function computeSeasonStats(ownerId: string): SeasonStats[] {
     // Team names change season to season; prefer that season's roster teamName
     // (captured when we scraped final-week rosters) over the current one.
     let teamName = currentTeamName;
+    let place: number | undefined;
     try {
       const rosters = loadFinalRosters(season);
-      teamName = rosters.rosters[ownerId]?.teamName ?? teamName;
+      const roster = rosters.rosters[ownerId];
+      teamName = roster?.teamName ?? teamName;
+      place = roster?.place;
     } catch {
       // no roster file for this season; fall back to current team name
     }
@@ -137,6 +142,7 @@ export function computeSeasonStats(ownerId: string): SeasonStats[] {
     results.push({
       season,
       teamName,
+      place,
       wins,
       losses,
       ties,

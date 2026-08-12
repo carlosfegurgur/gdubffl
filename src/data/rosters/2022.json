@@ -134,7 +134,8 @@
           "points": 0,
           "starter": false
         }
-      ]
+      ],
+      "place": 3
     },
     "1905754": {
       "week": 17,
@@ -277,7 +278,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 6
     },
     "2108440": {
       "week": 17,
@@ -412,7 +414,8 @@
           "points": 1.5,
           "starter": false
         }
-      ]
+      ],
+      "place": 7
     },
     "3520130": {
       "week": 17,
@@ -547,7 +550,22 @@
           "points": 4.5,
           "starter": false
         }
-      ]
+      ],
+      "place": 4
+    },
+    "3629308": {
+      "week": 17,
+      "teamId": "4",
+      "teamName": "GW Fantasy XI Chains of Sacko",
+      "place": 14,
+      "players": []
+    },
+    "3629338": {
+      "week": 17,
+      "teamId": "9",
+      "teamName": "Narwhal Ballaballs",
+      "place": 13,
+      "players": []
     },
     "3629342": {
       "week": 17,
@@ -682,7 +700,8 @@
           "points": 7.3,
           "starter": false
         }
-      ]
+      ],
+      "place": 12
     },
     "3629486": {
       "week": 17,
@@ -825,7 +844,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 1
     },
     "3629724": {
       "week": 17,
@@ -968,7 +988,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 5
     },
     "8546922": {
       "week": 17,
@@ -1111,7 +1132,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 2
     },
     "9870478": {
       "week": 17,
@@ -1246,7 +1268,8 @@
           "points": 6,
           "starter": false
         }
-      ]
+      ],
+      "place": 9
     },
     "22598860": {
       "week": 17,
@@ -1381,7 +1404,8 @@
           "points": 0,
           "starter": false
         }
-      ]
+      ],
+      "place": 11
     },
     "22628615": {
       "week": 17,
@@ -1524,7 +1548,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 8
     },
     "25292913": {
       "week": 17,
@@ -1659,7 +1684,8 @@
           "points": 7,
           "starter": false
         }
-      ]
+      ],
+      "place": 10
     }
   }
 }

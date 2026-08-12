@@ -134,7 +134,8 @@
           "points": 2,
           "starter": false
         }
-      ]
+      ],
+      "place": 5
     },
     "1905754": {
       "week": 16,
@@ -269,7 +270,8 @@
           "points": -1,
           "starter": false
         }
-      ]
+      ],
+      "place": 4
     },
     "2108440": {
       "week": 16,
@@ -404,7 +406,8 @@
           "points": 7,
           "starter": false
         }
-      ]
+      ],
+      "place": 7
     },
     "2563586": {
       "week": 16,
@@ -539,7 +542,8 @@
           "points": 14,
           "starter": false
         }
-      ]
+      ],
+      "place": 10
     },
     "3520130": {
       "week": 16,
@@ -674,7 +678,8 @@
           "points": 1,
           "starter": false
         }
-      ]
+      ],
+      "place": 9
     },
     "3629308": {
       "week": 16,
@@ -809,7 +814,8 @@
           "points": 7,
           "starter": false
         }
-      ]
+      ],
+      "place": 8
     },
     "3629342": {
       "week": 16,
@@ -944,7 +950,8 @@
           "points": 13,
           "starter": false
         }
-      ]
+      ],
+      "place": 3
     },
     "3629486": {
       "week": 16,
@@ -1079,7 +1086,8 @@
           "points": 9,
           "starter": false
         }
-      ]
+      ],
+      "place": 12
     },
     "3629724": {
       "week": 16,
@@ -1214,7 +1222,8 @@
           "points": 8,
           "starter": false
         }
-      ]
+      ],
+      "place": 2
     },
     "8027127": {
       "week": 16,
@@ -1349,7 +1358,8 @@
           "points": 12,
           "starter": false
         }
-      ]
+      ],
+      "place": 11
     },
     "8546922": {
       "week": 16,
@@ -1484,7 +1494,8 @@
           "points": 9,
           "starter": false
         }
-      ]
+      ],
+      "place": 1
     },
     "8555607": {
       "week": 16,
@@ -1619,7 +1630,8 @@
           "points": 12,
           "starter": false
         }
-      ]
+      ],
+      "place": 6
     }
   }
 }

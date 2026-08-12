@@ -142,7 +142,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 2
     },
     "1905754": {
       "week": 17,
@@ -285,7 +286,8 @@
           "points": 14.8,
           "starter": true
         }
-      ]
+      ],
+      "place": 4
     },
     "2108440": {
       "week": 17,
@@ -428,7 +430,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 12
     },
     "2563586": {
       "week": 17,
@@ -563,7 +566,8 @@
           "points": 4.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 5
     },
     "3520130": {
       "week": 17,
@@ -698,7 +702,15 @@
           "points": 1.8,
           "starter": false
         }
-      ]
+      ],
+      "place": 1
+    },
+    "3629308": {
+      "week": 17,
+      "teamId": "4",
+      "teamName": "DELETED Tay",
+      "place": 14,
+      "players": []
     },
     "3629338": {
       "week": 17,
@@ -833,7 +845,8 @@
           "points": 42.6,
           "starter": false
         }
-      ]
+      ],
+      "place": 8
     },
     "3629342": {
       "week": 17,
@@ -976,7 +989,15 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 6
+    },
+    "3629486": {
+      "week": 17,
+      "teamId": "7",
+      "teamName": "Green Eggs and Sam",
+      "place": 13,
+      "players": []
     },
     "3629724": {
       "week": 17,
@@ -1111,7 +1132,8 @@
           "points": 5.1,
           "starter": false
         }
-      ]
+      ],
+      "place": 7
     },
     "8546922": {
       "week": 17,
@@ -1246,7 +1268,8 @@
           "points": 6.3,
           "starter": false
         }
-      ]
+      ],
+      "place": 11
     },
     "9870478": {
       "week": 17,
@@ -1389,7 +1412,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 9
     },
     "22628615": {
       "week": 17,
@@ -1532,7 +1556,8 @@
           "points": 0,
           "starter": true
         }
-      ]
+      ],
+      "place": 3
     },
     "25292913": {
       "week": 17,
@@ -1667,7 +1692,8 @@
           "points": 10.2,
           "starter": false
         }
-      ]
+      ],
+      "place": 10
     }
   }
 }

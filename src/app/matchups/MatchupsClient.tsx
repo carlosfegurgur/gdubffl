@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { Owner, Week, Matchup } from "@/lib/data-loader.server";
-import type { HeadToHeadSummary } from "@/lib/matchup-utils";
+import type { Owner, Week } from "@/lib/data-loader.server";
+import type { HeadToHeadSummary, SeasonMatchup } from "@/lib/matchup-utils";
 import MatchupViewer from "@/components/MatchupViewer";
 import styles from "./page.module.css";
 
@@ -29,7 +29,16 @@ export default function MatchupsClient({ owners, seasons }: { owners: Owner[]; s
   }, [season]);
 
   const currentWeek = seasonData?.weeks.find((w) => w.week === week);
-  const ownerName = useMemo(() => new Map(owners.map((o) => [o.id, o.name])), [owners]);
+
+  // A few owners across this league's history share a display name (e.g. multiple
+  // "JR"s) — disambiguate those with their team name so labels stay unambiguous.
+  const ownerLabel = useMemo(() => {
+    const nameCounts = new Map<string, number>();
+    owners.forEach((o) => nameCounts.set(o.name, (nameCounts.get(o.name) ?? 0) + 1));
+    return new Map(
+      owners.map((o) => [o.id, (nameCounts.get(o.name) ?? 0) > 1 ? `${o.name} (${o.teamName})` : o.name])
+    );
+  }, [owners]);
 
   return (
     <>
@@ -65,23 +74,12 @@ export default function MatchupsClient({ owners, seasons }: { owners: Owner[]; s
         )}
       </section>
 
-      <HeadToHead owners={owners} seasons={seasons} defaultSeason={season} ownerName={ownerName} />
+      <HeadToHead owners={owners} ownerLabel={ownerLabel} />
     </>
   );
 }
 
-function HeadToHead({
-  owners,
-  seasons,
-  defaultSeason,
-  ownerName,
-}: {
-  owners: Owner[];
-  seasons: number[];
-  defaultSeason: number;
-  ownerName: Map<string, string>;
-}) {
-  const [season, setSeason] = useState(defaultSeason);
+function HeadToHead({ owners, ownerLabel }: { owners: Owner[]; ownerLabel: Map<string, string> }) {
   const [teamA, setTeamA] = useState(owners[0]?.id ?? "");
   const [teamB, setTeamB] = useState(owners[1]?.id ?? "");
   const [summary, setSummary] = useState<HeadToHeadSummary | null>(null);
@@ -94,7 +92,7 @@ function HeadToHead({
     if (!canCompare) return;
     setLoading(true);
     setError(null);
-    fetch(`/api/matchups?season=${season}&teamA=${teamA}&teamB=${teamB}`)
+    fetch(`/api/matchups?teamA=${teamA}&teamB=${teamB}`)
       .then((res) => res.json())
       .then((data) => setSummary(data.summary))
       .catch(() => setError("Failed to load head-to-head."))
@@ -103,36 +101,25 @@ function HeadToHead({
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.sectionTitle}>Head-to-Head</h2>
+      <h2 className={styles.sectionTitle}>Head-to-Head (All-Time)</h2>
       <div className={styles.controls}>
         <label className={styles.field}>
-          Season
-          <select value={season} onChange={(e) => setSeason(Number(e.target.value))}>
-            {seasons.map((s) => (
-              <option key={s} value={s}>
-                {s}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className={styles.field}>
-          Team A
+          Owner A
           <select value={teamA} onChange={(e) => setTeamA(e.target.value)}>
             {owners.map((o) => (
               <option key={o.id} value={o.id}>
-                {o.teamName}
+                {ownerLabel.get(o.id) ?? o.name}
               </option>
             ))}
           </select>
         </label>
 
         <label className={styles.field}>
-          Team B
+          Owner B
           <select value={teamB} onChange={(e) => setTeamB(e.target.value)}>
             {owners.map((o) => (
               <option key={o.id} value={o.id}>
-                {o.teamName}
+                {ownerLabel.get(o.id) ?? o.name}
               </option>
             ))}
           </select>
@@ -143,7 +130,7 @@ function HeadToHead({
         </button>
       </div>
 
-      {!canCompare && <p className={styles.hint}>Pick two different teams.</p>}
+      {!canCompare && <p className={styles.hint}>Pick two different owners.</p>}
       {error && <p className={styles.hint}>{error}</p>}
 
       {summary && (
@@ -152,7 +139,7 @@ function HeadToHead({
             <strong>{summary.winsA}</strong> - <strong>{summary.winsB}</strong>
             {summary.ties > 0 && <span> ({summary.ties} ties)</span>}
             <span className={styles.summaryLabel}>
-              {ownerName.get(teamA) ?? teamA} vs {ownerName.get(teamB) ?? teamB} · {summary.totalMatches}{" "}
+              {ownerLabel.get(teamA) ?? teamA} vs {ownerLabel.get(teamB) ?? teamB} · {summary.totalMatches}{" "}
               all-time matchups
             </span>
           </div>
@@ -161,37 +148,39 @@ function HeadToHead({
             <li>Avg margin: {Math.abs(summary.avgMargin)}</li>
             {summary.biggestWin?.matchup && (
               <li>
-                Biggest win: {ownerName.get(summary.biggestWin.owner) ?? summary.biggestWin.owner} by{" "}
-                {summary.biggestWin.margin} (Week {summary.biggestWin.matchup.week}, {summary.biggestWin.matchup.homeScore}
+                Biggest win: {ownerLabel.get(summary.biggestWin.owner) ?? summary.biggestWin.owner} by{" "}
+                {summary.biggestWin.margin} ({summary.biggestWin.matchup.season} Week {summary.biggestWin.matchup.week},{" "}
+                {summary.biggestWin.matchup.homeScore}
                 {"-"}
                 {summary.biggestWin.matchup.awayScore})
               </li>
             )}
             {summary.closestWin?.matchup && (
               <li>
-                Closest game: {ownerName.get(summary.closestWin.owner) ?? summary.closestWin.owner} by{" "}
-                {summary.closestWin.margin} (Week {summary.closestWin.matchup.week}, {summary.closestWin.matchup.homeScore}
+                Closest game: {ownerLabel.get(summary.closestWin.owner) ?? summary.closestWin.owner} by{" "}
+                {summary.closestWin.margin} ({summary.closestWin.matchup.season} Week {summary.closestWin.matchup.week},{" "}
+                {summary.closestWin.matchup.homeScore}
                 {"-"}
                 {summary.closestWin.matchup.awayScore})
               </li>
             )}
           </ul>
 
-          <MatchupHistory matchups={summary.matchups} ownerName={ownerName} />
+          <MatchupHistory matchups={summary.matchups} ownerLabel={ownerLabel} />
         </div>
       )}
     </section>
   );
 }
 
-function MatchupHistory({ matchups, ownerName }: { matchups: Matchup[]; ownerName: Map<string, string> }) {
+function MatchupHistory({ matchups, ownerLabel }: { matchups: SeasonMatchup[]; ownerLabel: Map<string, string> }) {
   if (matchups.length === 0) return null;
   return (
     <ol className={styles.history}>
       {matchups.map((m) => (
         <li key={m.id}>
-          Week {m.week}: {ownerName.get(m.homeOwnerId) ?? m.homeOwnerId} {m.homeScore} — {m.awayScore}{" "}
-          {ownerName.get(m.awayOwnerId) ?? m.awayOwnerId}
+          {m.season} Week {m.week}: {ownerLabel.get(m.homeOwnerId) ?? m.homeOwnerId} {m.homeScore} — {m.awayScore}{" "}
+          {ownerLabel.get(m.awayOwnerId) ?? m.awayOwnerId}
         </li>
       ))}
     </ol>

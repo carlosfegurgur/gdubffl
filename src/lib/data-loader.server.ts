@@ -26,7 +26,14 @@ export type RosterPlayer = {
   points: number;
   starter: boolean;
 };
-export type FinalRoster = { week: number; teamId: string; teamName: string; players: RosterPlayer[] };
+export type FinalRoster = {
+  week: number;
+  teamId: string;
+  teamName: string;
+  /** Final standing for the season, e.g. 1 = champion. Undefined if not scraped. */
+  place?: number;
+  players: RosterPlayer[];
+};
 export type RostersFile = { season: number; rosters: Record<string, FinalRoster> };
 
 const DATA_DIR = path.join(process.cwd(), "src", "data");
