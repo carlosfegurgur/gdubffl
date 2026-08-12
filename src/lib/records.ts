@@ -45,9 +45,12 @@ export type AllTimeRecords = {
   longestLossStreak: StreakRecord | null;
 };
 
-async function fetchMatchups(season?: number) {
+async function fetchMatchups(season?: number, ownerId?: string) {
   return prisma.matchup.findMany({
-    where: season !== undefined ? { season } : {},
+    where: {
+      ...(season !== undefined ? { season } : {}),
+      ...(ownerId ? { OR: [{ homeOwnerId: ownerId }, { awayOwnerId: ownerId }] } : {}),
+    },
     include: { homeOwner: true, awayOwner: true },
     orderBy: [{ season: "asc" }, { week: "asc" }],
   });
@@ -55,14 +58,18 @@ async function fetchMatchups(season?: number) {
 
 type FetchedMatchup = Awaited<ReturnType<typeof fetchMatchups>>[number];
 
-/** Every game, flattened to one row per team, for the sortable leaderboard. */
-export async function computeGameLeaderboard(season?: number): Promise<GamePerformance[]> {
-  const matchups = await fetchMatchups(season);
+/**
+ * Every game, flattened to one row per team, for the sortable leaderboard.
+ * Pass `ownerId` to keep only that owner's own rows (their games, from
+ * their perspective) instead of both sides of every matchup.
+ */
+export async function computeGameLeaderboard(season?: number, ownerId?: string): Promise<GamePerformance[]> {
+  const matchups = await fetchMatchups(season, ownerId);
   const rows: GamePerformance[] = [];
 
   for (const m of matchups) {
-    rows.push(toGamePerformance(m, true));
-    rows.push(toGamePerformance(m, false));
+    if (!ownerId || m.homeOwnerId === ownerId) rows.push(toGamePerformance(m, true));
+    if (!ownerId || m.awayOwnerId === ownerId) rows.push(toGamePerformance(m, false));
   }
 
   return rows;
@@ -86,9 +93,14 @@ function toGamePerformance(m: FetchedMatchup, isHomeSide: boolean): GamePerforma
   };
 }
 
-/** Headline all-time (or single-season, if `season` is passed) records. */
-export async function computeAllTimeRecords(season?: number): Promise<AllTimeRecords> {
-  const matchups = await fetchMatchups(season);
+/**
+ * Headline all-time (or single-season, if `season` is passed) records.
+ * Pass `ownerId` to scope every record to just that owner: highest score
+ * becomes their personal best, blowout/closest become their best/closest
+ * win, and both streaks become their own (not compared against the league).
+ */
+export async function computeAllTimeRecords(season?: number, ownerId?: string): Promise<AllTimeRecords> {
+  const matchups = await fetchMatchups(season, ownerId);
 
   let highestScore: RecordEntry | null = null;
   let biggestBlowout: RecordEntry | null = null;
@@ -98,7 +110,8 @@ export async function computeAllTimeRecords(season?: number): Promise<AllTimeRec
     const home = toGamePerformance(m, true);
     const away = toGamePerformance(m, false);
 
-    for (const side of [home, away]) {
+    const sides = ownerId ? [home, away].filter((s) => s.ownerId === ownerId) : [home, away];
+    for (const side of sides) {
       if (!highestScore || side.points > highestScore.points) {
         highestScore = { ...side, margin: side.margin };
       }
@@ -107,18 +120,23 @@ export async function computeAllTimeRecords(season?: number): Promise<AllTimeRec
     const margin = Math.round(Math.abs(m.homeScore - m.awayScore) * 100) / 100;
     if (margin > 0) {
       const winnerSide = m.homeScore > m.awayScore ? home : away;
-      const entry: RecordEntry = { ...winnerSide, margin };
-      if (!biggestBlowout || margin > biggestBlowout.margin) biggestBlowout = entry;
-      if (!closestGame || margin < closestGame.margin) closestGame = entry;
+      if (!ownerId || winnerSide.ownerId === ownerId) {
+        const entry: RecordEntry = { ...winnerSide, margin };
+        if (!biggestBlowout || margin > biggestBlowout.margin) biggestBlowout = entry;
+        if (!closestGame || margin < closestGame.margin) closestGame = entry;
+      }
     }
   }
 
-  const { longestWinStreak, longestLossStreak } = computeStreaks(matchups);
+  const { longestWinStreak, longestLossStreak } = computeStreaks(matchups, ownerId);
 
   return { highestScore, biggestBlowout, closestGame, longestWinStreak, longestLossStreak };
 }
 
-function computeStreaks(matchups: FetchedMatchup[]): {
+function computeStreaks(
+  matchups: FetchedMatchup[],
+  focusOwnerId?: string
+): {
   longestWinStreak: StreakRecord | null;
   longestLossStreak: StreakRecord | null;
 } {
@@ -133,8 +151,11 @@ function computeStreaks(matchups: FetchedMatchup[]): {
   for (const m of matchups) {
     const homeResult = m.homeScore > m.awayScore ? "W" : m.homeScore < m.awayScore ? "L" : "T";
     const awayResult = m.awayScore > m.homeScore ? "W" : m.awayScore < m.homeScore ? "L" : "T";
-    pushGame(m.homeOwnerId, m.homeOwner.name, m.season, m.week, homeResult);
-    pushGame(m.awayOwnerId, m.awayOwner.name, m.season, m.week, awayResult);
+    // When scoped to one owner, only track their own side of each game —
+    // otherwise an opponent's streak within just the shared games would
+    // masquerade as their real streak.
+    if (!focusOwnerId || m.homeOwnerId === focusOwnerId) pushGame(m.homeOwnerId, m.homeOwner.name, m.season, m.week, homeResult);
+    if (!focusOwnerId || m.awayOwnerId === focusOwnerId) pushGame(m.awayOwnerId, m.awayOwner.name, m.season, m.week, awayResult);
   }
 
   let longestWinStreak: StreakRecord | null = null;

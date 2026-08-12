@@ -3,12 +3,18 @@
 import Link from "next/link";
 import { useState } from "react";
 import type { ReactNode } from "react";
+import type { Owner } from "@/lib/data-loader.server";
 import type { AllTimeRecords, GamePerformance } from "@/lib/records";
 import { useSortableTable } from "@/lib/useSortableTable";
 import SortableHeader from "@/components/SortableHeader";
 import styles from "./page.module.css";
 
-type ScopeResponse = { season: number | "all-time"; records: AllTimeRecords; leaderboard: GamePerformance[] };
+type ScopeResponse = {
+  season: number | "all-time";
+  ownerId: string;
+  records: AllTimeRecords;
+  leaderboard: GamePerformance[];
+};
 
 const leaderboardColumns: { key: keyof GamePerformance; label: string }[] = [
   { key: "season", label: "Season" },
@@ -23,15 +29,23 @@ const leaderboardColumns: { key: keyof GamePerformance; label: string }[] = [
 
 export default function RecordsClient({
   seasons,
+  owners,
   initialRecords,
   initialLeaderboard,
 }: {
   seasons: number[];
+  owners: Owner[];
   initialRecords: AllTimeRecords;
   initialLeaderboard: GamePerformance[];
 }) {
   const [scope, setScope] = useState<number | "all-time">("all-time");
-  const [data, setData] = useState<ScopeResponse>({ season: "all-time", records: initialRecords, leaderboard: initialLeaderboard });
+  const [ownerFilter, setOwnerFilter] = useState<string>("all-owners");
+  const [data, setData] = useState<ScopeResponse>({
+    season: "all-time",
+    ownerId: "all-owners",
+    records: initialRecords,
+    leaderboard: initialLeaderboard,
+  });
   const [loading, setLoading] = useState(false);
 
   const { sorted, sortKey, direction, toggleSort } = useSortableTable<GamePerformance, keyof GamePerformance>(
@@ -39,15 +53,27 @@ export default function RecordsClient({
     "points"
   );
 
-  const onScopeChange = (value: string) => {
-    const nextScope = value === "all-time" ? "all-time" : Number(value);
-    setScope(nextScope);
+  const fetchScope = (nextScope: number | "all-time", nextOwnerId: string) => {
     setLoading(true);
-    const query = nextScope === "all-time" ? "" : `?season=${nextScope}`;
-    fetch(`/api/records${query}`)
+    const params = new URLSearchParams();
+    if (nextScope !== "all-time") params.set("season", String(nextScope));
+    if (nextOwnerId !== "all-owners") params.set("ownerId", nextOwnerId);
+    const query = params.toString();
+    fetch(`/api/records${query ? `?${query}` : ""}`)
       .then((res) => res.json())
       .then((json: ScopeResponse) => setData(json))
       .finally(() => setLoading(false));
+  };
+
+  const onScopeChange = (value: string) => {
+    const nextScope = value === "all-time" ? "all-time" : Number(value);
+    setScope(nextScope);
+    fetchScope(nextScope, ownerFilter);
+  };
+
+  const onOwnerChange = (value: string) => {
+    setOwnerFilter(value);
+    fetchScope(scope, value);
   };
 
   const { records } = data;
@@ -62,6 +88,18 @@ export default function RecordsClient({
             {seasons.map((s) => (
               <option key={s} value={s}>
                 {s}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className={styles.field}>
+          Owner
+          <select value={ownerFilter} onChange={(e) => onOwnerChange(e.target.value)}>
+            <option value="all-owners">All Owners</option>
+            {owners.map((o) => (
+              <option key={o.id} value={o.id}>
+                {o.name}
               </option>
             ))}
           </select>
