@@ -10,15 +10,33 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: 800;
   font-size: 1.1rem;
   letter-spacing: -0.02em;
   color: var(--foreground);
   flex-shrink: 0;
+}
+
+.logoIcon {
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: contain;
+}
+
+.menuButton {
+  display: none;
+}
+
+.nav {
+  display: block;
 }
 
 .navLinks {
@@ -44,13 +62,62 @@
 }
 
 @media (max-width: 640px) {
-  .inner {
+  .menuButton {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
+    justify-content: center;
+    gap: 5px;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--foreground);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .menuButtonOpen .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .menuButtonOpen .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menuButtonOpen .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .nav {
+    flex-basis: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+
+  .navOpen {
+    max-height: 20rem;
   }
 
   .navLinks {
-    gap: 0.85rem;
+    flex-direction: column;
+    gap: 0.15rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--primary-6);
+  }
+
+  .navLink,
+  .navLinkActive {
+    display: block;
+    padding: 0.6rem 0.25rem;
   }
 }

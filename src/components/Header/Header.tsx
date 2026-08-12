@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 import styles from "./Header.module.css";
 
 const navLinks = [
@@ -14,14 +15,37 @@ const navLinks = [
 
 export const Header = () => {
   const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Close the mobile menu whenever navigation happens. Adjusting state
+  // during render (rather than in an effect) avoids an extra commit.
+  const [prevPathname, setPrevPathname] = useState(pathname);
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
+    setMenuOpen(false);
+  }
 
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
         <Link href="/" className={styles.logo}>
+          <img src="/gdubffl-icon.png" alt="" className={styles.logoIcon} />
           GDUBFFL
         </Link>
-        <nav>
+
+        <button
+          type="button"
+          className={`${styles.menuButton} ${menuOpen ? styles.menuButtonOpen : ""}`}
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen((open) => !open)}
+        >
+          <span className={styles.bar} />
+          <span className={styles.bar} />
+          <span className={styles.bar} />
+        </button>
+
+        <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`}>
           <ul className={styles.navLinks}>
             {navLinks.map((link) => {
               const active = pathname === link.url || pathname.startsWith(`${link.url}/`);
