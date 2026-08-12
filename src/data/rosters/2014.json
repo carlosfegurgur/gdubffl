@@ -1225,142 +1225,6 @@
       ],
       "place": 2
     },
-    "8027127": {
-      "week": 16,
-      "teamId": "11",
-      "teamName": "ShowmeyourTD's",
-      "players": [
-        {
-          "slot": "QB",
-          "name": "R. Wilson",
-          "position": "QB",
-          "nflTeam": "SEA",
-          "points": 49.36,
-          "starter": true
-        },
-        {
-          "slot": "RB",
-          "name": "J. Charles",
-          "position": "RB",
-          "nflTeam": "KC",
-          "points": 8.2,
-          "starter": true
-        },
-        {
-          "slot": "RB",
-          "name": "K. Robinson",
-          "position": "RB",
-          "nflTeam": "NO",
-          "points": 1.7,
-          "starter": true
-        },
-        {
-          "slot": "WR",
-          "name": "T. Smith",
-          "position": "WR",
-          "nflTeam": "BAL",
-          "points": 20.4,
-          "starter": true
-        },
-        {
-          "slot": "WR",
-          "name": "A. Jeffery",
-          "position": "WR",
-          "nflTeam": "CHI",
-          "points": 16.2,
-          "starter": true
-        },
-        {
-          "slot": "TE",
-          "name": "J. Witten",
-          "position": "TE",
-          "nflTeam": "DAL",
-          "points": 18.5,
-          "starter": true
-        },
-        {
-          "slot": "R/W/T",
-          "name": "B. LaFell",
-          "position": "WR",
-          "nflTeam": "NE",
-          "points": 9.9,
-          "starter": true
-        },
-        {
-          "slot": "K",
-          "name": "C. Santos",
-          "position": "K",
-          "nflTeam": "KC",
-          "points": 12,
-          "starter": true
-        },
-        {
-          "slot": "DEF",
-          "name": "Packers",
-          "position": "DEF",
-          "nflTeam": "",
-          "points": 19,
-          "starter": true
-        },
-        {
-          "slot": "BN",
-          "name": "B. Hoyer",
-          "position": "QB",
-          "nflTeam": "CLE",
-          "points": 17.26,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "R. Bush",
-          "position": "RB",
-          "nflTeam": "DET",
-          "points": 18.8,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "D. Baldwin",
-          "position": "WR",
-          "nflTeam": "SEA",
-          "points": 19.8,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "L. Donnell",
-          "position": "TE",
-          "nflTeam": "NYG",
-          "points": 6.2,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "K. Davis",
-          "position": "RB",
-          "nflTeam": "KC",
-          "points": 1.6,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "B. Cundiff",
-          "position": "K",
-          "nflTeam": "",
-          "points": 0,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "Texans",
-          "position": "DEF",
-          "nflTeam": "",
-          "points": 12,
-          "starter": false
-        }
-      ],
-      "place": 11
-    },
     "8546922": {
       "week": 16,
       "teamId": "5",
@@ -1632,6 +1496,142 @@
         }
       ],
       "place": 6
+    },
+    "36060149": {
+      "week": 16,
+      "teamId": "11",
+      "teamName": "ShowmeyourTD's",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "R. Wilson",
+          "position": "QB",
+          "nflTeam": "SEA",
+          "points": 49.36,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "J. Charles",
+          "position": "RB",
+          "nflTeam": "KC",
+          "points": 8.2,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "K. Robinson",
+          "position": "RB",
+          "nflTeam": "NO",
+          "points": 1.7,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "T. Smith",
+          "position": "WR",
+          "nflTeam": "BAL",
+          "points": 20.4,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "A. Jeffery",
+          "position": "WR",
+          "nflTeam": "CHI",
+          "points": 16.2,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "J. Witten",
+          "position": "TE",
+          "nflTeam": "DAL",
+          "points": 18.5,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "B. LaFell",
+          "position": "WR",
+          "nflTeam": "NE",
+          "points": 9.9,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "C. Santos",
+          "position": "K",
+          "nflTeam": "KC",
+          "points": 12,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Packers",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 19,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "B. Hoyer",
+          "position": "QB",
+          "nflTeam": "CLE",
+          "points": 17.26,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "R. Bush",
+          "position": "RB",
+          "nflTeam": "DET",
+          "points": 18.8,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "D. Baldwin",
+          "position": "WR",
+          "nflTeam": "SEA",
+          "points": 19.8,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "L. Donnell",
+          "position": "TE",
+          "nflTeam": "NYG",
+          "points": 6.2,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "K. Davis",
+          "position": "RB",
+          "nflTeam": "KC",
+          "points": 1.6,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "B. Cundiff",
+          "position": "K",
+          "nflTeam": "",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Texans",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 12,
+          "starter": false
+        }
+      ],
+      "place": 11
     }
   }
 }

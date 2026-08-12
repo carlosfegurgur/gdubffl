@@ -1161,142 +1161,6 @@
       ],
       "place": 5
     },
-    "8027127": {
-      "week": 16,
-      "teamId": "11",
-      "teamName": "Tayler Gang Or Lose",
-      "players": [
-        {
-          "slot": "QB",
-          "name": "D. Brees",
-          "position": "QB",
-          "nflTeam": "NO",
-          "points": 47.18,
-          "starter": true
-        },
-        {
-          "slot": "RB",
-          "name": "M. Forte",
-          "position": "RB",
-          "nflTeam": "CHI",
-          "points": 9.2,
-          "starter": true
-        },
-        {
-          "slot": "RB",
-          "name": "F. Gore",
-          "position": "RB",
-          "nflTeam": "IND",
-          "points": 22.5,
-          "starter": true
-        },
-        {
-          "slot": "WR",
-          "name": "B. LaFell",
-          "position": "WR",
-          "nflTeam": "NE",
-          "points": 3.3,
-          "starter": true
-        },
-        {
-          "slot": "WR",
-          "name": "D. Moncrief",
-          "position": "WR",
-          "nflTeam": "IND",
-          "points": 2.5,
-          "starter": true
-        },
-        {
-          "slot": "TE",
-          "name": "J. Witten",
-          "position": "TE",
-          "nflTeam": "DAL",
-          "points": 1.7,
-          "starter": true
-        },
-        {
-          "slot": "R/W/T",
-          "name": "B. Watson",
-          "position": "TE",
-          "nflTeam": "NO",
-          "points": 1,
-          "starter": true
-        },
-        {
-          "slot": "K",
-          "name": "D. Bailey",
-          "position": "K",
-          "nflTeam": "DAL",
-          "points": 6,
-          "starter": true
-        },
-        {
-          "slot": "DEF",
-          "name": "Jets",
-          "position": "DEF",
-          "nflTeam": "",
-          "points": 5,
-          "starter": true
-        },
-        {
-          "slot": "BN",
-          "name": "O. Beckham",
-          "position": "WR",
-          "nflTeam": "NYG",
-          "points": 0,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "D. Funchess",
-          "position": "WR",
-          "nflTeam": "CAR",
-          "points": 0,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "M. Mariota",
-          "position": "QB",
-          "nflTeam": "TEN",
-          "points": 0,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "J. Ajayi",
-          "position": "RB",
-          "nflTeam": "MIA",
-          "points": 2.3,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "M. Jones",
-          "position": "RB",
-          "nflTeam": "WAS",
-          "points": 0,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "C. Santos",
-          "position": "K",
-          "nflTeam": "KC",
-          "points": 5,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "Steelers",
-          "position": "DEF",
-          "nflTeam": "",
-          "points": 2,
-          "starter": false
-        }
-      ],
-      "place": 10
-    },
     "8546922": {
       "week": 16,
       "teamId": "5",
@@ -1560,6 +1424,142 @@
         }
       ],
       "place": 9
+    },
+    "36060149": {
+      "week": 16,
+      "teamId": "11",
+      "teamName": "Tayler Gang Or Lose",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "D. Brees",
+          "position": "QB",
+          "nflTeam": "NO",
+          "points": 47.18,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "M. Forte",
+          "position": "RB",
+          "nflTeam": "CHI",
+          "points": 9.2,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "F. Gore",
+          "position": "RB",
+          "nflTeam": "IND",
+          "points": 22.5,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "B. LaFell",
+          "position": "WR",
+          "nflTeam": "NE",
+          "points": 3.3,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "D. Moncrief",
+          "position": "WR",
+          "nflTeam": "IND",
+          "points": 2.5,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "J. Witten",
+          "position": "TE",
+          "nflTeam": "DAL",
+          "points": 1.7,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "B. Watson",
+          "position": "TE",
+          "nflTeam": "NO",
+          "points": 1,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "D. Bailey",
+          "position": "K",
+          "nflTeam": "DAL",
+          "points": 6,
+          "starter": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Jets",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 5,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "O. Beckham",
+          "position": "WR",
+          "nflTeam": "NYG",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "D. Funchess",
+          "position": "WR",
+          "nflTeam": "CAR",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Mariota",
+          "position": "QB",
+          "nflTeam": "TEN",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "J. Ajayi",
+          "position": "RB",
+          "nflTeam": "MIA",
+          "points": 2.3,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Jones",
+          "position": "RB",
+          "nflTeam": "WAS",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "C. Santos",
+          "position": "K",
+          "nflTeam": "KC",
+          "points": 5,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "Steelers",
+          "position": "DEF",
+          "nflTeam": "",
+          "points": 2,
+          "starter": false
+        }
+      ],
+      "place": 10
     }
   }
 }

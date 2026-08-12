@@ -1039,134 +1039,6 @@
       ],
       "place": 4
     },
-    "8027127": {
-      "week": 16,
-      "teamId": "11",
-      "teamName": "RUN CMC",
-      "players": [
-        {
-          "slot": "QB",
-          "name": "A. Smith",
-          "position": "QB",
-          "nflTeam": "KC",
-          "points": 22.46,
-          "starter": true
-        },
-        {
-          "slot": "RB",
-          "name": "M. Ingram",
-          "position": "RB",
-          "nflTeam": "NO",
-          "points": 16.1,
-          "starter": true
-        },
-        {
-          "slot": "RB",
-          "name": "C. McCaffrey",
-          "position": "RB",
-          "nflTeam": "CAR",
-          "points": 7.3,
-          "starter": true
-        },
-        {
-          "slot": "WR",
-          "name": "D. Jackson",
-          "position": "WR",
-          "nflTeam": "TB",
-          "points": 0,
-          "starter": true
-        },
-        {
-          "slot": "WR",
-          "name": "B. Cooks",
-          "position": "WR",
-          "nflTeam": "NE",
-          "points": 3.5,
-          "starter": true
-        },
-        {
-          "slot": "TE",
-          "name": "J. Cook",
-          "position": "TE",
-          "nflTeam": "LV",
-          "points": 2,
-          "starter": true
-        },
-        {
-          "slot": "R/W/T",
-          "name": "F. Gore",
-          "position": "RB",
-          "nflTeam": "IND",
-          "points": 15.6,
-          "starter": true
-        },
-        {
-          "slot": "K",
-          "name": "P. Murray",
-          "position": "K",
-          "nflTeam": "TB",
-          "points": 13,
-          "starter": true
-        },
-        {
-          "slot": "DL",
-          "name": "C. Dunlap",
-          "position": "DL",
-          "nflTeam": "CIN",
-          "points": 7,
-          "starter": true
-        },
-        {
-          "slot": "LB",
-          "name": "K. Alexander",
-          "position": "LB",
-          "nflTeam": "TB",
-          "points": 11.4,
-          "starter": true
-        },
-        {
-          "slot": "DB",
-          "name": "R. Alford",
-          "position": "DB",
-          "nflTeam": "ATL",
-          "points": 3,
-          "starter": true
-        },
-        {
-          "slot": "BN",
-          "name": "M. Ryan",
-          "position": "QB",
-          "nflTeam": "ATL",
-          "points": 14.22,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "J. Witten",
-          "position": "TE",
-          "nflTeam": "DAL",
-          "points": 6.4,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "M. Lee",
-          "position": "WR",
-          "nflTeam": "JAX",
-          "points": 0,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "D. Johnson",
-          "position": "RB",
-          "nflTeam": "CLE",
-          "points": 13.6,
-          "starter": false
-        }
-      ],
-      "place": 6
-    },
     "8546922": {
       "week": 16,
       "teamId": "5",
@@ -1534,6 +1406,134 @@
         }
       ],
       "place": 5
+    },
+    "36060149": {
+      "week": 16,
+      "teamId": "11",
+      "teamName": "RUN CMC",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "A. Smith",
+          "position": "QB",
+          "nflTeam": "KC",
+          "points": 22.46,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "M. Ingram",
+          "position": "RB",
+          "nflTeam": "NO",
+          "points": 16.1,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "C. McCaffrey",
+          "position": "RB",
+          "nflTeam": "CAR",
+          "points": 7.3,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "D. Jackson",
+          "position": "WR",
+          "nflTeam": "TB",
+          "points": 0,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "B. Cooks",
+          "position": "WR",
+          "nflTeam": "NE",
+          "points": 3.5,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "J. Cook",
+          "position": "TE",
+          "nflTeam": "LV",
+          "points": 2,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "F. Gore",
+          "position": "RB",
+          "nflTeam": "IND",
+          "points": 15.6,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "P. Murray",
+          "position": "K",
+          "nflTeam": "TB",
+          "points": 13,
+          "starter": true
+        },
+        {
+          "slot": "DL",
+          "name": "C. Dunlap",
+          "position": "DL",
+          "nflTeam": "CIN",
+          "points": 7,
+          "starter": true
+        },
+        {
+          "slot": "LB",
+          "name": "K. Alexander",
+          "position": "LB",
+          "nflTeam": "TB",
+          "points": 11.4,
+          "starter": true
+        },
+        {
+          "slot": "DB",
+          "name": "R. Alford",
+          "position": "DB",
+          "nflTeam": "ATL",
+          "points": 3,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "M. Ryan",
+          "position": "QB",
+          "nflTeam": "ATL",
+          "points": 14.22,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "J. Witten",
+          "position": "TE",
+          "nflTeam": "DAL",
+          "points": 6.4,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "M. Lee",
+          "position": "WR",
+          "nflTeam": "JAX",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "D. Johnson",
+          "position": "RB",
+          "nflTeam": "CLE",
+          "points": 13.6,
+          "starter": false
+        }
+      ],
+      "place": 6
     }
   }
 }

@@ -1201,13 +1201,6 @@
       ],
       "place": 12
     },
-    "8027127": {
-      "week": 16,
-      "teamId": "11",
-      "teamName": "Spoiler Squad",
-      "place": 13,
-      "players": []
-    },
     "8546922": {
       "week": 16,
       "teamId": "5",
@@ -1414,6 +1407,13 @@
         }
       ],
       "place": 3
+    },
+    "36060149": {
+      "week": 16,
+      "teamId": "11",
+      "teamName": "Spoiler Squad",
+      "place": 13,
+      "players": []
     }
   }
 }

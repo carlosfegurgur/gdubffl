@@ -84,12 +84,6 @@
     "logoUrl": "https://fantasy.nfl.com/image/36258ca6d410ddf565a04b51d5098f97.jpg?&x=40&y=40"
   },
   {
-    "id": "8027127",
-    "name": "JR",
-    "teamName": "Han and Chubbaka",
-    "logoUrl": "https://static.www.nfl.com/league/apps/fantasy/logos/avatar/240x240/NO_1.png"
-  },
-  {
     "id": "8555607",
     "name": "Johnny",
     "teamName": "TeaNCrumpets",
@@ -106,11 +100,5 @@
     "name": "Jerome",
     "teamName": "Something Something Darkside",
     "logoUrl": "https://fantasy.nfl.com/image/ee39f686b9fc91d4164fd450b7d62200.jpg?&x=40&y=40"
-  },
-  {
-    "id": "25292913",
-    "name": "JR",
-    "teamName": "Shawty u Etienne",
-    "logoUrl": "https://fantasy.nfl.com/image/16f06173dc9bbcc696010d241cf5f695.jpg?&x=40&y=40"
   }
 ]

@@ -1281,134 +1281,6 @@
       ],
       "place": 13
     },
-    "8027127": {
-      "week": 16,
-      "teamId": "11",
-      "teamName": "Han and Chubbaka",
-      "players": [
-        {
-          "slot": "QB",
-          "name": "D. Brees",
-          "position": "QB",
-          "nflTeam": "NO",
-          "points": 21.94,
-          "starter": true
-        },
-        {
-          "slot": "RB",
-          "name": "A. Kamara",
-          "position": "RB",
-          "nflTeam": "NO",
-          "points": 24.5,
-          "starter": true
-        },
-        {
-          "slot": "RB",
-          "name": "N. Chubb",
-          "position": "RB",
-          "nflTeam": "CLE",
-          "points": 17.5,
-          "starter": true
-        },
-        {
-          "slot": "WR",
-          "name": "T. Hilton",
-          "position": "WR",
-          "nflTeam": "IND",
-          "points": 22.3,
-          "starter": true
-        },
-        {
-          "slot": "WR",
-          "name": "A. Jeffery",
-          "position": "WR",
-          "nflTeam": "PHI",
-          "points": 9.7,
-          "starter": true
-        },
-        {
-          "slot": "TE",
-          "name": "A. Firkser",
-          "position": "TE",
-          "nflTeam": "TEN",
-          "points": 2.6,
-          "starter": true
-        },
-        {
-          "slot": "R/W/T",
-          "name": "D. Lewis",
-          "position": "RB",
-          "nflTeam": "TEN",
-          "points": 4,
-          "starter": true
-        },
-        {
-          "slot": "K",
-          "name": "B. Maher",
-          "position": "K",
-          "nflTeam": "DAL",
-          "points": 11,
-          "starter": true
-        },
-        {
-          "slot": "DL",
-          "name": "T. Flowers",
-          "position": "DL",
-          "nflTeam": "NE",
-          "points": 4,
-          "starter": true
-        },
-        {
-          "slot": "LB",
-          "name": "D. Jones",
-          "position": "LB",
-          "nflTeam": "ATL",
-          "points": 18,
-          "starter": true
-        },
-        {
-          "slot": "DB",
-          "name": "M. Lattimore",
-          "position": "DB",
-          "nflTeam": "NO",
-          "points": 8,
-          "starter": true
-        },
-        {
-          "slot": "BN",
-          "name": "W. Snead",
-          "position": "WR",
-          "nflTeam": "BAL",
-          "points": 1,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "S. Shepard",
-          "position": "WR",
-          "nflTeam": "NYG",
-          "points": 19,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "A. Jones",
-          "position": "RB",
-          "nflTeam": "GB",
-          "points": 0,
-          "starter": false
-        },
-        {
-          "slot": "BN",
-          "name": "K. Bourne",
-          "position": "WR",
-          "nflTeam": "SF",
-          "points": 9.3,
-          "starter": false
-        }
-      ],
-      "place": 4
-    },
     "8546922": {
       "week": 16,
       "teamId": "5",
@@ -1800,6 +1672,134 @@
         }
       ],
       "place": 5
+    },
+    "36060149": {
+      "week": 16,
+      "teamId": "11",
+      "teamName": "Han and Chubbaka",
+      "players": [
+        {
+          "slot": "QB",
+          "name": "D. Brees",
+          "position": "QB",
+          "nflTeam": "NO",
+          "points": 21.94,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "A. Kamara",
+          "position": "RB",
+          "nflTeam": "NO",
+          "points": 24.5,
+          "starter": true
+        },
+        {
+          "slot": "RB",
+          "name": "N. Chubb",
+          "position": "RB",
+          "nflTeam": "CLE",
+          "points": 17.5,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "T. Hilton",
+          "position": "WR",
+          "nflTeam": "IND",
+          "points": 22.3,
+          "starter": true
+        },
+        {
+          "slot": "WR",
+          "name": "A. Jeffery",
+          "position": "WR",
+          "nflTeam": "PHI",
+          "points": 9.7,
+          "starter": true
+        },
+        {
+          "slot": "TE",
+          "name": "A. Firkser",
+          "position": "TE",
+          "nflTeam": "TEN",
+          "points": 2.6,
+          "starter": true
+        },
+        {
+          "slot": "R/W/T",
+          "name": "D. Lewis",
+          "position": "RB",
+          "nflTeam": "TEN",
+          "points": 4,
+          "starter": true
+        },
+        {
+          "slot": "K",
+          "name": "B. Maher",
+          "position": "K",
+          "nflTeam": "DAL",
+          "points": 11,
+          "starter": true
+        },
+        {
+          "slot": "DL",
+          "name": "T. Flowers",
+          "position": "DL",
+          "nflTeam": "NE",
+          "points": 4,
+          "starter": true
+        },
+        {
+          "slot": "LB",
+          "name": "D. Jones",
+          "position": "LB",
+          "nflTeam": "ATL",
+          "points": 18,
+          "starter": true
+        },
+        {
+          "slot": "DB",
+          "name": "M. Lattimore",
+          "position": "DB",
+          "nflTeam": "NO",
+          "points": 8,
+          "starter": true
+        },
+        {
+          "slot": "BN",
+          "name": "W. Snead",
+          "position": "WR",
+          "nflTeam": "BAL",
+          "points": 1,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "S. Shepard",
+          "position": "WR",
+          "nflTeam": "NYG",
+          "points": 19,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "A. Jones",
+          "position": "RB",
+          "nflTeam": "GB",
+          "points": 0,
+          "starter": false
+        },
+        {
+          "slot": "BN",
+          "name": "K. Bourne",
+          "position": "WR",
+          "nflTeam": "SF",
+          "points": 9.3,
+          "starter": false
+        }
+      ],
+      "place": 4
     }
   }
 }

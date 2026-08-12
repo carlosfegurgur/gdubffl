@@ -23,6 +23,22 @@ import * as cheerio from "cheerio";
  * others). Override with --regularSeasonWeeks if auto-detection fails.
  */
 
+/**
+ * Some managers have played under more than one NFL.com account over the
+ * league's history (e.g. after losing access to an old login), which the
+ * scraper would otherwise treat as separate owners. Map each alias userId
+ * to the canonical one so they consolidate into a single owner everywhere
+ * (owners.json, matchups, rosters).
+ */
+const OWNER_ID_ALIASES: Record<string, string> = {
+  "8027127": "36060149", // JR — "Han and Chubbaka" (2014-2018) -> canonical "JR Untalan" (2025)
+  "25292913": "36060149", // JR — "Shawty u Etienne" (2021-2024) -> canonical "JR Untalan" (2025)
+};
+
+function resolveOwnerId(rawId: string): string {
+  return OWNER_ID_ALIASES[rawId] ?? rawId;
+}
+
 type Args = {
   league: string;
   seasons: number[];
@@ -159,8 +175,9 @@ async function scrapeOwners(
 
     if (!userIdMatch || !teamIdMatch || !teamName || !ownerName) return;
 
-    owners.set(userIdMatch[1], {
-      id: userIdMatch[1],
+    const ownerId = resolveOwnerId(userIdMatch[1]);
+    owners.set(ownerId, {
+      id: ownerId,
       name: ownerName,
       teamName,
       logoUrl,
@@ -201,7 +218,7 @@ async function scrapeWeek(
       const ownerName = $userSpan.text().trim();
       const scoreText = $wrap.find(".teamTotal").first().text().trim();
       return {
-        ownerId: userIdMatch?.[1],
+        ownerId: userIdMatch ? resolveOwnerId(userIdMatch[1]) : undefined,
         ownerName,
         score: parseFloat(scoreText),
       };
@@ -266,7 +283,7 @@ async function scrapeFinalWeekPairings(
       const teamIdMatch = teamClass.match(/teamId-(\d+)/);
       const userClass = $wrap.find(".userName").first().attr("class") ?? "";
       const userIdMatch = userClass.match(/userId-(\d+)/);
-      return { teamId: teamIdMatch?.[1], ownerId: userIdMatch?.[1] };
+      return { teamId: teamIdMatch?.[1], ownerId: userIdMatch ? resolveOwnerId(userIdMatch[1]) : undefined };
     };
 
     const home = parseSide(teamWraps.get(0)!);
@@ -466,7 +483,12 @@ async function main() {
   const existingOwners: ScrapedOwner[] = fs.existsSync(ownersPath)
     ? JSON.parse(fs.readFileSync(ownersPath, "utf8"))
     : [];
-  const ownersById = new Map(existingOwners.map((o) => [o.id, o]));
+  // Drop any owner id that's now a known alias — it was written before
+  // OWNER_ID_ALIASES consolidated it, and would otherwise linger forever
+  // since a fresh scrape never produces that id again.
+  const ownersById = new Map(
+    existingOwners.filter((o) => !(o.id in OWNER_ID_ALIASES)).map((o) => [o.id, o])
+  );
 
   const failures: { season: number; error: unknown }[] = [];
 
