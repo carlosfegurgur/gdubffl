@@ -1,0 +1,99 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.empty {
+  color: var(--primary-11);
+  font-size: 0.9rem;
+}
+
+.item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-6);
+  background: var(--background);
+}
+
+.side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.35rem;
+}
+
+.side:first-child {
+  flex-direction: row;
+}
+
+.side:last-child {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.winner {
+  background: var(--secondary-3);
+}
+
+.winner .name {
+  font-weight: 700;
+}
+
+.winner .score {
+  color: var(--secondary-11);
+  font-weight: 700;
+}
+
+.name {
+  font-size: 0.95rem;
+}
+
+.score {
+  font-variant-numeric: tabular-nums;
+  color: var(--primary-11);
+}
+
+.vs {
+  font-size: 0.75rem;
+  color: var(--primary-9);
+  text-transform: uppercase;
+}
+
+.playoffTag {
+  position: absolute;
+  top: -0.55rem;
+  right: 0.75rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--secondary-9);
+  color: var(--secondary-1);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+
+@media (max-width: 560px) {
+  .item {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .side:last-child {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .vs {
+    text-align: center;
+  }
+}

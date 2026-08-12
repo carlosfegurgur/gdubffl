@@ -1,18 +1,6 @@
-import prisma from '@/lib/prisma';
 import { NextResponse } from "next/server";
+import { listAvailableSeasons } from "@/lib/data-loader.server";
 
 export async function GET() {
-  const allData = await prisma.matchup.findMany();
-  return NextResponse.json(allData)
-//   console.log("all data", JSON.stringify(allData, null, 2));
+  return NextResponse.json({ seasons: listAvailableSeasons() });
 }
-
-// getAllMatchups()
-//   .then(async () => {
-//     await prisma.$disconnect();
-//   })
-//   .catch(async (e) => {
-//     console.error(e);
-//     await prisma.$disconnect();
-//     process.exit(1);
-//   });

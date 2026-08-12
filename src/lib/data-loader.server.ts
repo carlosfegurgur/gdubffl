@@ -31,6 +31,16 @@ export type RostersFile = { season: number; rosters: Record<string, FinalRoster>
 
 const DATA_DIR = path.join(process.cwd(), "src", "data");
 
+/** Season years that have a <year>-season.json file, newest first. */
+export function listAvailableSeasons(): number[] {
+  const files = fs.readdirSync(DATA_DIR);
+  return files
+    .map((f) => f.match(/^(\d{4})-season\.json$/))
+    .filter((m): m is RegExpMatchArray => m !== null)
+    .map((m) => parseInt(m[1], 10))
+    .sort((a, b) => b - a);
+}
+
 export function loadOwners(): Owner[] {
   const file = path.join(DATA_DIR, "owners.json");
   const raw = fs.readFileSync(file, "utf8");
