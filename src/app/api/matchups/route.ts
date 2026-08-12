@@ -8,6 +8,6 @@ export async function GET(request: Request) {
   const teamA = url.searchParams.get("teamA");
   const teamB = url.searchParams.get("teamB");
   if (!teamA || !teamB) return NextResponse.json({ error: "teamA and teamB are required" }, { status: 400 });
-  const summary = computeHeadToHead(season, teamA, teamB);
+  const summary = await computeHeadToHead(season, teamA, teamB);
   return NextResponse.json({ season: season ?? "all-time", teamA, teamB, summary });
 }

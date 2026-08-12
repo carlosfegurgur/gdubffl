@@ -12,11 +12,12 @@ const links = [
   { href: "/teams", title: "Teams", description: "Every owner and their team history." },
 ];
 
-export default function Home() {
-  const owners = loadOwners();
+export default async function Home() {
+  const owners = await loadOwners();
   const ownerMap = new Map(owners.map((o) => [o.id, o]));
 
-  const top3 = computePowerRankings(CURRENT_SEASON)
+  const rankings = await computePowerRankings(CURRENT_SEASON);
+  const top3 = rankings
     .slice(0, 3)
     .map((r, i) => ({
       ...r,

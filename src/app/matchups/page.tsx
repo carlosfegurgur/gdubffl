@@ -2,9 +2,9 @@ import { loadOwners, listAvailableSeasons } from "@/lib/data-loader.server";
 import MatchupsClient from "./MatchupsClient";
 import styles from "./page.module.css";
 
-export default function Page() {
-  const owners = loadOwners();
-  const seasons = listAvailableSeasons();
+export default async function Page() {
+  const owners = await loadOwners();
+  const seasons = await listAvailableSeasons();
 
   return (
     <main className={styles.page}>

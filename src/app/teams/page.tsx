@@ -2,8 +2,8 @@ import Link from "next/link";
 import { computeCareerStats } from "@/lib/team-stats";
 import styles from "./page.module.css";
 
-export default function TeamsPage() {
-  const teams = computeCareerStats();
+export default async function TeamsPage() {
+  const teams = await computeCareerStats();
 
   return (
     <main className={styles.page}>

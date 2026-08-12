@@ -8,20 +8,13 @@ export async function GET(_request: Request, { params }: { params: Promise<{ sea
     return NextResponse.json({ error: "Invalid season" }, { status: 400 });
   }
 
-  let seasonFile;
-  try {
-    seasonFile = loadSeason(season);
-  } catch {
+  const seasonFile = await loadSeason(season);
+  if (seasonFile.weeks.length === 0) {
     return NextResponse.json({ error: "Season not found" }, { status: 404 });
   }
 
-  let teamNames: Record<string, string> = {};
-  try {
-    const rosters = loadFinalRosters(season);
-    teamNames = Object.fromEntries(Object.entries(rosters.rosters).map(([id, r]) => [id, r.teamName]));
-  } catch {
-    // no roster file for this season; MatchupViewer falls back to owner name
-  }
+  const rosters = await loadFinalRosters(season);
+  const teamNames = Object.fromEntries(Object.entries(rosters.rosters).map(([id, r]) => [id, r.teamName]));
 
   return NextResponse.json({ season, weeks: seasonFile.weeks, teamNames });
 }

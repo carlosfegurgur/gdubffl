@@ -1,4 +1,4 @@
-import { loadAllMatchups, listAvailableSeasons } from "./data-loader.server";
+import prisma from "./prisma";
 import type { Matchup } from "./data-loader.server";
 
 export type SeasonMatchup = Matchup & { season: number };
@@ -20,18 +20,32 @@ export type HeadToHeadSummary = {
  * Head-to-head record between two owners. Pass `season` to scope to one
  * year; omit it to aggregate across every scraped season (all-time rivalry).
  */
-export function computeHeadToHead(season: number | undefined, ownerA: string, ownerB: string): HeadToHeadSummary {
-  const seasons = season !== undefined ? [season] : listAvailableSeasons();
+export async function computeHeadToHead(
+  season: number | undefined,
+  ownerA: string,
+  ownerB: string
+): Promise<HeadToHeadSummary> {
+  const rows = await prisma.matchup.findMany({
+    where: {
+      ...(season !== undefined ? { season } : {}),
+      OR: [
+        { homeOwnerId: ownerA, awayOwnerId: ownerB },
+        { homeOwnerId: ownerB, awayOwnerId: ownerA },
+      ],
+    },
+    orderBy: [{ season: "asc" }, { week: "asc" }],
+  });
 
-  const filtered: SeasonMatchup[] = seasons.flatMap((s) =>
-    loadAllMatchups(s)
-      .filter(
-        (m) =>
-          (m.homeOwnerId === ownerA && m.awayOwnerId === ownerB) ||
-          (m.homeOwnerId === ownerB && m.awayOwnerId === ownerA)
-      )
-      .map((m) => ({ ...m, season: s }))
-  );
+  const filtered: SeasonMatchup[] = rows.map((m) => ({
+    id: m.id,
+    season: m.season,
+    week: m.week,
+    homeOwnerId: m.homeOwnerId,
+    awayOwnerId: m.awayOwnerId,
+    homeScore: m.homeScore,
+    awayScore: m.awayScore,
+    isPlayoff: m.isPlayoff,
+  }));
 
   let winsA = 0, winsB = 0, ties = 0;
   let totalMargin = 0;
@@ -67,6 +81,6 @@ export function computeHeadToHead(season: number | undefined, ownerA: string, ow
     avgMargin: Math.round(avgMargin * 100) / 100,
     biggestWin,
     closestWin,
-    matchups: filtered.sort((a, b) => a.season - b.season || (a.week || 0) - (b.week || 0)),
+    matchups: filtered,
   };
 }

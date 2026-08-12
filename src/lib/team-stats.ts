@@ -32,15 +32,17 @@ function emptyAccumulator(): Accumulator {
 }
 
 /** Aggregate every owner's record and scoring across all scraped seasons. */
-export function computeCareerStats(): CareerStats[] {
-  const owners = loadOwners();
-  const seasons = listAvailableSeasons();
+export async function computeCareerStats(): Promise<CareerStats[]> {
+  const owners = await loadOwners();
+  const seasons = await listAvailableSeasons();
 
   const acc = new Map<string, Accumulator>();
   for (const o of owners) acc.set(o.id, emptyAccumulator());
 
-  for (const season of seasons) {
-    const matchups = loadAllMatchups(season);
+  const matchupsBySeason = await Promise.all(seasons.map((season) => loadAllMatchups(season)));
+
+  matchupsBySeason.forEach((matchups, i) => {
+    const season = seasons[i];
     for (const m of matchups) {
       const home = acc.get(m.homeOwnerId);
       const away = acc.get(m.awayOwnerId);
@@ -63,7 +65,7 @@ export function computeCareerStats(): CareerStats[] {
         else away.ties += 1;
       }
     }
-  }
+  });
 
   return owners
     .map((o) => {
@@ -103,53 +105,48 @@ export type SeasonStats = {
 };
 
 /** Season-by-season breakdown for one owner, newest season first. */
-export function computeSeasonStats(ownerId: string): SeasonStats[] {
-  const seasons = listAvailableSeasons();
-  const results: SeasonStats[] = [];
-  const currentTeamName = loadOwners().find((o) => o.id === ownerId)?.teamName ?? ownerId;
+export async function computeSeasonStats(ownerId: string): Promise<SeasonStats[]> {
+  const seasons = await listAvailableSeasons();
+  const owners = await loadOwners();
+  const currentTeamName = owners.find((o) => o.id === ownerId)?.teamName ?? ownerId;
 
-  for (const season of seasons) {
-    const matchups = loadAllMatchups(season).filter(
-      (m) => m.homeOwnerId === ownerId || m.awayOwnerId === ownerId
-    );
-    if (matchups.length === 0) continue;
+  const perSeason = await Promise.all(
+    seasons.map(async (season) => {
+      const matchups = (await loadAllMatchups(season)).filter(
+        (m) => m.homeOwnerId === ownerId || m.awayOwnerId === ownerId
+      );
+      if (matchups.length === 0) return null;
 
-    let wins = 0, losses = 0, ties = 0, pointsFor = 0, pointsAgainst = 0;
-    for (const m of matchups) {
-      const isHome = m.homeOwnerId === ownerId;
-      const scoreFor = isHome ? m.homeScore : m.awayScore;
-      const scoreAgainst = isHome ? m.awayScore : m.homeScore;
-      pointsFor += scoreFor;
-      pointsAgainst += scoreAgainst;
-      if (scoreFor > scoreAgainst) wins += 1;
-      else if (scoreFor < scoreAgainst) losses += 1;
-      else ties += 1;
-    }
+      let wins = 0, losses = 0, ties = 0, pointsFor = 0, pointsAgainst = 0;
+      for (const m of matchups) {
+        const isHome = m.homeOwnerId === ownerId;
+        const scoreFor = isHome ? m.homeScore : m.awayScore;
+        const scoreAgainst = isHome ? m.awayScore : m.homeScore;
+        pointsFor += scoreFor;
+        pointsAgainst += scoreAgainst;
+        if (scoreFor > scoreAgainst) wins += 1;
+        else if (scoreFor < scoreAgainst) losses += 1;
+        else ties += 1;
+      }
 
-    // Team names change season to season; prefer that season's roster teamName
-    // (captured when we scraped final-week rosters) over the current one.
-    let teamName = currentTeamName;
-    let place: number | undefined;
-    try {
-      const rosters = loadFinalRosters(season);
+      // Team names change season to season; prefer that season's roster teamName
+      // (captured when we scraped final-week rosters) over the current one.
+      const rosters = await loadFinalRosters(season);
       const roster = rosters.rosters[ownerId];
-      teamName = roster?.teamName ?? teamName;
-      place = roster?.place;
-    } catch {
-      // no roster file for this season; fall back to current team name
-    }
 
-    results.push({
-      season,
-      teamName,
-      place,
-      wins,
-      losses,
-      ties,
-      pointsFor: Math.round(pointsFor * 100) / 100,
-      pointsAgainst: Math.round(pointsAgainst * 100) / 100,
-    });
-  }
+      const stats: SeasonStats = {
+        season,
+        teamName: roster?.teamName ?? currentTeamName,
+        place: roster?.place,
+        wins,
+        losses,
+        ties,
+        pointsFor: Math.round(pointsFor * 100) / 100,
+        pointsAgainst: Math.round(pointsAgainst * 100) / 100,
+      };
+      return stats;
+    })
+  );
 
-  return results;
+  return perSeason.filter((s): s is SeasonStats => s !== null);
 }

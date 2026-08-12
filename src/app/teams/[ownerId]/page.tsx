@@ -14,21 +14,20 @@ function ordinal(n: number): string {
 
 export default async function TeamDetailPage({ params }: { params: Promise<{ ownerId: string }> }) {
   const { ownerId } = await params;
-  const owner = loadOwners().find((o) => o.id === ownerId);
+  const owners = await loadOwners();
+  const owner = owners.find((o) => o.id === ownerId);
   if (!owner) notFound();
 
-  const seasonStats = computeSeasonStats(ownerId);
+  const seasonStats = await computeSeasonStats(ownerId);
 
   const rostersBySeason: Record<number, FinalRoster> = {};
-  for (const s of seasonStats) {
-    try {
-      const rosters = loadFinalRosters(s.season);
+  await Promise.all(
+    seasonStats.map(async (s) => {
+      const rosters = await loadFinalRosters(s.season);
       const roster = rosters.rosters[ownerId];
       if (roster) rostersBySeason[s.season] = roster;
-    } catch {
-      // no roster file for this season
-    }
-  }
+    })
+  );
 
   const career = seasonStats.reduce(
     (acc, s) => ({
