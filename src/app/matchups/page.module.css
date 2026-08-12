@@ -107,7 +107,14 @@
   color: var(--primary-11);
 }
 
-.history {
+.historyWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.history,
+.historyExpanded {
   list-style: decimal;
   margin-left: 1.25rem;
   display: flex;
@@ -115,6 +122,26 @@
   gap: 0.25rem;
   font-size: 0.85rem;
   color: var(--primary-11);
+}
+
+.history {
   max-height: 12rem;
   overflow-y: auto;
+}
+
+.expandButton {
+  align-self: flex-start;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary-11);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.expandButton:hover {
+  color: var(--foreground);
+  text-decoration: underline;
 }

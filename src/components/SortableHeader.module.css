@@ -1,0 +1,26 @@
+.button {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+}
+
+.button:hover {
+  color: var(--foreground);
+}
+
+.arrow {
+  font-size: 0.6rem;
+  opacity: 0.3;
+}
+
+.arrowActive {
+  font-size: 0.6rem;
+  color: var(--secondary-11);
+  opacity: 1;
+}

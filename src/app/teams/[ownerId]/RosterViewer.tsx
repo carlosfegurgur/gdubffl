@@ -2,7 +2,19 @@
 
 import { useState } from "react";
 import type { FinalRoster } from "@/lib/data-loader.server";
+import { useSortableTable } from "@/lib/useSortableTable";
+import SortableHeader from "@/components/SortableHeader";
 import styles from "./RosterViewer.module.css";
+
+type RosterPlayer = FinalRoster["players"][number];
+
+const columns: { key: keyof RosterPlayer; label: string }[] = [
+  { key: "slot", label: "Slot" },
+  { key: "name", label: "Player" },
+  { key: "position", label: "Pos" },
+  { key: "nflTeam", label: "NFL" },
+  { key: "points", label: "Pts" },
+];
 
 export default function RosterViewer({
   rostersBySeason,
@@ -49,7 +61,9 @@ export default function RosterViewer({
   );
 }
 
-function PlayerTable({ title, players }: { title: string; players: FinalRoster["players"] }) {
+function PlayerTable({ title, players }: { title: string; players: RosterPlayer[] }) {
+  const { sorted, sortKey, direction, toggleSort } = useSortableTable<RosterPlayer, keyof RosterPlayer>(players);
+
   if (players.length === 0) return null;
   return (
     <div className={styles.tableWrap}>
@@ -57,15 +71,20 @@ function PlayerTable({ title, players }: { title: string; players: FinalRoster["
       <table className={styles.table}>
         <thead>
           <tr>
-            <th>Slot</th>
-            <th>Player</th>
-            <th>Pos</th>
-            <th>NFL</th>
-            <th>Pts</th>
+            {columns.map((col) => (
+              <th key={col.key}>
+                <SortableHeader
+                  label={col.label}
+                  active={sortKey === col.key}
+                  direction={direction}
+                  onClick={() => toggleSort(col.key)}
+                />
+              </th>
+            ))}
           </tr>
         </thead>
         <tbody>
-          {players.map((p, i) => (
+          {sorted.map((p, i) => (
             <tr key={`${p.name}-${i}`}>
               <td>{p.slot}</td>
               <td>{p.name}</td>

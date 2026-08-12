@@ -1,4 +1,8 @@
-import React from "react";
+"use client";
+
+import { useSortableTable } from "@/lib/useSortableTable";
+import SortableHeader from "./SortableHeader";
+import styles from "./PowerRankingsTable.module.css";
 
 type Row = {
   ownerId: string;
@@ -6,36 +10,48 @@ type Row = {
   score: number;
   avgPointsFor: number;
   avgPointsAgainst: number;
-  benchEfficiency?: number;
   winPct: number;
   rank?: number;
 };
 
+const columns: { key: keyof Row; label: string }[] = [
+  { key: "teamName", label: "Team" },
+  { key: "score", label: "Score" },
+  { key: "avgPointsFor", label: "Avg PF" },
+  { key: "avgPointsAgainst", label: "Avg PA" },
+  { key: "winPct", label: "Win %" },
+];
+
 export default function PowerRankingsTable({ rows }: { rows: Row[] }) {
+  const { sorted, sortKey, direction, toggleSort } = useSortableTable<Row, keyof Row>(rows, "score");
+
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full table-auto border-collapse">
+    <div className={styles.tableWrap}>
+      <table className={styles.table}>
         <thead>
-          <tr className="text-left">
-            <th className="p-2">#</th>
-            <th className="p-2">Team</th>
-            <th className="p-2">Score</th>
-            <th className="p-2">Avg PF</th>
-            <th className="p-2">Avg PA</th>
-            <th className="p-2">Bench</th>
-            <th className="p-2">Win %</th>
+          <tr>
+            <th>#</th>
+            {columns.map((col) => (
+              <th key={col.key}>
+                <SortableHeader
+                  label={col.label}
+                  active={sortKey === col.key}
+                  direction={direction}
+                  onClick={() => toggleSort(col.key)}
+                />
+              </th>
+            ))}
           </tr>
         </thead>
         <tbody>
-          {rows.map(r => (
-            <tr key={r.ownerId} className="border-t hover:bg-slate-50">
-              <td className="p-2">{r.rank ?? "-"}</td>
-              <td className="p-2">{r.teamName ?? r.ownerId}</td>
-              <td className="p-2 font-medium">{r.score}</td>
-              <td className="p-2">{r.avgPointsFor}</td>
-              <td className="p-2">{r.avgPointsAgainst}</td>
-              <td className="p-2">{r.benchEfficiency ?? "-"}</td>
-              <td className="p-2">{Math.round((r.winPct ?? 0) * 100)}%</td>
+          {sorted.map((r, i) => (
+            <tr key={r.ownerId}>
+              <td>{i + 1}</td>
+              <td className={styles.teamCell}>{r.teamName ?? r.ownerId}</td>
+              <td className={styles.emphasis}>{r.score}</td>
+              <td>{r.avgPointsFor}</td>
+              <td>{r.avgPointsAgainst}</td>
+              <td>{Math.round((r.winPct ?? 0) * 100)}%</td>
             </tr>
           ))}
         </tbody>

@@ -1,0 +1,18 @@
+.page {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+
+.formula {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--primary-11);
+}

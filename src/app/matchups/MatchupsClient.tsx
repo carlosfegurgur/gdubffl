@@ -174,15 +174,22 @@ function HeadToHead({ owners, ownerLabel }: { owners: Owner[]; ownerLabel: Map<s
 }
 
 function MatchupHistory({ matchups, ownerLabel }: { matchups: SeasonMatchup[]; ownerLabel: Map<string, string> }) {
+  const [expanded, setExpanded] = useState(false);
+
   if (matchups.length === 0) return null;
   return (
-    <ol className={styles.history}>
-      {matchups.map((m) => (
-        <li key={m.id}>
-          {m.season} Week {m.week}: {ownerLabel.get(m.homeOwnerId) ?? m.homeOwnerId} {m.homeScore} — {m.awayScore}{" "}
-          {ownerLabel.get(m.awayOwnerId) ?? m.awayOwnerId}
-        </li>
-      ))}
-    </ol>
+    <div className={styles.historyWrap}>
+      <ol className={expanded ? styles.historyExpanded : styles.history}>
+        {matchups.map((m) => (
+          <li key={m.id}>
+            {m.season} Week {m.week}: {ownerLabel.get(m.homeOwnerId) ?? m.homeOwnerId} {m.homeScore} — {m.awayScore}{" "}
+            {ownerLabel.get(m.awayOwnerId) ?? m.awayOwnerId}
+          </li>
+        ))}
+      </ol>
+      <button type="button" className={styles.expandButton} onClick={() => setExpanded((e) => !e)}>
+        {expanded ? "Show less" : `Show all ${matchups.length} matchups`}
+      </button>
+    </div>
   );
 }
