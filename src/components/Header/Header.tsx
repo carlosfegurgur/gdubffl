@@ -9,6 +9,7 @@ const navLinks = [
   { title: "Power Rankings", url: "/rankings" },
   { title: "Matchups", url: "/matchups" },
   { title: "Records", url: "/records" },
+  { title: "Trophy Room", url: "/trophy-room" },
   { title: "Teams", url: "/teams" },
   { title: "Seasons", url: "/seasons" },
 ];

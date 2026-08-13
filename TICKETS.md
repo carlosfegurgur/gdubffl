@@ -37,10 +37,15 @@ Foundation. Nothing in Epic 2+ should read raw JSON directly once this is done.
 - [ ] TICKET-5.2: Draft board view per season
 - [ ] TICKET-5.3: Draft hindsight/grading (value vs. actual season performance)
 
+## EPIC 9: Weekly Rosters & Draft Data — BLOCKED (external, 2026-08-13)
+- [!] TICKET-9.0: BLOCKED — `fantasy.nfl.com/league/...` (history, standings, owners, teamgamecenter — every endpoint `scripts/scrapeNflLeague.ts` relies on, including the plain league root) now 301-redirects to a generic `nfl.com/news/series/fantasy` page instead of serving league content. Confirmed dead as of 2026-08-13 (user checked in browser: site no longer online). This blocks scraping weekly rosters (would otherwise reuse `scrapeMatchupRosters`/`teamgamecenter` per-week, already proven for final-week rosters) and initial draft results (new endpoint, never scraped before) alike. Revisit once fantasy.nfl.com's league section is back — likely a 2026-season relaunch, given the timing.
+- [ ] TICKET-9.1: Extend scraper to pull every week's roster per owner (not just final week) into a new `WeeklyRoster`/`WeeklyRosterPlayer` model — mostly plumbing once 9.0 unblocks, since the per-team-per-week fetch already exists.
+- [ ] TICKET-9.2: Source draft results (draft order + picks) per season — new scrape target, page/markup unknown until the site is back.
+
 ## EPIC 6: Awards / Trophy Room
-- [ ] TICKET-6.1: Define award categories (champion, punishment recipient, worst record, etc.)
-- [ ] TICKET-6.2: Trophy room page — chronological list per season
-- [ ] TICKET-6.3: Manager award tally (career trophy count)
+- [x] TICKET-6.1: Define award categories — 8 career-tally awards derived from existing data, distinct from the single-game bests already on /records: Dynasty (titles), Cellar Dweller (last-place finishes), Bridesmaid (runner-up finishes), Nail-Biter King / Heartbreak Hotel (wins/losses decided by <5 pts), Point Machine / Human Turnstile (career points for/against), Iron Man (seasons played) — `src/lib/awards.ts`, `computeTrophyRoom()`
+- [x] TICKET-6.2: Trophy room page — `/trophy-room`, one card per award with a ranked top-5 leaderboard (ties share a rank), reused season-standings/career-stats/game-leaderboard data rather than a new source of truth
+- [x] TICKET-6.3: Manager award tally — each award card doubles as this; a per-owner rollup isn't built separately since the per-award leaderboards already show every owner's count
 
 ## EPIC 7: Manager Profiles
 - [ ] TICKET-7.1: Manager profile page — career record, championships, rivalries, awards summary
