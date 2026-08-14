@@ -1,64 +1,102 @@
-import { loadSeason } from "./data-loader.server";
+import { loadFinalRosters, loadOwners, loadSeason } from "./data-loader.server";
 
-type PowerRank = {
+export type PowerRanking = {
   ownerId: string;
-  teamName?: string;
-  score: number;
-  avgPointsFor: number;
-  avgPointsAgainst: number;
-  benchEfficiency?: number;
+  ownerName: string;
+  teamName: string;
+  logoUrl?: string;
+  gamesPlayed: number;
+  avgScore: number;
+  highScore: number;
+  lowScore: number;
   winPct: number;
-  week?: number; // if week-to-week
+  /** Oberon Mt. Power Rating: (avgScore*6 + (highScore+lowScore)*2 + (winPct*200)*2) / 10 */
+  rawOPR: number;
+  /** rawOPR divided by that season's league-average rawOPR. 1.000 = exactly average. */
+  adjustedOPR: number;
 };
 
-function avg(arr: number[]) { return arr.reduce((a,b)=>a+b,0)/Math.max(arr.length,1); }
-
 /**
- * Compute a simple power ranking for a season up to `throughWeek`.
- * Formula (tweakable):
- * score = avgPointsFor * 0.45  + (1 / (1+avgPointsAgainst)) * 100 * 0.25 + benchEfficiency*0.15 + winPct*100*0.15
+ * Power rankings using the Oberon Mt. Fantasy Football League's "OPR"
+ * formula (as popularized by the OIL fantasy league, oil.football/opr):
+ *
+ *   rawOPR = (avgScore * 6 + (highScore + lowScore) * 2 + (winPct * 200) * 2) / 10
+ *
+ * avgScore rewards a team's baseline scoring, (highScore + lowScore) — the
+ * "Deviation" — gives extra credit for a big ceiling while still punishing a
+ * bad week, and winPct rewards/punishes managerial intangibles (start/sit,
+ * lineup luck) beyond what raw scoring already captures.
+ *
+ * adjustedOPR then divides each team's rawOPR by the season's average rawOPR
+ * so teams can be compared across seasons/eras with different scoring
+ * environments — 1.000 is exactly average for that season, and every ~0.045
+ * above or below 1.000 roughly tracks a win or loss over a season.
  */
-export async function computePowerRankings(season: number, throughWeek?: number): Promise<PowerRank[]> {
-  const seasonFile = await loadSeason(season);
-  const weeks = seasonFile.weeks.filter(w => throughWeek ? w.week <= throughWeek : true);
-  const matchups = weeks.flatMap(w => w.matchups.map(m => ({...m, week: w.week})));
+export async function computePowerRankings(season: number, throughWeek?: number): Promise<PowerRanking[]> {
+  const [seasonFile, owners, rosters] = await Promise.all([loadSeason(season), loadOwners(), loadFinalRosters(season)]);
+  const ownerById = new Map(owners.map((o) => [o.id, o]));
+  // Team names change season to season; prefer that season's roster teamName
+  // (captured when we scraped that season's final-week rosters) over the
+  // owner's current cross-season identity, same as computeSeasonStandings.
+  const teamNameByOwnerId = new Map(Object.entries(rosters.rosters).map(([id, r]) => [id, r.teamName]));
 
-  // collect per-team arrays
-  const teams = new Map<string, { pointsFor: number[]; pointsAgainst: number[]; wins: number; losses: number }>();
-  matchups.forEach(m => {
-    const h = m.homeOwnerId, a = m.awayOwnerId;
-    if (!teams.has(h)) teams.set(h, { pointsFor: [], pointsAgainst: [], wins: 0, losses: 0 });
-    if (!teams.has(a)) teams.set(a, { pointsFor: [], pointsAgainst: [], wins: 0, losses: 0 });
+  const weeks = seasonFile.weeks.filter((w) => (throughWeek ? w.week <= throughWeek : true));
 
-    teams.get(h)!.pointsFor.push(m.homeScore);
-    teams.get(h)!.pointsAgainst.push(m.awayScore);
-    teams.get(a)!.pointsFor.push(m.awayScore);
-    teams.get(a)!.pointsAgainst.push(m.homeScore);
+  type Acc = { scores: number[]; wins: number; losses: number; ties: number; teamName?: string };
+  const teams = new Map<string, Acc>();
 
-    if (m.homeScore > m.awayScore) teams.get(h)!.wins += 1, teams.get(a)!.losses += 1;
-    else if (m.awayScore > m.homeScore) teams.get(a)!.wins += 1, teams.get(h)!.losses += 1;
-  });
+  const record = (ownerId: string, score: number, opponentScore: number) => {
+    if (!teams.has(ownerId)) teams.set(ownerId, { scores: [], wins: 0, losses: 0, ties: 0 });
+    const acc = teams.get(ownerId)!;
+    acc.scores.push(score);
+    if (score > opponentScore) acc.wins += 1;
+    else if (score < opponentScore) acc.losses += 1;
+    else acc.ties += 1;
+  };
 
-  const results: PowerRank[] = [];
-  for (const [ownerId, data] of teams.entries()) {
-    const avgPF = avg(data.pointsFor);
-    const avgPA = avg(data.pointsAgainst);
-    const totalGames = data.wins + data.losses || 1;
-    const winPct = data.wins / totalGames;
-    // Score components (scale PA by inverted metric — lower is better)
-    const score = avgPF * 0.45 + (1 / (1 + avgPA)) * 100 * 0.25 + winPct * 100 * 0.15;
-
-    results.push({
-      ownerId,
-      score: Math.round(score * 100) / 100,
-      avgPointsFor: Math.round(avgPF * 100) / 100,
-      avgPointsAgainst: Math.round(avgPA * 100) / 100,
-      winPct: Math.round(winPct * 10000) / 10000
-    });
+  for (const w of weeks) {
+    for (const m of w.matchups) {
+      record(m.homeOwnerId, m.homeScore, m.awayScore);
+      record(m.awayOwnerId, m.awayScore, m.homeScore);
+    }
   }
 
-  // sort desc
-  results.sort((a,b) => b.score - a.score);
-  // attach rank by index is left to frontend or API consumer
+  const rawByOwner = new Map<string, { avgScore: number; highScore: number; lowScore: number; winPct: number; gamesPlayed: number; rawOPR: number }>();
+
+  for (const [ownerId, acc] of teams) {
+    const gamesPlayed = acc.scores.length;
+    if (gamesPlayed === 0) continue;
+    const avgScore = acc.scores.reduce((a, b) => a + b, 0) / gamesPlayed;
+    const highScore = Math.max(...acc.scores);
+    const lowScore = Math.min(...acc.scores);
+    const decidedGames = acc.wins + acc.losses + acc.ties;
+    const winPct = decidedGames > 0 ? acc.wins / decidedGames : 0;
+
+    const rawOPR = (avgScore * 6 + (highScore + lowScore) * 2 + winPct * 200 * 2) / 10;
+
+    rawByOwner.set(ownerId, { avgScore, highScore, lowScore, winPct, gamesPlayed, rawOPR });
+  }
+
+  const rawValues = Array.from(rawByOwner.values()).map((r) => r.rawOPR);
+  const leagueAvgRawOPR = rawValues.length ? rawValues.reduce((a, b) => a + b, 0) / rawValues.length : 0;
+
+  const results: PowerRanking[] = Array.from(rawByOwner.entries()).map(([ownerId, r]) => {
+    const owner = ownerById.get(ownerId);
+    return {
+      ownerId,
+      ownerName: owner?.name ?? ownerId,
+      teamName: teamNameByOwnerId.get(ownerId) ?? owner?.teamName ?? ownerId,
+      logoUrl: owner?.logoUrl,
+      gamesPlayed: r.gamesPlayed,
+      avgScore: Math.round(r.avgScore * 100) / 100,
+      highScore: Math.round(r.highScore * 100) / 100,
+      lowScore: Math.round(r.lowScore * 100) / 100,
+      winPct: Math.round(r.winPct * 1000) / 1000,
+      rawOPR: Math.round(r.rawOPR * 100) / 100,
+      adjustedOPR: leagueAvgRawOPR > 0 ? Math.round((r.rawOPR / leagueAvgRawOPR) * 1000) / 1000 : 0,
+    };
+  });
+
+  results.sort((a, b) => b.adjustedOPR - a.adjustedOPR);
   return results;
 }

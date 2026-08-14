@@ -57,6 +57,12 @@
   font-size: 0.95rem;
 }
 
+.ownerName {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: var(--primary-11);
+}
+
 .score {
   font-variant-numeric: tabular-nums;
   color: var(--primary-11);

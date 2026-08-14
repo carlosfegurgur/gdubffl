@@ -1,5 +1,8 @@
 .page {
-  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 64rem;
   margin: 0 auto;
   padding: 2.5rem 1.5rem 4rem;
 }
@@ -8,11 +11,52 @@
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  color: var(--primary-11);
+  margin-top: -1rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary-11);
+}
+
+.field select {
+  font: inherit;
+  padding: 0.5rem 0.65rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--primary-7);
+  background: var(--background);
+  color: var(--foreground);
+  min-width: 8rem;
+}
+
+.loadingTag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--primary-11);
 }
 
 .formula {
-  margin-top: 1rem;
   font-size: 0.85rem;
   color: var(--primary-11);
+  line-height: 1.5;
+}
+
+.formula a {
+  color: var(--secondary-11);
+  text-decoration: underline;
 }

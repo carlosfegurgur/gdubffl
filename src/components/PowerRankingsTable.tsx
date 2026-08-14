@@ -1,29 +1,26 @@
 "use client";
 
+import Link from "next/link";
+import type { PowerRanking } from "@/lib/power-rankings";
 import { useSortableTable } from "@/lib/useSortableTable";
 import SortableHeader from "./SortableHeader";
 import styles from "./PowerRankingsTable.module.css";
 
-type Row = {
-  ownerId: string;
-  teamName?: string;
-  score: number;
-  avgPointsFor: number;
-  avgPointsAgainst: number;
-  winPct: number;
-  rank?: number;
-};
-
-const columns: { key: keyof Row; label: string }[] = [
+const columns: { key: keyof PowerRanking; label: string }[] = [
   { key: "teamName", label: "Team" },
-  { key: "score", label: "Score" },
-  { key: "avgPointsFor", label: "Avg PF" },
-  { key: "avgPointsAgainst", label: "Avg PA" },
+  { key: "adjustedOPR", label: "Adj. OPR" },
+  { key: "rawOPR", label: "Raw OPR" },
+  { key: "avgScore", label: "Avg Score" },
+  { key: "highScore", label: "High" },
+  { key: "lowScore", label: "Low" },
   { key: "winPct", label: "Win %" },
 ];
 
-export default function PowerRankingsTable({ rows }: { rows: Row[] }) {
-  const { sorted, sortKey, direction, toggleSort } = useSortableTable<Row, keyof Row>(rows, "score");
+export default function PowerRankingsTable({ rows }: { rows: PowerRanking[] }) {
+  const { sorted, sortKey, direction, toggleSort } = useSortableTable<PowerRanking, keyof PowerRanking>(
+    rows,
+    "adjustedOPR"
+  );
 
   return (
     <div className={styles.tableWrap}>
@@ -47,11 +44,18 @@ export default function PowerRankingsTable({ rows }: { rows: Row[] }) {
           {sorted.map((r, i) => (
             <tr key={r.ownerId}>
               <td>{i + 1}</td>
-              <td className={styles.teamCell}>{r.teamName ?? r.ownerId}</td>
-              <td className={styles.emphasis}>{r.score}</td>
-              <td>{r.avgPointsFor}</td>
-              <td>{r.avgPointsAgainst}</td>
-              <td>{Math.round((r.winPct ?? 0) * 100)}%</td>
+              <td className={styles.teamCell}>
+                <Link href={`/teams/${r.ownerId}`} className={styles.teamLink}>
+                  {r.logoUrl && <img src={r.logoUrl} alt="" className={styles.logo} />}
+                  {r.teamName}
+                </Link>
+              </td>
+              <td className={styles.emphasis}>{r.adjustedOPR.toFixed(3)}</td>
+              <td>{r.rawOPR}</td>
+              <td>{r.avgScore}</td>
+              <td>{r.highScore}</td>
+              <td>{r.lowScore}</td>
+              <td>{Math.round(r.winPct * 100)}%</td>
             </tr>
           ))}
         </tbody>

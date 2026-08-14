@@ -55,7 +55,7 @@ export default function MatchupsClient({ owners, seasons }: { owners: Owner[]; s
             </select>
           </label>
 
-          <label className={styles.field}>
+          <label className={`${styles.field} ${styles.weekFieldMobile}`}>
             Week
             <select value={week} onChange={(e) => setWeek(Number(e.target.value))} disabled={!seasonData}>
               {(seasonData?.weeks ?? []).map((w) => (
@@ -66,6 +66,25 @@ export default function MatchupsClient({ owners, seasons }: { owners: Owner[]; s
               ))}
             </select>
           </label>
+
+          <div className={`${styles.field} ${styles.weekFieldDesktop}`}>
+            <span>Week</span>
+            <div className={styles.weekButtons} role="group" aria-label="Select week">
+              {(seasonData?.weeks ?? []).map((w) => (
+                <button
+                  key={w.week}
+                  type="button"
+                  className={week === w.week ? styles.weekButtonActive : styles.weekButton}
+                  onClick={() => setWeek(w.week)}
+                  aria-current={week === w.week}
+                  title={w.matchups[0]?.isPlayoff ? `Week ${w.week} (Playoffs)` : `Week ${w.week}`}
+                >
+                  {w.week}
+                  {w.matchups[0]?.isPlayoff && <span className={styles.weekButtonPlayoff}>•</span>}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
 
         {loading && <p className={styles.loading}>Loading…</p>}

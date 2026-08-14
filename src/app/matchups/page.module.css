@@ -33,6 +33,7 @@
   flex-wrap: wrap;
   align-items: end;
   gap: 1rem;
+  align-items: flex-start;
 }
 
 .field {
@@ -52,6 +53,61 @@
   background: var(--background);
   color: var(--foreground);
   min-width: 10rem;
+}
+
+.weekFieldDesktop {
+  display: none;
+  flex: 1;
+  min-width: 0;
+}
+
+.weekButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.weekButton,
+.weekButtonActive {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  min-width: 2.25rem;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--primary-7);
+  background: var(--background);
+  color: var(--foreground);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.weekButton:hover {
+  border-color: var(--secondary-9);
+}
+
+.weekButtonActive {
+  background: var(--secondary-9);
+  border-color: var(--secondary-9);
+  color: var(--secondary-1);
+}
+
+.weekButtonPlayoff {
+  font-size: 0.55rem;
+  line-height: 1;
+}
+
+@media (min-width: 641px) {
+  .weekFieldMobile {
+    display: none;
+  }
+
+  .weekFieldDesktop {
+    display: flex;
+  }
 }
 
 .button {
